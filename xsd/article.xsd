@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.alternatives-economiques.fr/altereco-ml" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NewsItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="rightsInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="copyrightHolder" type="xs:string" />
+              <xs:element name="copyrightNotice" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="itemMeta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="memberOf">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="itemClass">
+                <xs:complexType>
+                  <xs:attribute name="type" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="publisher">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="uri" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="pubStatus" type="xs:string" />
+              <xs:element name="versionCreated" type="xs:dateTime" />
+              <xs:element name="embargoed" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contentMeta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="created" type="xs:dateTime" />
+              <xs:element name="modified" type="xs:dateTime" />
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="subject" type="xs:string" />
+              <xs:element name="genre" type="xs:string" />
+              <xs:element name="author">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="firstname" type="xs:string" />
+                    <xs:element name="surname" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="lead" type="xs:string" />
+              <xs:element name="illustration">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="copyright" type="xs:string" />
+                    <xs:element name="caption" type="xs:string" />
+                    <xs:element name="uri" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contentSet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inlineXML">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="contenttype" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="embeddedContent">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="uri" type="xs:string" />
+                    <xs:element name="source" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="type" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required" />
+      <xs:attribute name="standard" type="xs:string" use="required" />
+      <xs:attribute name="version" type="xs:unsignedByte" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
