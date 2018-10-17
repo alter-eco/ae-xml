@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://www.alternatives-economiques.fr/enseigner-leconomie/00085979 -->
+<!-- exemple "pour en savoir plus" -->
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/article.xsd"
+  standard="AlterEcoML"
+
+  id="A382-007-A"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <memberOf id="A382" />
+    <itemClass type="article"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>2018-08-25T18:23:56</versionCreated>
+    <embargoed>2018-09-01T12:00:00Z</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>2018-08-25T16:25:32</created>
+    <modified>2018-08-25T18:23:56</modified>
+    <title>"Faut-il s'inquiéter du déficit commercial de la France&nbsp;?"</title>
+    <section>Question de lecteur</section>
+    <genre>article</genre>
+    <author>
+      <firstname>Guillaume</firstname>
+      <surname>Duval</surname>
+    </author>
+    <lead>Les chiffres du commerce extérieur ont suscité des commentaires alarmistes. Mais la balance courante est presque à l'équilibre et il n'y a pas péril en la demeure.</lead>
+    <illustration>
+      <copyright>iStock</copyright>
+      <caption>Lorem ipsum dolor sit amet</caption>
+      <uri>path/to/file.jpg</uri>
+    </illustration>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <p>En août dernier, les douanes ont rendu publics les résultats du commerce extérieur français. Ceux-ci ont fait apparaître un déficit de 33,4 milliards d'euros au premier semestre 2018, soit l'équivalent de 2,9 points de produit intérieur brut (PIB). Cette publication a déclenché une vague de commentaires alarmistes qui amenaient à conclure qu'il fallait d'urgence réduire la rémunération des salariés et baisser l'imposition des entreprises.</p>
+        <p>Cependant, la Banque de France a publié parallèlement la balance des paiements de l'économie française. Cette balance intègre les résultats du commerce de biens (fournis par les douanes), mais aussi ceux des échanges de services et de revenus. Elle n'enregistrait qu'un déficit de 6,1 milliards d'euros sur le premier semestre. Et sur un an, de juillet 2017 à juin 2018, le déficit des comptes extérieurs de la France n'était que de 10,5 milliards d'euros, soit 0,5 % du PIB, moins qu'en 2017. Or sur le plan économique, ce qui compte, c'est bien ce déficit-là : c'est lui qui indique si oui ou non la France est obligée d'emprunter beaucoup à l'étranger pour pouvoir payer ce que ses habitants consomment. Sur ce plan, nous sommes donc quasiment à l'équilibre : l'excédent des services et celui des revenus compensent en effet à peu de chose près le déficit des échanges de biens.</p>
+        <p>Comment se fait-il alors qu'on s'alarme depuis tant d'années de ce fameux déficit extérieur ? Parce qu'il a été longtemps surestimé. La Banque de France a en effet réévalué en avril dernier les rentrées du tourisme, considérées comme une exportation française de services, d'une dizaine de milliards d'euros sur l'année 2017 : les enquêtes menées auprès du secteur ont montré que les recettes tirées du tourisme extra-européen étaient très sous-estimées. La Banque de France a aussi réévalué, d'un montant comparable, les services exportés par les entreprises françaises en matière de recherche et développement, de conseils juridiques ou encore de gestion. Moyennant quoi le déficit des échanges de biens et de services (la balance courante moins les échanges de revenus), jusque-là estimé par l'Insee à 1,9 point de PIB en 2016, a été ramené à 0,8 point de PIB seulement, plus de deux fois moins.</p>
+        <p>Bref, la France ne se trouve pas du tout dans la situation de surconsommation où étaient l'Espagne, la Grèce ou le Portugal en 2008, avant la crise, avec des déficits courants de l'ordre de 10 % de leur PIB. Pour l'avenir, il convient cependant d'améliorer la capacité de production et d'exportation de l'industrie française, mais cela n'implique pas nécessairement des mesures d'austérité supplémentaires dans l'immédiat. Au contraire même, puisque de telles mesures risqueraient d'amputer l'effort indispensable en matière d'éducation, de recherche et d'amélioration des infrastructures matérielles et immatérielles du pays.</p>
+        <p><em>Question d'Antoine Lepaulmier</em></p>
+        <aside id="more-info">
+          <p>Les comptes du commerce extérieur français au 2e trimestre 2018, <a href="https://bit.ly/2N9RSuo">https://bit.ly/2N9RSuo</a></p>
+          <p>Les résultats de la balance des paiements de l'économie française au 2e trimestre 2018, Banque de France, <a href="https://bit.ly/2jX3Fwl">https://bit.ly/2jX3Fwl</a></p>
+        </aside>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

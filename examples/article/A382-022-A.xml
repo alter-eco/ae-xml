@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://www.alternatives-economiques.fr/finir-pauvrete/00085853  -->
+<!-- exemple "notes du bas de page" -->
+<!-- exemple "marginalia" -->
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/article.xsd"
+  standard="AlterEcoML"
+
+  id="A382-022-A"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <memberOf id="A382" />
+    <itemClass type="article"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>2018-08-25T18:23:56</versionCreated>
+    <embargoed>2018-09-01T12:00:00Z</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>2018-08-25T16:25:32</created>
+    <modified>2018-08-25T18:23:56</modified>
+    <title>Comment en finir avec la pauvreté</title>
+    <section>Le tour de la question</section>
+    <genre>article</genre>
+    <author>
+      <firstname>Denis</firstname>
+      <surname>Clerc</surname>
+    </author>
+    <illustration>
+      <copyright>iStock</copyright>
+      <caption>Lorem ipsum dolor sit amet</caption>
+      <uri>path/to/file.jpg</uri>
+    </illustration>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <h2>1. Où en est-on&nbsp;?</h2>
+        <p>Après avoir repoussé sa présentation début juillet pour cause de Coupe du monde, l'exécutif devrait dévoiler ce mois-ci son plan de lutte contre la pauvreté pour une mise en oeuvre prévue au 1er janvier 2019. Objectif affiché&nbsp;: attaquer "la pauvreté à la racine" et non pas simplement ses symptômes. Sur le long terme, la proportion des personnes dont le niveau de vie est inférieur au seuil de pauvreté* s'est réduite en France, passant de 18&nbsp;% de la population en 1970 (8,6 millions de personnes) à 14,2&nbsp;% en 2015 (8,9 millions). Mais si la baisse a été quasi continue jusqu'en 2004 (12,6&nbsp;%), depuis cette date, cette proportion tend de nouveau à progresser, notamment du fait de la crise et du chômage qui en a résulté.</p>
+        <p>Cette approche monétaire n'est pas la seule. Une enquête menée désormais chaque année sur les conditions de vie des ménages permet de cerner ceux d'entre eux qui, selon l'Insee, sont <em>"incapables de couvrir les dépenses liées à au moins huit éléments de la vie courante sur 27 considérés comme souhaitables, voire nécessaires, pour avoir un niveau de vie acceptable"</em>&nbsp;: ressources ne permettant pas de faire face aux dépenses, retards de paiement, restrictions de consommation, difficultés de logement (insalubrité, chauffage...). En 2004, 14,6&nbsp;% des ménages enquêtés étaient pauvres en conditions de vie, mais seulement 11,7&nbsp;% l'étaient en 2015. Une baisse de près de trois points, alors que, sur la même période, on constatait au contraire une augmentation du taux de pauvreté monétaire de 1,6 point. Les conditions de vie telles que les ressentent les ménages en général se sont améliorées, mais bien moins pour le cinquième le plus pauvre que pour les autres, mieux lotis en matière de revenus. Globalement, la pauvreté en conditions de vie se concentre donc sur ce cinquième le moins bien loti, tandis que le reste de la population voit ses conditions de vie devenir moins difficiles. Il s'agit donc d'un signe inquiétant de décrochage au détriment des moins bien lotis.</p>
+        <h2>2. Les politiques publiques sont-elles efficaces&nbsp;?</h2>
+        <p>Les politiques publiques n'échouent pas à lutter contre l'exclusion. La pauvreté des personnes âgées, par exemple, est bien moindre aujourd'hui&nbsp;: merci les retraites et le minimum vieillesse. Mais elles sont inefficaces pour trois types de population qui, depuis 2008, concentrent l'essentiel de la progression de la pauvreté&nbsp;: les chômeurs (1,1 million d'entre eux vivent dans des ménages en situation de pauvreté, contre moins de 800 000 en 2008), les familles monoparentales (2,1 millions de personnes en situation de pauvreté en 2015, contre 1,6 million en 2008) et les jeunes de 18 à 29 ans (1,7 million en situation de pauvreté en 2015, contre 1,4 en 2008) <sup><a href="#footnote-1">1</a></sup>.</p>
+        <p>Leur trait commun est leur difficulté à accéder au marché du travail&nbsp;: les chômeurs parce qu'ils ne trouvent rien<sup><a href="#footnote-2">2</a></sup>, les familles monoparentales parce que leur charge d'enfant(s) les en empêche, les jeunes parce qu'on ne leur propose que des emplois de très mauvaise qualité (temporaires, "ubérisés" ou à temps partiel). Améliorer les aides sociales - comme l'a fait l'exécutif précédent - rend leur vie moins difficile, mais ne suffit pas à les faire sortir de la pauvreté&nbsp;: le revenu de solidarité active (RSA), quelle que soit la configuration familiale, est de l'ordre de 50&nbsp;% à 60&nbsp;% du seuil de pauvreté. Croire que l'on choisit l'aide sociale par calcul est une aberration&nbsp;: c'est un filet de secours, pas une solution.</p>
+        <h2>3. Que peut-on faire de plus&nbsp;?</h2>
+        <p>C'est donc par l'accès à l'emploi - à condition qu'il soit convenable - que l'on peut réduire la pauvreté. Mission impossible faute d'emplois&nbsp;? Beaucoup le croient, alors même que, au cours des 17 dernières années, malgré la crise, un peu plus de deux millions d'emplois en équivalent temps plein ont été créés dans l'économie française (hors emplois frontaliers), un rythme annuel moyen à peine inférieur à celui qui prévalait lors des Trente Glorieuses (1950-1980). Cinq pistes pourraient être suivies.</p>
+        <p>La première relève de la formation&nbsp;: nombre de jeunes sans emploi (et de moins jeunes chômeurs de longue durée) disposent d'une formation insuffisante pour espérer devenir "employables", alors même qu'ils sont ceux qui en bénéficient le moins. Une autre piste intéressante passe par l'insertion par des structures spécialisées (chantiers, entreprises, associations intermédiaires), de sorte que les personnes les plus en difficulté puissent renouer avec l'emploi, dans la structure d'abord, dans des entreprises classiques ensuite, comme le fait l'expérimentation Sève (Structures d'insertion et entreprises vers l'emploi)<sup><a href="#footnote-3">3</a></sup>.</p>
+        <p>Troisième axe à creuser&nbsp;: l'aide aux territoires fragiles qui se paupérisent, et dont les habitants, faute de mobilité ou du fait de liens forts avec ce lieu (familiaux, par exemple), ne veulent pas le quitter. L'expérimentation "Territoires zéro chômeur de longue durée" montre que cette piste semble profitable, tant aux personnes qu'aux zones concernées.</p>
+        <p>Par ailleurs, les aides familiales devraient être davantage fléchées vers les familles en difficulté, de sorte que les enfants (petits ou plus grands) puissent bénéficier de services en nature (crèches, garderies, suivi médical, soutien scolaire) permettant aux parents de ne plus être soumis aux horaires de leurs enfants ou dans l'incapacité de soutenir leur parcours scolaire.</p>
+        <p>La dernière piste, enfin, vise à réduire les emplois sans qualité (temporaires, temps partiels courts et emplois indépendants indécents), soit en taxant davantage les employeurs ou donneurs d'ordre, soit en versant une prime d'activité plus élevée pour mieux compenser le manque à gagner.</p>
+        <p>Ces pistes sont aujourd'hui en partie explorées (formation, Territoires zéro chômeur, prime d'activité), mais de façon très insuffisante, voire contre-productive (durcissement de l'accès à l'allocation chômage). Devant le Congrès en juillet dernier, Emmanuel Macron a promis <em>"une politique d'investissement et d'accompagnement social".</em> Il reste à voir jusqu'où celle-ci ira.</p>
+        <section id="footnotes">
+          <p id="footnote-1"><strong>Ces trois sous-ensembles ne s'additionnent pas&nbsp;: une personne de 18-29 ans peut être au chômage ou chef de famille monoparentale.</strong></p>
+          <p id="footnote-2">Etre considéré comme chômeur au sens de l’Insee implique de rechercher activement un emploi et de n’avoir pas du tout travaillé au cours d’une semaine de référence. Les demandeurs d’emploi en activité réduite ne sont donc pas considérés comme chômeurs.</p>
+          <p id="footnote-3">Voir le site <a href="http://www.federationsolidarite.org">www.federationsolidarite.org</a></p>
+        </section>
+        <section id="marginalia">
+          <h3>Seuil de pauvrété</h3>
+          <p>Ce seuil est fixé à 60 % du médian (celui tel que la moitié des gens a plus, l'autre moitié a moins). En 2015, il était de 1 015 euros pour une personne seule, de 1 520 euros pour un couple et de 2 030 euros pour un couple avec deux enfants de moins de 14 ans.</p>
+        </section>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

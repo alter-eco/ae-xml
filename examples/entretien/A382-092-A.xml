@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://www.alternatives-economiques.fr/enseigner-leconomie/00085979 -->
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/article.xsd"
+  standard="AlterEcoML"
+
+  id="A382-092-A"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <memberOf id="A382" />
+    <itemClass type="article"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>2018-08-25T18:23:56</versionCreated>
+    <embargoed>2018-09-01T12:00:00Z</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>2018-08-25T16:25:32</created>
+    <modified>2018-08-25T18:23:56</modified>
+    <title>Comment enseigner l'économie&nbsp;?</title>
+    <section>Idées et débats</section>
+    <subject>Idées et débats</subject>
+    <genre>entretien</genre>
+    <author>
+      <firstname>Christian</firstname>
+      <surname>Chavagneux</surname>
+    </author>
+    <interviewee>
+      <name>Yann Algan</name>
+      <description>professeur d'économie à sciences po et doyen de l'ecole d'affaires publiques</description>
+    </interviewee>
+    <interviewee>
+      <name>Florence Jany-Catrice</name>
+      <description>professeure d'économie à l'université de Lille, chercheuse au Clersé-UMR8019 et présidente de l'Association française d'économie politique (Afep)</description>
+    </interviewee>
+    <lead>Un récent manuel propose de renouveler l'enseignement de l'économie. Yann Algan a participé à l'élaboration de cet outil, qui reste perfectible selon Florence Jany-Catrice.</lead>
+    <illustration>
+      <copyright>iStock</copyright>
+      <caption>Lorem ipsum dolor sit amet</caption>
+      <uri>path/to/file.jpg</uri>
+    </illustration>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <p>Après la crise démarrée en 2007-2008, de nombreuses associations d'étudiants en économie ont vu le jour dans plusieurs pays pour dénoncer une théorie dominante trop formalisée, peu ouverte au pluralisme des idées et aux autres sciences sociales. Depuis 2016, un manuel propose de renouveler l'enseignement de l'économie. Utilisé à Sciences Po et à la Toulouse School of Economics, il est désormais disponible en français à partir d'un site (<a href="https://core-econ.org/the-economy/?lang=fr">https://core-econ.org/the-economy/?lang=fr</a>) et d'un ouvrage, L'économie (Eyrolles), à paraître en octobre. Suivront un cours plus avancé et une version adaptée au programme des lycées. Répond-il aux inquiétudes des étudiants ? Débat.</p>
+        <p><strong>Yann Algan, vous avez participé à un vaste projet international visant à renouveler complètement la façon d'enseigner l'économie. Qu'est-ce qui n'allait pas ?</strong></p>
+        <p><strong>Yann Algan :</strong> Il fallait un manuel qui fasse comme si les trente dernières années avaient vraiment eu lieu ! Au lieu d’une approche désincarnée, aborder les grands défis contemporains, les inégalités, les crises financières, le réchauffement climatique, etc. Et le faire en intégrant les derniers résultats de la recherche en économie, incluant l’économie comportementale, la théorie des contrats, l’imperfection des marchés, les interactions stratégiques et l’instabilité financière, mais aussi ceux de la recherche en psychologie, en droit, en sciences humaines.</p>
+        <p>Par exemple, ne pas considérer que les individus font seulement du mieux possible rationnellement pour maximiser leur intérêt personnel, mais reconnaître que nous obéissons à d’autres types de motivations et que nous sommes victimes de biais cognitifs. Ou bien comprendre la crise financière en intégrant l’analyse du droit et des réglementations bancaires. Nous laissons également toute sa place à l’histoire. Il manquait un socle de base commun qui puisse synthétiser tous ces résultats, et c’est ce que nous avons voulu proposer.</p>
+        <p><strong>Florence Jany-Catrice :</strong> Je partage une bonne partie de ce diagnostic. L’Association française d’économie politique (Afep) s’est constituée en 2009 en partie en réponse à la même insatisfaction face à l’insuffisance d’analyse de la dynamique contemporaine du capitalisme. En constatant, par exemple, que ceux qui avait le plus réfléchi aux crises financières, comme Michel Aglietta, Hyman Minsky, André Orléan et d’autres, étaient marginalisés des enseignements. Un constat partagé au-delà de la France, au niveau international.</p>
+        <p>Pour autant, les réponses apportées par le manuel ne me semblent pas satisfaisantes. Il y a beaucoup de controverses en économie et le principe de base de l’enseignement doit être le pluralisme, c’est-à-dire exposer sur un pied d’égalité les différents points de vue disponibles sur un sujet. Or, le manuel en reste à une approche limitée : son point de départ est l’individu de telle sorte que la société n’existe que comme la somme des individus. Les forces sociales sont absentes. Il faut tout au contraire considérer que les faits économiques sont des faits sociaux comme les autres. Il faut armer les étudiants en leur apprenant à déchiffrer la complexité des phénomènes économiques : l’économie baigne dans le social et le politique avec lesquels il interagit sans cesse.</p>
+        <p><strong>Y. A. :</strong> J’assume le fait que le manuel considère qu’il y a des méthodes spécifiques à l’économie et présente les concepts microéconomiques, macroéconomiques ainsi que les méthodes d’évaluation empiriques des politiques publiques. Mais quand l’individu prend une décision, on montre qu’il n’est pas uniquement motivé par son intérêt personnel, que la capacité d’une société pour répondre, par exemple, au réchauffement climatique dépend de conventions sociales, de la possibilité de coopérer, etc. On présente un ensemble de grands auteurs, mais en cherchant davantage à souligner la complémentarité de leurs approches qu’à affirmer des oppositions idéologiques. Les étudiants sont confrontés à l’analyse du pouvoir dans l’entreprise par Karl Marx et Ronald Coase, le premier le dénonce, le second en fait une caractéristique essentielle de l’existence des entreprises, et les deux ont des choses à nous apprendre.</p>
+        <p>Le manuel tient compte de l’environnement social et politique. Le chapitre sur les institutions et le pouvoir suit tout de suite celui sur les interactions sociales. Le marché que nous présentons est plein de défaillances et ouvre la voie à une réflexion sur l’intervention de l’Etat et de la société.</p>
+        <p><strong>F. J.-C. :</strong> On s’accorde donc sur le point que, dans ce manuel, l’économie est présentée comme une science de la décision à partir de fondements microéconomiques. C’est là un point de vue qui fait l’impasse sur la richesse d’autres approches comme celle proposée par Fernand Braudel, à savoir le capitalisme comme force historique. C’est vrai que les institutions sociales - l’Etat, la monnaie, etc. - sont présentes, mais on ne sait jamais d’où elles viennent, elles ne sont appréhendées que par une des fonctions qu’elles endossent, jamais dans leur dimension éthique et politique. Poursuivons avec l’exemple de l’entreprise : les juristes nous disent qu’il n’y en a pas de définition juridique, ce qui pose la question de savoir à qui elle appartient, quel est son rôle dans la société. On ne peut pas la considérer comme une donnée et simplement savoir ce qu’en pense tel ou tel auteur.</p>
+        <p>Un mot sur les nombreuses statistiques fournies par le manuel. L’ouvrage n’incite pas à interroger l’idée de "données". Elles sont mobilisées uniquement comme la confirmation ou l’infirmation de telle ou telle théorie et on ne s’intéresse jamais au fait qu’elles sont le fruit de processus sociaux. On ne mesure pas l’inflation de la même façon aujourd’hui qu’il y a quarante ans. Parce que les techniques ont changé, parce que la société a changé, mais aussi parce que les rapports de force ne sont plus les mêmes. Cela oblige les étudiants à réfléchir aux outils que l’on met à leur disposition.</p>
+        <p><strong>Y. A. :</strong> Dès le premier chapitre nous présentons plusieurs indicateurs de bien-être et nous demandons aux étudiants de construire ce qui pour eux correspondrait à la mesure du progrès social. Nous expliquons la façon dont ces données sont construites. Sans aller autant dans le détail de l’origine sociale de chaque variable que souhaite Florence Jany-Catrice, nous attirons l’attention sur les sources des données et leur fiabilité. Apprendre tout cela réclame déjà un temps énorme d’enseignement.</p>
+        <p>J’assume le fait de recourir aux instruments fondés sur la microéconomie. Ils fournissent des outils de compréhension importants même si on n’oublie pas d’en montrer les limites. Et je pense que nous avons réussi à concrétiser une approche différente de l’enseignement économique traditionnel. Où est le manuel alternatif fondé sur des conceptions moins centrées sur l’individu qui permettrait à l’étudiant de première année d’appréhender une vision globale du capitalisme ?</p>
+        <p><strong>F. J.-C. :</strong> Le manuel présente les controverses en économie comme les tâtonnements d’une pensée qui avance vers "la" connaissance dont il faut donner les bases aux étudiants. Je pense qu’ils seraient mieux formés en montrant qu’il existe des perspectives irréconciliables, une pluralité des explications du monde, ce qui force à réfléchir à partir de regards croisés. La valeur d’un bien vient-elle des heures de travail nécessaires pour le fabriquer, de son utilité, de processus psychologiques ou de processus sociaux ? Répondre à ce genre de question par la mise en concurrence des théories me paraît plus formateur.</p>
+        <p><strong>Où est le manuel alternatif qui porte ce genre d’enseignements ?</strong></p>
+        <p><strong>F. J.-C.:</strong> Il n’existe pas, car nous sommes en pleine inégalité institutionnelle ! Pour faire un manuel, il faut des enseignants, et ceux qui portent ce genre d’approches ont été marginalisés par les instances de recrutement : ils représentent 6 % des professeurs sélectionnés en 2018 ! Nous sommes en manque de moyens.</p>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- https://www.alternatives-economiques.fr/christian-chavagneux/trois-dossiers-chauds/00085852 -->
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -37,11 +38,6 @@
       <firstname>Christian</firstname>
       <surname>Chavagneux</surname>
     </author>
-    <illustration>
-      <copyright>iStock</copyright>
-      <caption>Lorem ipsum dolor sit amet</caption>
-      <uri>path/to/file.jpg</uri>
-    </illustration>
   </contentMeta>
   <contentSet>
     <inlineXML contenttype="text/html">

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Document SYSTEM "CdAE.dtd">
+<Document>
+  <Article>
+    <Code>A382007A</Code>
+    <DateRevue>00/09/2018</DateRevue>
+    <MotCle></MotCle>
+    <Rub>Question de lecteur</Rub>
+    <TitreRevue>"Faut-il s'inquiéter du déficit commercial de la France&nbsp;?"</TitreRevue>
+    <TitreCdrom>"Faut-il s'inquiéter du déficit commercial de la France&nbsp;?"</TitreCdrom>
+    <Auteur><Nom>Duval</Nom><Prenom>Guillaume</Prenom></Auteur>
+    <Chapeau>
+      <Para>Les chiffres du commerce extérieur ont suscité des commentaires alarmistes. Mais la balance courante est presque à l'équilibre et il n'y a pas péril en la demeure.</Para>
+    </Chapeau>
+    <Para>En août dernier, les douanes ont rendu publics les résultats du commerce extérieur français. Ceux-ci ont fait apparaître un <AppelDef Entree="Déficit">déficit</AppelDef> de 33,4 milliards d'euros au premier semestre 2018, soit l'équivalent de 2,9 points de produit intérieur brut (<AppelDef Entree="PIB">PIB</AppelDef>). Cette publication a déclenché une vague de commentaires alarmistes qui amenaient à conclure qu'il fallait d'urgence réduire la rémunération des salariés et baisser l'imposition des entreprises.</Para>
+    <Para><Image Href="A382007B" Legende="Dessin de Gérard Mathieu (www.mathieu-dessins.com/)"/></Para>
+    <Para>Cependant, la <AppelDef Entree="Banque de France">Banque de France</AppelDef> a publié parallèlement la <AppelDef Entree="Balance des paiements">balance des paiements</AppelDef> de l'économie française. Cette balance intègre les résultats du commerce de biens (fournis par les douanes), mais aussi ceux des échanges de services et de revenus. Elle n'enregistrait qu'un <AppelDef Entree="Déficit">déficit</AppelDef> de 6,1 milliards d'euros sur le premier semestre. Et sur un an, de juillet 2017 à juin 2018, le <AppelDef Entree="Déficit">déficit</AppelDef> des comptes extérieurs de la France n'était que de 10,5 milliards d'euros, soit 0,5&nbsp;% du <AppelDef Entree="PIB">PIB</AppelDef>, moins qu'en 2017. Or sur le plan économique, ce qui compte, c'est bien ce déficit-là&nbsp;: c'est lui qui indique si oui ou non la France est obligée d'emprunter beaucoup à l'étranger pour pouvoir payer ce que ses habitants consomment. Sur ce plan, nous sommes donc quasiment à l'équilibre&nbsp;: l'excédent des services et celui des revenus compensent en effet à peu de chose près le <AppelDef Entree="Déficit">déficit</AppelDef> des échanges de biens.</Para>
+    <Para>Comment se fait-il alors qu'on s'alarme depuis tant d'années de ce fameux <AppelDef Entree="Déficit">déficit</AppelDef> extérieur&nbsp;? Parce qu'il a été longtemps surestimé. La <AppelDef Entree="Banque de France">Banque de France</AppelDef> a en effet réévalué en avril dernier les rentrées du tourisme, considérées comme une <AppelDef Entree="Balance commerciale">exportation</AppelDef> française de services, d'une dizaine de milliards d'euros sur l'année 2017&nbsp;: les enquêtes menées auprès du secteur ont montré que les recettes tirées du tourisme extra-européen étaient très sous-estimées. La <AppelDef Entree="Banque de France">Banque de France</AppelDef> a aussi réévalué, d'un montant comparable, les services exportés par les entreprises françaises en matière de <AppelDef Entree="Recherche et développement">recherche et développement</AppelDef>, de conseils juridiques ou encore de gestion. Moyennant quoi le <AppelDef Entree="Déficit">déficit</AppelDef> des échanges de biens et de services (la balance courante moins les échanges de revenus), jusque-là estimé par l'<AppelDef Entree="Insee (Institut national de la statistique et des études économiques)">Insee</AppelDef> à 1,9 point de <AppelDef Entree="PIB">PIB</AppelDef> en 2016, a été ramené à 0,8 point de <AppelDef Entree="PIB">PIB</AppelDef> seulement, plus de deux fois moins.</Para>
+    <Para>Bref, la France ne se trouve pas du tout dans la situation de surconsommation où étaient l'Espagne, la Grèce ou le Portugal en 2008, avant la crise, avec des déficits courants de l'ordre de 10&nbsp;% de leur <AppelDef Entree="PIB">PIB</AppelDef>. Pour l'avenir, il convient cependant d'améliorer la <AppelDef Entree="Capacité de production">capacité de production</AppelDef> et d'<AppelDef Entree="Balance commerciale">exportation</AppelDef> de l'industrie française, mais cela n'implique pas nécessairement des mesures d'<AppelDef Entree="Politique d'austérité">austérité</AppelDef> supplémentaires dans l'immédiat. Au contraire même, puisque de telles mesures risqueraient d'amputer l'effort indispensable en matière d'éducation, de recherche et d'amélioration des infrastructures matérielles et immatérielles du pays.</Para>
+    <Para><Emphasis>Question d'Antoine Lepaulmier</Emphasis></Para>
+    <EnSavoirPlus>
+      <BiblioItem>Les comptes du commerce extérieur français au 2e trimestre 2018, <AppelURL Href="https://bit.ly/2N9RSuo">https://bit.ly/2N9RSuo</AppelURL></BiblioItem>
+      <BiblioItem>Les résultats de la <AppelDef Entree="Balance des paiements">balance des paiements</AppelDef> de l'économie française au 2e trimestre 2018, <AppelDef Entree="Banque de France">Banque de France</AppelDef>, <AppelURL Href="https://bit.ly/2jX3Fwl">https://bit.ly/2jX3Fwl</AppelURL></BiblioItem>
+    </EnSavoirPlus>
+  </Article>
+</Document>

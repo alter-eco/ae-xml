@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Document SYSTEM "CdAE.dtd">
+<Document>
+  <Encadre>
+    <Code>A382053A</Code>
+    <CodePere>A382052A</CodePere>
+    <DateRevue>00/09/2018</DateRevue>
+    <MotCle></MotCle>
+    <Rub>Actualité</Rub>
+    <SousRub>Environnement</SousRub>
+    <TitreRevue>Records&nbsp;: 2017, 3e année la plus chaude</TitreRevue>
+    <TitreCdrom>Records&nbsp;: 2017, 3e année la plus chaude</TitreCdrom>
+    <Auteur><Nom>*</Nom></Auteur>
+    <Para>2017 a été la troisième année la plus chaude jamais enregistrée, selon le dernier rapport annuel sur l'état du climat publié par l'Agence américaine d'observation de l'océan et de l'atmosphère<AppelNote Num="_N1"/>. Preuve d'une accélération de tendance, les deux autres années sur le podium ne sont autres que... 2015 et 2016. L'année 2017 a aussi été marquée par des niveaux records de concentration de gaz à effet de serre dans l'atmosphère, et son accumulation progresse quatre fois plus rapidement que dans les années 1960.</Para>
+    <Para>Au vu de ce réchauffement global, la vague de chaleur en Europe du Nord avait ainsi deux fois plus de chances de se produire aujourd'hui que dans le passé<AppelNote Num="_N2"/>. <Emphasis>"</Emphasis><Emphasis>L'étape suivante consiste à établir un lien causal direct entre la survenue d'extrêmes climatiques et l'activité humaine. Déjà établies pour plusieurs pics de chaleur, ces attributions ne font pas encore consensus</Emphasis><Emphasis>"</Emphasis>, explique Jean Jouzel.</Para>
+    <Note Num="N1">
+      <Para>Voir le "Rapport annuel sur l'Etat du climat", NOAA, août 2018, <AppelURL Href="https://bit.ly/2LS2rF0">https://bit.ly/2LS2rF0</AppelURL></Para>
+    </Note>
+    <Note Num="N2">
+      <Para>Voir "Heatwave in Northern Europe, Summer 2018", World Weather Attribution, juillet 2018, <AppelURL Href="https://bit.ly/2KIMFHC">https://bit.ly/2KIMFHC</AppelURL></Para>
+    </Note>
+  </Encadre>
+</Document>

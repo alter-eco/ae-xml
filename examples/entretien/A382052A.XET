@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Document SYSTEM "CdAE.dtd">
+<Document>
+  <Entretien>
+    <Code>A382052A</Code>
+    <DateRevue>00/09/2018</DateRevue>
+    <MotCle></MotCle>
+    <Rub>Actualité</Rub>
+    <SousRub>Environnement</SousRub>
+    <TitreRevue>"Face au réchauffement, la fenêtre de tir est étroite"</TitreRevue>
+    <TitreCdrom>"Face au réchauffement, la fenêtre de tir est étroite"</TitreCdrom>
+    <Auteur><Nom>Martin</Nom><Prenom>Aude</Prenom></Auteur>
+    <EntretienAvec><Nom>Jouzel</Nom><Prenom>Jean</Prenom><Fonction>climatologue, directeur de recherche au CEA, ancien vice-président du groupe scientifique du Giec<AppelNote Type="NDLR" Num="_R1"/></Fonction></EntretienAvec>
+    <Chapeau>
+      <Para>Le changement climatique est irréversible, mais il est encore possible d'en limiter l'ampleur si nous agissons rapidement, selon le climatologue Jean Jouzel.</Para>
+    </Chapeau>
+    <Para>Feux de forêts en Californie, canicules en Europe du Nord ou au Japon&nbsp;: l'été 2018 marque un tournant dans notre lutte contre le réchauffement climatique. Nombre de rapports scientifiques évoquent désormais le risque d'atteindre un point de rupture. Pour le climatologue Jean Jouzel, nous pouvons encore agir, mais il est impératif que nous relevions l'ambition des deux degrés prévue par l'accord de Paris.</Para>
+    <Para><Strong>Assiste-t-on à un emballement du réchauffement climatique&nbsp;?</Strong></Para>
+    <Para>Les événements actuels correspondent à ce qu'anticipent les climatologues depuis plus de trente ans. En moyenne, la température à la surface de la Terre augmente de près de deux dixièmes de degré par décennie. A ce réchauffement moyen - imputable aux activités humaines - s'ajoute désormais une évolution rapide des "extrêmes climatiques", expliquant la recrudescence et l'<AppelDef Entree="Intensification">intensification</AppelDef> des vagues de chaleur depuis le début des années 2000. Pour une hausse des températures moyennes d'un degré, les extrêmes augmenteraient ainsi de deux degrés.</Para>
+    <Para>Si rien n'est fait pour enrayer cette dynamique, l'été caniculaire de 2003 - qui était trois degrés plus chaud qu'un été de référence de la fin du XXe siècle - pourrait devenir la <AppelDef Entree="Norme">norme</AppelDef> en France après 2050. Les étés caniculaires s'établiraient alors six ou sept degrés au-dessus de cette moyenne. On peut également craindre, selon les simulations de Météo-France, des records de température de l'ordre de 50, voire 55 degrés, dans certaines régions à la fin du siècle, ce qui est sans équivalent sur ces 10 000 dernières années.</Para>
+    <Para><Strong>Pouvons-nous attribuer ces événements extrêmes au réchauffement climatique&nbsp;?</Strong></Para>
+    <Para>Le réchauffement moyen du globe est clairement le fait de l'activité humaine. Sur la question d'attribuer tel ou tel événement passé ou présent au réchauffement, la science a énormément progressé au cours des quinze-vingt dernières années, grâce à une meilleure documentation des phénomènes naturels et au développement de modèles climatiques élaborés. Aujourd'hui, les experts peuvent donc affirmer que le changement climatique augmente la probabilité de survenue d'événements extrêmes et modéliser cette probabilité (voir encadré).</Para>
+    <Para><Strong>Certaines zones sont-elles plus vulnérables&nbsp;?</Strong></Para>
+    <Para>Les menaces sont différentes d'une région à l'autre, mais aucun pays n'est épargné. Aujourd'hui, un Européen sur vingt est, chaque année, confronté à un événement climatique extrême. Si rien n'est fait pour maîtriser le réchauffement, cette proportion pourrait atteindre les deux tiers de la population d'ici à 2100. En Europe, le nombre de décès liés aux extrêmes climatiques (essentiellement les canicules) pourrait être multiplié par 50 dans la deuxième partie du siècle, passant de 3 000 à 150 000 victimes annuelles. Mais ce sont incontestablement l'Afrique et l'Asie du Sud-Est qui sont en première ligne.</Para>
+    <Para><Strong>A-t-on atteint un point de rupture&nbsp;?</Strong></Para>
+    <Para>Le réchauffement climatique est irréversible, mais nous pouvons encore limiter son ampleur si nous agissons rapidement. Nous devons, pour cela, respecter la limite des deux degrés prévue par l'accord de Paris, au risque d'atteindre effectivement un point de rupture et d'enclencher un "effet domino" qui aboutirait à la transformation de notre planète en une véritable serre.</Para>
+    <Para>Un grand sujet d'inquiétude est l'avenir des régions polaires, où le dégel du permafrost - les sols gelés en permanence - pourrait s'accentuer, libérant du gaz carbonique et du méthane par décomposition de matière organique, ce qui accélérerait en retour le réchauffement. L'élévation du niveau de la mer pourrait aussi s'accélérer dangereusement&nbsp;: même si nous respectons l'accord de Paris, il devrait gagner 40 centimètres d'ici à la fin du siècle. La fonte du Groenland - envisageable à l'échelle millénaire - conduirait quant à elle à une élévation de 7 mètres. Enfin, si les sécheresses continuent de grignoter nos forêts, c'est la mort d'arbres et de forêts entières qui nous guette, ce qui réduirait considérablement la capacité d'absorption de CO<Ind>2</Ind> de la planète.</Para>
+    <Para><Strong>Pouvons-nous encore tenir l'objectif de deux degrés fixé par l'accord de Paris&nbsp;?</Strong></Para>
+    <Para><LienExt Href="A382053A" Type="enc"/></Para>
+    <Para>La COP24, qui aura lieu en Pologne en décembre, serait une occasion pour les Etats signataires de l'accord de Paris de revoir leurs ambitions à la hausse. Il est toutefois peu probable qu'ils le fassent, en particulier après le coup de tonnerre du retrait américain. Le seul espoir tient à la publication, en octobre, d'un rapport spécial du Groupe d'experts intergouvernemental sur l'évolution du climat (Giec) sur les conséquences d'un réchauffement planétaire de 1,5 °C, qui retiendra peut-être l'attention des négociateurs.</Para>
+    <Para>Pour sa part, la France vise la "neutralité carbone" [voir page 48, NDLR] en 2050, objectif compatible avec l'accord de Paris. Sur le papier, la situation est donc encourageante, mais en pratique le bilan est décevant. En 2017, portées par le retour de la croissance, les émissions de la France ont augmenté de 3,2&nbsp;%, indique Eurostat, ce qui nous éloigne de notre trajectoire.</Para>
+    <Para><Strong>Au niveau individuel, pouvons-nous encore espérer avoir un impact positif quelconque&nbsp;?</Strong></Para>
+    <Para>Bien sûr. Lutter contre le réchauffement climatique est enthousiasmant pour les jeunes générations, car cela implique de changer tout notre modèle de développement&nbsp;: urbanisme, transport, habitudes d'alimentation et de consommation. Nous avons tous, et je m'y inclus, une part d'égoïsme qui complique la prise en compte du changement climatique à l'échelle individuelle, mais il n'y a pas de petit effort pour tendre vers un <AppelDef Entree="Mode de vie">mode de vie</AppelDef> plus sobre. Cela se joue dans les dizaines de décisions que nous prenons au quotidien, et qui doivent être encouragées par les Etats et les collectivités locales, qui sont en première ligne de ce combat.</Para>
+    <Note Type="NDLR" Num="R1">
+      <Para>Jean Jouzel est l'auteur, avec Pierre Larrouturou, de l'ouvrage <Emphasis>Pour éviter le chaos climatique et financier</Emphasis>, paru en 2017 chez Odile Jacob.</Para>
+    </Note>
+  </Entretien>
+</Document>

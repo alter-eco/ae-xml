@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://www.alternatives-economiques.fr/guillaume-duval/titanic/00085831 -->
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/article.xsd"
+  standard="AlterEcoML"
+
+  id="A382-005-A"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <memberOf id="A382" />
+    <itemClass type="article"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>2018-08-25T18:23:56</versionCreated>
+    <embargoed>2018-09-01T12:00:00Z</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>2018-08-25T16:25:32</created>
+    <modified>2018-08-25T18:23:56</modified>
+    <title>Titanic</title>
+    <section>L'éditorial de Guillaume Duval</section>
+    <genre>editorial</genre>
+    <author>
+      <firstname>Guillame</firstname>
+      <surname>Duval</surname>
+    </author>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <p>C'est la rentrée. Les sujets de préoccupation ne manquent pas pour les semaines à venir&nbsp;: Parcoursup qui laisse sur le carreau des dizaines de milliers de jeunes, une austérité budgétaire sévère qui se prépare visiblement pour 2019 dans un contexte de croissance ralentie, l'Europe qui se trouve plus que jamais sous la menace des nationalistes xénophobes, les graves difficultés de plusieurs pays émergents qui font craindre une nouvelle crise financière, dix ans après celle de 2008...</p>
+        <p>Malgré cela, je souhaiterais plutôt revenir sur la canicule qui a sévi une fois de plus cet été, provoquant sécheresses et incendies jusqu'en Suède ou en Norvège. De nombreux indicateurs montrent que le changement climatique tend à s'accélérer, comme le souligne le climatologue Jean Jouzel dans ce numéro. Or, on ne peut qu'être frappé de l'absence quasi totale de réaction des principaux dirigeants de la planète face à cet état de fait très inquiétant. Donnant le désagréable sentiment qu'ils préfèrent nous faire danser sur le pont du <em>Titanic</em> pendant que le bateau coule.</p>
+        <p>A commencer par l'absence d'initiatives sur ce sujet de la part de notre président, qui avait pourtant proclamé <em>urbi et orbi</em>, il y a quelques mois, sa volonté de prendre le <em>leadership</em> de la lutte contre le changement climatique après la défection américaine. En pratique, il a manifestement choisi de concentrer plutôt son énergie sur une réforme institutionnelle, dont on peine à comprendre en quoi elle pourrait bien améliorer le fonctionnement de la République, et sur une baisse des dépenses publiques, dont on ne voit pas comment elle pourrait bien améliorer la vie des Français.</p>
+        <p>La France ne peut évidemment pas infléchir seule le changement climatique, même s'il serait bienvenu qu'elle prenne (enfin) les mesures nécessaires pour tenir les objectifs qu'elle s'est fixés en la matière. Mais on est frappé aussi par la quasi-absence de l'enjeu climatique dans les projets ambitieux que défend Emmanuel Macron en Europe, ainsi que dans sa politique internationale très active hors d'Europe. Malgré sa jeunesse, notre président fait visiblement partie, comme la plupart des technocrates qui l'entourent, de ceux qui n'ont pas encore réellement pris la mesure de la crise écologique à laquelle nous sommes confrontés.</p>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

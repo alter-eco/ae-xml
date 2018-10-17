@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Document SYSTEM "CdAE.dtd">
+<Document>
+  <Dossier>
+    <Code>A382010A</Code>
+    <DateRevue>00/09/2018</DateRevue>
+    <MotCle></MotCle>
+    <Rub>L'événement</Rub>
+    <Sujet>Parcoursup : les dessous d'un bug</Sujet>
+    <TitreRevue>Parcoursup&nbsp;: les dessous d'un bug</TitreRevue>
+    <TitreCdrom>Parcoursup&nbsp;: les dessous d'un bug</TitreCdrom>
+    <Auteur><Nom>*</Nom></Auteur>
+    <Chapeau>
+      <Para>Lenteur, opacité, soupçons de discrimination&nbsp;: la nouvelle plate-forme d'orientation dans le supérieur peine à convaincre de ses vertus.</Para>
+    </Chapeau>
+    <LienExt Href="A382010B" Type="art"/>
+    <LienExt Href="A382012A" Type="ent"/>
+    <LienExt Href="A382014A" Type="ent"/>
+  </Dossier>
+</Document>
