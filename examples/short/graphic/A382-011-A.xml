@@ -2,10 +2,10 @@
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/long.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/short.xsd"
   standard="AE-XML"
 
-  id="A382-010-A"
+  id="A382-011-A"
   version="1"
   >
   <rightsInfo>
@@ -18,7 +18,8 @@
   </rightsInfo>
   <itemMeta>
     <parentPublication id="A382" />
-    <itemClass type="long"/>
+    <parentItem id="A382-010-A" />
+    <itemClass type="short"/>
     <publisher>
       <name>Alternatives Economiques</name>
       <uri>https://www.alternatives-economiques.fr</uri>
@@ -30,18 +31,17 @@
   <contentMeta>
     <created>2018-08-25T16:25:32</created>
     <modified>2018-08-25T18:23:56</modified>
-    <title>Parcoursup : les dessous d'un bug</title>
-    <section>L'événement</section>
-    <genre>dossier</genre>
-    <lead>Lenteur, opacité, soupçons de discrimination : la nouvelle plate-forme d'orientation dans le supérieur peine à convaincre de ses vertus.</lead>
+    <title>Evolution de la dépense par étudiant, des effectifs étudiants, des enseignants titulaires et des enseignants non permanents, base 100 = 2000</title>
+    <genre>graphique</genre>
+    <unit>Base 100 = 200</unit>
+    <source>Ministère de l'Enseignement supérieur et de la Recherche, caluls Alternatives Economiques</source>
+    <figure>
+      <caption></caption>
+      <copyright></copryright>
+      <uri>path/to/file.jpg</uri>
+    </figure>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
-      <![CDATA[
-        <embedded-content href="A382-010-B.xml" />
-        <embedded-content href="A382-012-A.xml" />
-        <embedded-content href="A382-014-A.xml" />
-      ]]>
-    </inlineXML>
+    <inlineXML contenttype="text/html"></inlineXML>
   </contentSet>
 </NewsItem>

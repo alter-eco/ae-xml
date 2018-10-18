@@ -2,10 +2,10 @@
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/short.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/long.xsd"
   standard="AE-XML"
 
-  id="A382-065-A"
+  id="A382-010-A"
   version="1"
   >
   <rightsInfo>
@@ -18,8 +18,7 @@
   </rightsInfo>
   <itemMeta>
     <parentPublication id="A382" />
-    <parentItem id="A382-064-A" />
-    <itemClass type="short"/>
+    <itemClass type="long"/>
     <publisher>
       <name>Alternatives Economiques</name>
       <uri>https://www.alternatives-economiques.fr</uri>
@@ -31,13 +30,18 @@
   <contentMeta>
     <created>2018-08-25T16:25:32</created>
     <modified>2018-08-25T18:23:56</modified>
-    <title>Le grand cycle des crises</title>
-    <genre>graphique</genre>
-    <figure>
-      <uri>path/to/file.jpg</uri>
-    </figure>
+    <title>Parcoursup : les dessous d'un bug</title>
+    <section>L'événement</section>
+    <genre>dossier</genre>
+    <lead>Lenteur, opacité, soupçons de discrimination : la nouvelle plate-forme d'orientation dans le supérieur peine à convaincre de ses vertus.</lead>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html"></inlineXML>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <embedded-content href="A382-010-B.xml" />
+        <embedded-content href="A382-012-A.xml" />
+        <embedded-content href="A382-014-A.xml" />
+      ]]>
+    </inlineXML>
   </contentSet>
 </NewsItem>

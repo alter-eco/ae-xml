@@ -2,7 +2,7 @@
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/long.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/long.xsd"
   standard="AE-XML"
 
   id="A382-007-A"
