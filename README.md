@@ -6,3 +6,4 @@ Un format structuré pour les contenus produits par [Alternatives Economiques](h
 
 Ce format est principalement basé sur celui de l'IPTC de [NewsML-G2](https://iptc.org/standards/newsml-g2/). Il est utilisé en interne pour communiquer entre le logiciel de PAO (K4 de vjoon) et le site éditorial.
 
+Voir les [exemples](https://github.com/alter-eco/ae-xml/tree/master/examples) selon les types de contenus. Chaque exemple est accompagné d'un fichier du format XML précedent dont le nom termine en `.old.xml`
