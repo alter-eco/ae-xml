@@ -37,7 +37,7 @@ Contient des informations rélatives aux métadonnées du contenu de l'entité ;
 
 #### @contentSet
 
-Contient les contenus de l'entité ; dans le cas d'un article, le texte en balisé en format HTML5 dans une sous-balise `@inlineXML` ainsi que d'éventuels contenus imbriqués dans une sous-balise `@embeddContentSet`. Dans le cas d'une publication, une liste structuré de contenus liés à la publication.
+Contient les contenus de l'entité ; dans le cas d'un article, le texte balisé en format HTML5 dans une sous-balise `@inlineXML` ainsi que d'éventuels contenus imbriqués dans une sous-balise `@embeddContentSet`. Dans le cas d'une publication, une liste structurée de contenus liés à la publication.
 
 ### Exemples 
 
