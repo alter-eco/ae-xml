@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Document SYSTEM "CdAE.dtd">
+<Document>
+  <Graphique>
+    <Code>A382011A</Code>
+    <CodePere>A382010B</CodePere>
+    <DateRevue>00/09/2018</DateRevue>
+    <MotCle></MotCle>
+    <Rub>L'événement</Rub>
+    <Sujet>Parcoursup : les dessous d'un bug</Sujet>
+    <TitreRevue>Evolution de la dépense par étudiant, des effectifs étudiants, des enseignants titulaires et des enseignants non permanents, base 100 = 2000</TitreRevue>
+    <TitreCdrom>Evolution de la dépense par étudiant, des effectifs étudiants, des enseignants titulaires et des enseignants non permanents (2000-2026)</TitreCdrom>
+    <Unite>base 100 = 2000</Unite>
+    <Image Href="A382011A"/>
+  </Graphique>
+</Document>

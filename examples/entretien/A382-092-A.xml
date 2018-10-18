@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- https://www.alternatives-economiques.fr/enseigner-leconomie/00085979 -->
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/article.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/long.xsd"
   standard="AE-XML"
 
   id="A382-092-A"
@@ -18,8 +17,8 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <memberOf id="A382" />
-    <itemClass type="article"/>
+    <parentPublication id="A382" />
+    <itemClass type="long"/>
     <publisher>
       <name>Alternatives Economiques</name>
       <uri>https://www.alternatives-economiques.fr</uri>
@@ -31,7 +30,7 @@
   <contentMeta>
     <created>2018-08-25T16:25:32</created>
     <modified>2018-08-25T18:23:56</modified>
-    <title>Comment enseigner l'économie&nbsp;?</title>
+    <title>Comment enseigner l'économie ?</title>
     <section>Idées et débats</section>
     <subject>Idées et débats</subject>
     <genre>entretien</genre>
@@ -48,11 +47,11 @@
       <description>professeure d'économie à l'université de Lille, chercheuse au Clersé-UMR8019 et présidente de l'Association française d'économie politique (Afep)</description>
     </interviewee>
     <lead>Un récent manuel propose de renouveler l'enseignement de l'économie. Yann Algan a participé à l'élaboration de cet outil, qui reste perfectible selon Florence Jany-Catrice.</lead>
-    <illustration>
+    <figure>
       <copyright>iStock</copyright>
       <caption>Lorem ipsum dolor sit amet</caption>
       <uri>path/to/file.jpg</uri>
-    </illustration>
+    </figure>
   </contentMeta>
   <contentSet>
     <inlineXML contenttype="text/html">

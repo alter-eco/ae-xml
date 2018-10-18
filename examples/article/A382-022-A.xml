@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- https://www.alternatives-economiques.fr/finir-pauvrete/00085853  -->
-<!-- exemple "notes du bas de page" -->
-<!-- exemple "marginalia" -->
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/article.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/long.xsd"
   standard="AE-XML"
 
   id="A382-022-A"
@@ -20,8 +17,8 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <memberOf id="A382" />
-    <itemClass type="article"/>
+    <parentPublication id="A382" />
+    <itemClass type="long"/>
     <publisher>
       <name>Alternatives Economiques</name>
       <uri>https://www.alternatives-economiques.fr</uri>
@@ -40,11 +37,11 @@
       <firstname>Denis</firstname>
       <surname>Clerc</surname>
     </author>
-    <illustration>
+    <figure>
       <copyright>iStock</copyright>
       <caption>Lorem ipsum dolor sit amet</caption>
       <uri>path/to/file.jpg</uri>
-    </illustration>
+    </figure>
   </contentMeta>
   <contentSet>
     <inlineXML contenttype="text/html">
@@ -68,8 +65,10 @@
           <p id="footnote-3">Voir le site <a href="http://www.federationsolidarite.org">www.federationsolidarite.org</a></p>
         </section>
         <section id="marginalia">
-          <h3>Seuil de pauvrété</h3>
-          <p>Ce seuil est fixé à 60 % du médian (celui tel que la moitié des gens a plus, l'autre moitié a moins). En 2015, il était de 1 015 euros pour une personne seule, de 1 520 euros pour un couple et de 2 030 euros pour un couple avec deux enfants de moins de 14 ans.</p>
+          <div id="marginalia-1">
+            <h3>Seuil de pauvrété</h3>
+            <p>Ce seuil est fixé à 60 % du médian (celui tel que la moitié des gens a plus, l'autre moitié a moins). En 2015, il était de 1 015 euros pour une personne seule, de 1 520 euros pour un couple et de 2 030 euros pour un couple avec deux enfants de moins de 14 ans.</p>
+          </div>
         </section>
       ]]>
     </inlineXML>

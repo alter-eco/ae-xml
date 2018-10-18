@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/long.xsd"
+  standard="AE-XML"
+
+  id="A382-010-A"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <parentPublication id="A382" />
+    <itemClass type="long"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>2018-08-25T18:23:56</versionCreated>
+    <embargoed>2018-09-01T12:00:00Z</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>2018-08-25T16:25:32</created>
+    <modified>2018-08-25T18:23:56</modified>
+    <title>Parcoursup : les dessous d'un bug</title>
+    <section>L'événement</section>
+    <genre>dossier</genre>
+    <lead>Lenteur, opacité, soupçons de discrimination : la nouvelle plate-forme d'orientation dans le supérieur peine à convaincre de ses vertus.</lead>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <embedded-content href="A382-010-B.xml" />
+        <embedded-content href="A382-012-A.xml" />
+        <embedded-content href="A382-014-A.xml" />
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

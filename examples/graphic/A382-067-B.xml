@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/short.xsd"
+  standard="AE-XML"
+
+  id="A382-067-B"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <parentPublication id="A382" />
+    <parentItem id="A382-067-A" />
+    <itemClass type="short"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>2018-08-25T18:23:56</versionCreated>
+    <embargoed>2018-09-01T12:00:00Z</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>2018-08-25T16:25:32</created>
+    <modified>2018-08-25T18:23:56</modified>
+    <title>Part du revenu allant au 1 % les plus riches (en %) et indice de déréglementation financière</title>
+    <genre>graphique</genre>
+    <figure>
+      <uri>path/to/file.jpg</uri>
+    </figure>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <p>Plus cet indice est faible, plus la finance est régulée.</p>
+        <p><strong>Lecture :</strong> selon les données de Thomas Piketty et Emmanuel Saez, juste avant les deux crises, les Américains les plus riches contrôlaient un peu plus de 20 % du revenu national. Au même moment, l'indice de déréglementation financière élaboré par Thomas Philippon et Ariell Reshef était au plus haut.</p>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

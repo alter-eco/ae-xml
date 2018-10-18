@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- https://www.alternatives-economiques.fr/records-2017-3e-annee-plus-chaude/00085898 -->
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -18,8 +17,9 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <memberOf id="A382" />
-    <itemClass type="article"/>
+    <parentPublication id="A382" />
+    <parentItem id="A382-052-A" />
+    <itemClass type="short"/>
     <publisher>
       <name>Alternatives Economiques</name>
       <uri>https://www.alternatives-economiques.fr</uri>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- https://www.alternatives-economiques.fr/parcoursup-dessous-dun-bug/00085842 -->
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/article.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../xsd/long.xsd"
   standard="AE-XML"
 
   id="A382-010-B"
@@ -18,8 +17,8 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <memberOf id="A382" />
-    <itemClass type="article"/>
+    <parentPublication id="A382" />
+    <itemClass type="long"/>
     <publisher>
       <name>Alternatives Economiques</name>
       <uri>https://www.alternatives-economiques.fr</uri>
@@ -40,11 +39,11 @@
       <surname>Molénat</surname>
     </author>
     <lead>Lorem ipsum dolor sit amet</lead>
-    <illustration>
+    <figure>
       <copyright>iStock</copyright>
       <caption>Lorem ipsum dolor sit amet</caption>
       <uri>path/to/file.jpg</uri>
-    </illustration>
+    </figure>
   </contentMeta>
   <contentSet>
     <inlineXML contenttype="text/html">
@@ -55,13 +54,13 @@
         <p>Une manoeuvre qui ne convainc guère, mais qui contribue à exacerber davantage les inquiétudes suscitées par le fonctionnement de la plate-forme. La procédure ne sera achevée que le 21 septembre, mais les chiffres sont là : au 22 août, seuls 60,4 % des candidats avaient définitivement validé leur affectation. 163 000 autres avaient, quant à eux, tout simplement quitté la plate-forme, sans que l’on en connaisse les raisons exactes : échec au baccalauréat ? Orientation vers une formation hors Parcoursup ? Résignation ? Les délais deviennent difficiles à supporter pour les autres, ainsi que pour certains responsables de formation, qui ne connaissent que très partiellement leurs effectifs pour la rentrée 2018-2019. Les classes préparatoires, les IUT et les BTS, qui démarrent début septembre, ont d’ailleurs obtenu du ministère de pouvoir avancer d’une semaine la date limite d’inscription, afin d’accélérer le processus.</p>
         <h2>Un système controversé</h2>
         <p>Cette interminable attente n’est que le dernier avatar des controverses qui ont émaillé la mise en oeuvre - en moins d’un an ! - de Parcoursup. Au lycée tout d’abord, où la création d’un deuxième professeur principal, chargé d’aider les élèves à s’orienter, et la mission donnée aux conseils de classe de transmettre aux établissements d’enseignement supérieur un avis sur les voeux de chaque lycéen rebutent de nombreux enseignants, qui ne s’estiment ni compétents ni légitimes pour accomplir ces tâches. Puis ce sont les fameux "attendus", ces <em>"connaissances fondamentales et (...) compétences nécessaires à la réussite des étudiants"</em> indiquées par chaque formation, qui semblent parfois mettre la barre très haut pour de jeunes bacheliers ("avoir le Bafa", "avoir fait des séjours linguistiques", "aptitude à la logique"...).</p>
-        <embedded-content id="A382-010-A-01" />
+        <embedded-content href="A382-011-A.xml" />
         <p>Ce sont, ensuite, les conditions d’examen des candidatures qui posent question : dans les filières très sollicitées, les équipes enseignantes se sont trouvées dans l’incapacité d’examiner sérieusement les milliers de dossiers (parfois accompagnés de lettres de motivation) déposés. Enfin, les critères de sélection ont fait débat : dans les filières non sélectives mais à effectifs contingentés, comment ont été classés les candidats ? Nul ne le sait, ces décisions étant couvertes par le secret des délibérations. Un secret qui alimente les soupçons de discrimination. Plusieurs organisations syndicales ont d’ailleurs saisi cet été le défenseur des droits afin d’obtenir la publication des algorithmes locaux, assurant que <em>"les témoignages démontrant les limites de ce système se multiplient : un pourcentage de boursiers inégalement réparti entre académies, une surreprésentation des jeunes d’origine sociale modeste parmi celles et ceux se retrouvant sans solution d’inscription, des pratiques de pondération des notes en fonction du classement des lycées, une mise au ban des candidats issus de baccalauréats professionnels ou technologiques".</em></p>
         <p>Il faudra attendre la fin de la procédure, le 21 septembre, pour faire un bilan définitif. Reste que pour l’heure, les progrès par rapport au précédent système APB (Admission post-bac), voué aux gémonies par la ministre de l’Enseignement supérieur Frédérique Vidal, ne sautent pas aux yeux. Il a certes été mis fin au recours au tirage au sort, qui avait scandalisé (bien qu’il n’ait jamais concerné plus de 1 % des candidats). Mais cela, au prix d’un processus opaque et, pour beaucoup, injuste, tant il semble pénaliser les élèves les plus fragiles ou n’ayant pas la bonne adresse. Parcoursup doit encore convaincre qu’il ne s’est pas contenté de substituer l’arbitraire à l’aléatoire.</p>
         <h2>Un antidote à l’échec ?</h2>
         <p>Pour sa défense, Frédérique Vidal a argué que l’examen des dossiers était une manière de <em>"remettre de l’humain dans le processus d’orientation"</em> et d’en finir avec le "gâchis" que représenterait le taux élevé d’échec en premier cycle. En particulier pour les titulaires d’un baccalauréat professionnel ou technologique qui, par manque de places dans les filières courtes (BTS, IUT), se retrouveraient par défaut et désarmés sur les bancs de l’université. Un diagnostic devenu lieu commun, mais contesté par les sociologues. D’abord, parce que les abandons ne sont pas moins nombreux dans les filières courtes et sélectives, comme le BTS, supposées être le débouché naturel des bacheliers professionnels (les classes préparatoires connaissant elles aussi, soit dit en passant, des taux d’échec très importants). Ensuite, parce que ce taux d’échec à l’université masque une diversité de trajectoires, parfois sinueuses mais souvent réussies (admission à un concours, obtention d’un diplôme dans un autre cursus). Par ailleurs, en 2016, les bacheliers technologiques et professionnels ne représentaient, respectivement, que 14,3 % et 5 % des nouveaux bacheliers inscrits à l’université.</p>
         <p>Parcoursup soulève ainsi un certain nombre de questions : dans quelle mesure la probabilité de réussite d’un étudiant peut-elle être déduite du dossier scolaire du lycéen qu’il était ? Quel droit à l’erreur accorder aux étudiants les plus fragiles ? Quelle place laisser aux tâtonnements, aux bifurcations, aux réussites improbables ? Parcoursup prévoit, il est vrai, la possibilité de cursus adaptés (les fameuses réponses "oui, si") pour les étudiants n’ayant pas toutes les compétences attendues. Selon le ministère, 135 000 réponses "oui, si" ont été données aux candidats. Mais de nombreuses universités ont prévenu qu’elles n’étaient pas en mesure de les proposer, faute de temps... et de moyens.</p>
-        <embedded-content id="A382-010-A-02" />        
+        <embedded-content href="A382-013-A.xml" />        
         <p>Ces questions sont d’autant plus vives que la procédure se révèle assez stressante pour des élèves fortement responsabilisés dans leur choix. Selon le sociologue François Dubet, <em>"Parcoursup impose aux jeunes de faire des projets, alors que beaucoup d’entre eux n’en ont pas, et ceci les met dans un état d’angoisse et d’anxiété profond"</em><a href="#footnote-1">1</a>. Et ce, d’autant plus que les attendus et les informations délivrées sur le nombre de voeux et le taux de réussite de chaque formation ont de quoi décourager l’ambition des élèves les plus fragiles. A quoi s’ajoute la cruauté du verdict pour ceux qui ne sont pris nulle part... <em>"La loi ORE </em>[pour "orientation et réussite de l’étudiant", loi dont découle Parcoursup, NDLR]<em> institutionnalise l’autocensure"</em>, tranchent les sociologues Marie-Paule Couto et Fanny Bugeja-Bloch<a href="#footnote-2">2</a>.</p>
         <h2>Des universités sous-dotées</h2>
         <p>Rien, dans Parcoursup, ne permet en tout cas de s’attaquer sérieusement aux causes des inégalités de réussite dans le supérieur, qui apparaissent bien en amont. Une récente étude a montré que la probabilité d’obtenir une licence à l’université était fortement corrélée à la qualité des apprentissages... en primaire<a href="#footnote-3">3</a>. De même, la plate-forme laisse intacte le morcellement et la hiérarchisation du système d’enseignement supérieur, et en particulier sa funeste division entre des universités (en théorie) accessibles à tous et des grandes écoles aussi sélectives socialement qu’il y a quarante ans. Une dualité qui, par nature, entrave toute volonté de démocratisation. Mais qui, il est vrai, n’est guère contestée dans l’opinion : <em>"La sélection est une menace, mais chacun la désire pour lui-même. On peut donc dire "A bas la sélection !" tout en ne contestant pas les institutions les plus sélectives"</em>, note, lucide, François Dubet.</p>
@@ -73,28 +72,5 @@
         </section>
       ]]>
     </inlineXML>
-    <embeddedContentSet>
-      <embeddedContent id="A382-010-A-01">
-        <graphic>
-          <title>Evolution de la dépense par étudiant, des effectifs étudiants, des enseignants titulaires et des enseignants non permanents, base 100 = 2000</title>
-          <uri>path/to/file.jpg</uri>
-          <source>Ministère de l'Enseignement supérieur et de la Recherche, caluls Alternatives Economiques</source>
-        </graphic>
-      </embeddedContent>
-      <embeddedContent id="A382-010-A-02">
-        <textBox>
-          <title>Bac -3/Bac +3, un cursus en chamboulement</title>
-          <content>
-            <inlineXML contenttype="text/html">
-              <![CDATA[
-                <p>La loi relative à l’orientation et la réussite de l’étudiant (ORE), qui définit les modalités de Parcoursup, comporte également un volet sur l’organisation des licences universitaires. Un arrêté du 30 juillet pose notamment que désormais <em>"les parcours de formation (en licence) peuvent être organisés et personnalisés selon des rythmes et des durées d’apprentissage diversifiés"</em>. Il élargit aussi les possibilités de mutualisation des enseignements et de recours aux outils numériques pour la délivrance des cours et l’évaluation (<em>moocs</em>, examens en ligne...).</p>
-                <p>Une réforme en affinité avec celle, en cours, du baccalauréat, qui met fin aux séries (L, ES, S) pour instaurer un tronc commun et des "spécialités" choisies par le lycéen, ainsi que de nouvelles modalités d’évaluation (davantage de contrôle continu, introduction d’une épreuve orale...).</p>
-                <p>L’ensemble dessine un projet cohérent, dont les traits communs sont la modularisation des enseignements et l’individualisation des parcours, dans un cadre réglementaire assoupli. Plusieurs questions se posent néanmoins : au lycée, la spécialisation ne se fait-elle pas au détriment d’une logique de "culture commune" ? A l’université, le numérique n’est-il pas avant tout un moyen de faire des économies de personnel ? Et comment assurer que, malgré l’individualisation des parcours, tous les bacs et toutes les licences gardent la même valeur faciale ?</p>
-              ]]>
-            </inlineXML>
-          </content>
-        </textBox>
-      </embeddedContent>
-    </embeddedContentSet>
   </contentSet>
 </NewsItem>
