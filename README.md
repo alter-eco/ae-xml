@@ -39,6 +39,8 @@ Contient des informations rélatives aux métadonnées du contenu de l'entité ;
 
 Contient les contenus de l'entité ; dans le cas d'un article, le texte balisé en format HTML5 dans une sous-balise `@inlineXML` ainsi que d'éventuels contenus imbriqués dans une sous-balise `@embeddContentSet`. Dans le cas d'une publication, une liste structurée de contenus liés à la publication.
 
+\[... plus d'informations sur la structure à venir ...\]
+
 ### Exemples 
 
 Voir les [exemples](https://github.com/alter-eco/ae-xml/tree/master/examples) selon les types de contenus. Chaque exemple est accompagné d'un fichier du format XML précedent dont le nom termine en `.old.xml`
