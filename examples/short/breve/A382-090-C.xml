@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/short.xsd"
+  standard="AE-XML"
+
+  id="A382-090-C"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <parentPublication id="A382" />
+    <itemClass type="short"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
+    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>YYYY-MM-DDTHH:MM:SS</created>
+    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <title>DVD : Etoiles polaires</title>
+    <section>Ecrans</section>
+    <genre>brève</genre>
+    <author>
+      <firstname>Igor</firstname>
+      <surname>Martinache</surname>
+    </author>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <p>DVD Dans leurs films, Lapsuy et Lehmuskallio montrent toute la richesse culturelle des peuples du Grand Nord, mais aussi leur destruction progressive par la "civilisation".</p>
+        <p>Depuis 1922 et <em>Nanouk l'Esquimau</em> de Robert Flaherty, les cinéastes se sont peu intéressés aux peuples du Grand Nord. Et pourtant, ces derniers illuminent l'objectif, comme permettent de s'en rendre compte les films d'Anastasia Lapsuy et Markku Lehmuskallio, dont plusieurs viennent d'être réédités.</p>
+        <h2>Rois et rennes</h2>
+        <p>Ce tandem inclassable a parcouru les confins septentrionaux du globe à la recherche de sociétés nomades encore préservées des influences de la "modernité". Une quête qui faillit se révéler vaine jusqu'à ce qu'ils rencontrent les Nenets au coeur de la Sibérie. Trois des quatre films du coffret leur sont consacrés, chacun dans un style très différent. Dénué de tout commentaire, l'un donne à voir les Nenets vaquer à leurs occupations usuelles&nbsp;: s'occuper des bêtes, construire un tipi, préparer le thé ou dépecer un renne. Loin de montrer une lutte constante pour la survie, il révèle combien le moindre de ces actes s'accomplit selon un rituel bien codifié, en étroite communion avec la nature.</p>
+        <p>Un autre film, fictionnel, met en scène les Nenets interprétant sept contes traditionnels de leur culture. Manière pour eux de raconter leur propre histoire, non sans dénoncer la dureté d'un clanisme patriarcal, mais aussi celle de leurs voisins soviétiques après la révolution d'octobre. Animés par un projet civilisateur et un solide appétit pour les richesses du sous-sol, ceux-ci ont initié un véritable ethnocide à leur égard, en usant moins de la force des fusils que de la séduction du tabac ou de l'eau-de-vie.</p>
+        <h2>L'âge de glace</h2>
+        <p>L'histoire de Neko, sujet du troisième film, résume à elle seule l'ambivalence des Soviétiques. Alors qu'elle était destinée à devenir chamane, la jeune fille a été enlevée de force à sa famille, rebaptisée et scolarisée dans un internat russe. <em>"</em><em>Mes professeurs sont devenus mes modèles, leur langue ma langue. J'incarnais pour eux l'espoir"</em>, explique-t-elle, ajoutant poétiquement&nbsp;: "<em>Dans ma nouvelle vie, j'oubliais les tambours de mon grand-père. Or, les tambours oubliés ne chantent plus."</em></p>
+        <p>Une autre femme, tout aussi âgée, prête sa voix et surtout sa mémoire au dernier film. Sur fond d'images animées, elle raconte les mythes et l'histoire de son peuple, les Tchouktches, installés au bord du détroit de Béring, en particulier comment ils ont été poussés à se sédentariser par Moscou, mais aussi par les baleiniers états-uniens, perdant ainsi leur culture. Comme souvent, ce détour par les mondes enneigés nous tend finalement un miroir aussi éclairant que dérangeant. Gageons en tout cas que ces films et leurs protagonistes ne vous laisseront pas de glace.</p>
+        <ul>
+          <li><strong>Lapsuy &amp; Lehmuskallio</strong><br/><em>Coffret de quatre films des deux réalisateurs</em><br/> Editions Montparnasse, 20 euros.</li>
+        </ul>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

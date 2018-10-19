@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Document SYSTEM "CdAE.dtd">
+<Document>
+  <Breve>
+    <Code>A382030C</Code>
+    <DateRevue>00/09/2018</DateRevue>
+    <MotCle></MotCle>
+    <Rub>Actualité</Rub>
+    <SousRub>France</SousRub>
+    <TitreRevue>Les suites de l'affaire Lactalis</TitreRevue>
+    <TitreCdrom>Les suites de l'affaire Lactalis</TitreCdrom>
+    <Auteur><Nom>Alet</Nom><Prenom>Claire</Prenom></Auteur>
+    <Para>La commission d'enquête parlementaire chargée de tirer les enseignements de l'affaire Lactalis a présenté son rapport en juillet dernier. La crise avait été déclenchée en décembre 2017 lorsque la contamination à la salmonelle de lait infantile produit par Lactalis avait été détectée. Selon Santé publique France, 38 nourrissons ont été malades en France et trois à l'étranger. Ils sont aujourd'hui en bonne santé.</Para>
+    <Para>Le rapport fait des propositions pour renforcer la sécurité alimentaire&nbsp;: accroître les obligations des industriels, mais aussi muscler les moyens de contrôle des pouvoirs publics grâce à une nouvelle <AppelDef Entree="Redevance">redevance</AppelDef> payée par les entreprises. Le rapport souligne l'éclatement actuel des compétences entre trois directions et prône leur rapprochement au sein du ministère de l'Agriculture et de l'Alimentation. Il propose de créer un site Internet et une application unique pour informer le public, mais aussi d'améliorer les procédures de retrait-rappel des produits. Une proposition de loi sera déposée à l'automne.</Para>
+    <Para><Emphasis>"Ces propositions sont utiles, mais cela ne suffira pas à éviter d'autres crises</Emphasis>, affirme Karine Jacquemart, de l'association Foodwatch. <Emphasis>C'est à la justice d'établir les responsabilités."</Emphasis> L'association a porté plainte en février dernier.</Para>
+  </Breve>
+</Document>

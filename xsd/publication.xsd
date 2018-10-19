@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:ns1='https://www.alternatives-economiques.fr/' elementFormDefault='qualified' targetNamespace='https://www.alternatives-economiques.fr/'>
+    <xs:element name='NewsItem'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:rightsInfo'/>
+                <xs:element ref='ns1:itemMeta'/>
+                <xs:element ref='ns1:contentMeta'/>
+                <xs:element ref='ns1:contentSet'/>
+                <xs:element ref='ns1:groupSet'/>
+            </xs:sequence>
+            <xs:attribute name='id' use='required' type='xs:NCName'/>
+            <xs:attribute name='standard' use='required' type='xs:NCName'/>
+            <xs:attribute name='version' use='required' type='xs:integer'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='rightsInfo'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:copyrightHolder'/>
+                <xs:element ref='ns1:copyrightNotice'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='copyrightHolder' type='xs:string'/>
+    <xs:element name='copyrightNotice' type='xs:string'/>
+    <xs:element name='itemMeta'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:itemClass'/>
+                <xs:element ref='ns1:publisher'/>
+                <xs:element ref='ns1:pubStatus'/>
+                <xs:element ref='ns1:versionCreated'/>
+                <xs:element ref='ns1:embargoed'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='itemClass'>
+        <xs:complexType>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='publisher'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:name'/>
+                <xs:element ref='ns1:uri'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='name' type='xs:string'/>
+    <xs:element name='pubStatus' type='xs:NCName'/>
+    <xs:element name='versionCreated' type='xs:NMTOKEN'/>
+    <xs:element name='embargoed' type='xs:NMTOKEN'/>
+    <xs:element name='contentMeta'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:created'/>
+                <xs:element ref='ns1:modified'/>
+                <xs:element ref='ns1:title'/>
+                <xs:element ref='ns1:price'/>
+                <xs:element ref='ns1:issue'/>
+                <xs:element ref='ns1:issueDate'/>
+                <xs:element ref='ns1:figure'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='created' type='xs:NMTOKEN'/>
+    <xs:element name='modified' type='xs:NMTOKEN'/>
+    <xs:element name='title' type='xs:string'/>
+    <xs:element name='price' type='xs:decimal'/>
+    <xs:element name='issue' type='xs:integer'/>
+    <xs:element name='issueDate' type='xs:NMTOKEN'/>
+    <xs:element name='figure'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:copyright'/>
+                <xs:element ref='ns1:caption'/>
+                <xs:element ref='ns1:uri'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='copyright' type='xs:NCName'/>
+    <xs:element name='caption' type='xs:string'/>
+    <xs:element name='contentSet'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:inlineXML'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='inlineXML'>
+        <xs:complexType>
+            <xs:attribute name='contenttype' use='required'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='groupSet'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:group'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='group'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='ns1:itemRef'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='itemRef'>
+        <xs:complexType>
+            <xs:attribute name='id' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='uri' type='xs:anyURI'/>
+</xs:schema>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/short.xsd"
+  standard="AE-XML"
+
+  id="A382-060-E"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <parentPublication id="A382" />
+    <itemClass type="short"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
+    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>YYYY-MM-DDTHH:MM:SS</created>
+    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <title>Coopératives : l'emploi progresse</title>
+    <section>Agir</section>
+    <subSection>En bref</subSection>
+    <genre>brève</genre>
+    <relatedInfo>
+      <relatedInfoItem>
+        <inlineXML contenttype="text/html">
+          <![CDATA[
+            <a Href="http://frama.link/fFYe_kd-">frama.link/fFYe_kd-</a>
+          ]]>
+        </inlineXML>
+      </relatedInfoItem>
+    </relatedInfo>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <p>Entre 2016 et 2017, l'emploi a progressé de 8&nbsp;% dans les quelque 3 000 coopératives (Scop et Scic) de l'Hexagone, soit 4 000 emplois nets supplémentaires. Au total, les coopératives emploient près de 58 000 personnes. Ces chiffres sont publiés par la CG Scop, qui s'est fixé pour objectif 70 000 emplois coopératifs en 2020.</p>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

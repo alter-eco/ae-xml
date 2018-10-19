@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-19 09:20:32 +0000 -->
+<!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-19 13:54:26 +0000 -->
 <xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:ns1='https://www.alternatives-economiques.fr/' elementFormDefault='qualified' targetNamespace='https://www.alternatives-economiques.fr/'>
     <xs:element name='NewsItem'>
         <xs:complexType>
@@ -18,15 +18,23 @@
     </xs:element>
     <xs:element name='contentMeta'>
         <xs:complexType>
-            <xs:choice maxOccurs='unbounded'>
-                <xs:element ref='ns1:created'/>
-                <xs:element ref='ns1:figure'/>
-                <xs:element ref='ns1:genre'/>
-                <xs:element ref='ns1:modified'/>
-                <xs:element ref='ns1:source'/>
-                <xs:element ref='ns1:title'/>
-                <xs:element ref='ns1:unit'/>
-            </xs:choice>
+            <xs:sequence>
+                <xs:choice maxOccurs='unbounded'>
+                    <xs:element ref='ns1:created'/>
+                    <xs:element ref='ns1:figure'/>
+                    <xs:element ref='ns1:genre'/>
+                    <xs:element ref='ns1:modified'/>
+                    <xs:element ref='ns1:section'/>
+                    <xs:element ref='ns1:source'/>
+                    <xs:element ref='ns1:subSection'/>
+                    <xs:element ref='ns1:title'/>
+                    <xs:element ref='ns1:unit'/>
+                </xs:choice>
+                <xs:choice minOccurs='0'>
+                    <xs:element ref='ns1:author'/>
+                    <xs:element ref='ns1:relatedInfo'/>
+                </xs:choice>
+            </xs:sequence>
         </xs:complexType>
     </xs:element>
     <xs:element name='created' type='xs:NMTOKEN'/>
@@ -53,14 +61,34 @@
     </xs:element>
     <xs:element name='genre' type='xs:NCName'/>
     <xs:element name='modified' type='xs:NMTOKEN'/>
+    <xs:element name='section' type='xs:NCName'/>
     <xs:element name='source' type='xs:string'/>
+    <xs:element name='subSection' type='xs:string'/>
     <xs:element name='title' type='xs:string'/>
     <xs:element name='unit' type='xs:string'/>
+    <xs:element name='author'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:firstname'/>
+                <xs:element ref='ns1:surname'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='firstname' type='xs:NCName'/>
+    <xs:element name='surname' type='xs:NCName'/>
+    <xs:element name='relatedInfo'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='ns1:relatedInfoItem'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='relatedInfoItem' type='ns1:inlineXML'/>
     <xs:element name='itemMeta'>
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref='ns1:parentPublication'/>
-                <xs:element ref='ns1:parentItem'/>
+                <xs:element minOccurs='0' ref='ns1:parentItem'/>
                 <xs:element ref='ns1:itemClass'/>
                 <xs:element ref='ns1:publisher'/>
                 <xs:element ref='ns1:pubStatus'/>
@@ -106,17 +134,16 @@
     </xs:element>
     <xs:element name='copyrightHolder' type='xs:string'/>
     <xs:element name='copyrightNotice' type='xs:string'/>
-    <xs:element name='contentSet'>
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref='ns1:inlineXML'/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+    <xs:element name='contentSet' type='ns1:inlineXML'/>
+    <xs:element name='uri' type='xs:anyURI'/>
+    <xs:complexType name='inlineXML'>
+        <xs:sequence>
+            <xs:element ref='ns1:inlineXML'/>
+        </xs:sequence>
+    </xs:complexType>
     <xs:element name='inlineXML'>
         <xs:complexType mixed='true'>
             <xs:attribute name='contenttype' use='required'/>
         </xs:complexType>
     </xs:element>
-    <xs:element name='uri' type='xs:anyURI'/>
 </xs:schema>

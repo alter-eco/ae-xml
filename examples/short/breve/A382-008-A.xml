@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/short.xsd"
+  standard="AE-XML"
+
+  id="A382-008-A"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <parentPublication id="A382" />
+    <itemClass type="short"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
+    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>YYYY-MM-DDTHH:MM:SS</created>
+    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <title>En voiture Simone</title>
+    <section>Buzz</section>
+    <genre>brève</genre>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <p>Le Conseil d'Etat a validé fin juillet une large partie du plan autoroutier décidé par François Hollande en 2016. Il permettra de construire, entre autres, 23 nouveaux échangeurs comme de réaménager le périphérique de Nantes. Montant des travaux&nbsp;: 700 millions d'euros, financés à moitié par les collectivités locales et à moitié par une hausse des péages. Cette opération, qui succède à un autre plan de 3,2 milliards d'euros adopté en 2015, n'a pas rassasié les concessionnaires, qui espèrent déjà un troisième plan. <em>Let's make our C02 emissions great again&nbsp;!</em></p>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

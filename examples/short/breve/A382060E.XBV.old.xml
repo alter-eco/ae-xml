@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Document SYSTEM "CdAE.dtd">
+<Document>
+  <Breve>
+    <Code>A382060E</Code>
+    <DateRevue>00/09/2018</DateRevue>
+    <MotCle></MotCle>
+    <Rub>Agir</Rub>
+    <SousRub>En bref</SousRub>
+    <TitreRevue>Coopératives&nbsp;: l'emploi progresse</TitreRevue>
+    <TitreCdrom>Coopératives&nbsp;: l'emploi progresse</TitreCdrom>
+    <Para>Entre 2016 et 2017, l'emploi a progressé de 8&nbsp;% dans les quelque 3 000 <AppelDef Entree="Coopérative">coopératives</AppelDef> (<AppelDef Entree="Coopérative">Scop</AppelDef> et Scic) de l'Hexagone, soit 4 000 emplois nets supplémentaires. Au total, les <AppelDef Entree="Coopérative">coopératives</AppelDef> emploient près de 58 000 personnes. Ces chiffres sont publiés par la CG <AppelDef Entree="Coopérative">Scop</AppelDef>, qui s'est fixé pour objectif 70 000 emplois coopératifs en 2020.</Para>
+    <EnSavoirPlus>
+      <BiblioItem><AppelURL Href="http://frama.link/fFYe_kd-">frama.link/fFYe_kd-</AppelURL></BiblioItem>
+    </EnSavoirPlus>
+  </Breve>
+</Document>
