@@ -24,7 +24,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Inter1>`|`<h2>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
 `<Inter2>`|`<h3>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
 `<Legende>`|`<caption>`|/NewsItem/contentMeta/figure/caption|Non
-`<LienExt>`|`<embedded-content>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|Non
+`<LienExt>`|`<object>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object)
 `<Marginalia>`|`<marginalia>`|/NewsItem/contentMeta/marginalia|Non
 `<MotCle>`|obsolète|N/A|N/A
 `<Nom>`|`<surname>`|/NewsItem/contentMeta/author/surname|Non

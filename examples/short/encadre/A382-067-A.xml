@@ -25,12 +25,12 @@
       <uri>https://www.alternatives-economiques.fr</uri>
     </publisher>
     <pubStatus>usable</pubStatus>
-    <versionCreated>2018-08-25T18:23:56</versionCreated>
-    <embargoed>2018-09-01T12:00:00Z</embargoed>
+    <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
+    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
   </itemMeta>
   <contentMeta>
-    <created>2018-08-25T16:25:32</created>
-    <modified>2018-08-25T18:23:56</modified>
+    <created>YYYY-MM-DDTHH:MM:SS</created>
+    <modified>YYYY-MM-DDTHH:MM:SS</modified>
     <title>1929, 2008, même combat</title>
     <genre>encadré</genre>
   </contentMeta>
@@ -38,7 +38,7 @@
     <inlineXML contenttype="text/html">
       <![CDATA[
         <p>Au-delà de leurs dimensions particulières, les crises de 1929 et de 2007-2008 s’avèrent très comparables. Innovation financière majeure, de nouvelles sociétés d’investissement sont créées dans les années 1920 pour faciliter les placements risqués en Bourse. Il y en avait 160 en 1926 et 750 en 1929. En concurrence avec les filiales de marchés financiers des banques commerciales, elles font exploser les placements spéculatifs. Le volume d’échange à la Bourse de New York passe de 236 millions d’actions en 1923 à 1,1 milliard en 1929. Des placements soutenus par une bulle de crédits : entre 1921 et 1930, la croissance annuelle moyenne des prêts garantis par la valeur des actions détenues par les emprunteurs a été de 98 % ! Le tout avec des régulateurs absents et un ministre des Finances, Andrew W. Mellon, ultralibéral avant l’heure, confiant dans l’autorégulation des marchés. Les années 1920 ont aussi été celles des fraudeurs, à l’image de Carlo Ponzi, qui laissera son nom au système consistant à rémunérer fortement les premiers investisseurs avec l’argent reçu des suivants pour en attirer de nouveaux. Les enquêtes de la commission dirigée par le magistrat Ferdinand Pecora montreront à l’époque des comportements de fraude généralisée.</p>
-        <embedded-content href="A382-067-B.xml" />
+        <object type="application/xml" data="A382-067-B.xml"></object>
         <p>De manière étonnante, les niveaux d’inégalité et de dérégulation financière étaient identiques en 1929 et en 2007, soulignant la même dimension sociopolitique de toute crise financière.</p>
       ]]>
     </inlineXML>

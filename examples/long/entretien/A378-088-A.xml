@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem 
+  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/long.xsd"
+  standard="AE-XML"
+
+  id="A378-088-A"
+  version="1"
+  >
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <parentPublication id="A378" />
+    <itemClass type="long"/>
+    <publisher>
+      <name>Alternatives Economiques</name>
+      <uri>https://www.alternatives-economiques.fr</uri>
+    </publisher>
+    <pubStatus>usable</pubStatus>
+    <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
+    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>YYYY-MM-DDTHH:MM:SS</created>
+    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <title>Avoir 20 ans en 1968 et en 2018</title>
+    <section>Dossier</section>
+    <subSection>société</subSection>
+    <subject>1968-2018 : les cinquante ans qui ont révolutionné la France</subject>
+    <genre>entretien</genre>
+    <author>
+      <firstname>Xavier</firstname>
+      <surname>Molénat</surname>
+    </author>
+    <author>
+      <firstname>Laurent</firstname>
+      <surname>Jeanneau</surname>
+    </author>
+    <interviewee>
+      <firstname>Ludivine</firstname>
+      <surname>Bantigny</surname>
+      <description>historienne</description>
+    </interviewee>
+    <interviewee>
+      <firstname>Camille</firstname>
+      <surname>Peugny</surname>
+      <description>sociologue</description>
+    </interviewee>
+    <lead>Les jeunes de 1968 sont-ils très différents de ceux d'aujourd'hui ? L'analyse de l'historienne Ludivine Bantigny et du sociologue Camille Peugny.</lead>
+    <figure>
+      <copyright>iStock</copyright>
+      <caption>Lorem ipsum dolor sit amet</caption>
+      <uri>path/to/file.jpg</uri>
+    </figure>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html">
+      <![CDATA[
+        <p>Les jeunes de 1968 sont-ils très différents de ceux d’aujourd’hui ? Avoir 20 ans de nos jours, est-ce porter les mêmes espoirs que la génération des « soixante-huitards », posséder les mêmes chances de trouver sa place dans la société et les mêmes opportunités de la faire changer ? Entretien croisé avec l’historienne Ludivine Bantigny et le sociologue Camille Peugny.</p>
+        <p><strong>Qu’est-ce que cela signifiait d’être jeune en 1968 ?</strong></p>
+        <p><strong>Ludivine Bantigny :</strong> A cette époque-là, les conditions matérielles commencent à être réunies pour que la jeunesse existe comme une catégorie sociale à part entière. On lui accorde davantage de moyens pour exister comme telle, avec des loisirs spécifiques. Dans les espaces domestiques, par exemple, les conditions de logement s’améliorent. Le fait d’avoir une chambre à soi, de pouvoir y écouter sa musique, avec l’apparition du transistor, est quelque chose de très important pour que la jeunesse puisse se vivre comme un âge singulier. Elle commence à faire l’objet de politiques publiques spécifiques, comme le montre la création d’un secrétariat d’Etat (1963), puis d’un ministère (1966) de la Jeunesse et des Sports.</p>
+        <p>Ceci dit, elle est traversée par de nombreux clivages. Les goûts culturels restent socialement différenciés. Les étudiants sont alors une toute petite minorité, globalement très privilégiée d’un point de vue social et culturel. Les enfants d’ouvriers représentent 10 % des étudiants de cette époque, les enfants de paysans autour de 4 % à 6 %.</p>
+        <p>Et c’est loin d’être une génération dorée, comme on le pense souvent. A partir de 1966, il y a un tournant dans la conjoncture économique. La question de l’emploi commence à se poser, tout particulièrement pour les jeunes : en 1968, on estime le nombre de chômeurs à près de 500 000. Il n’est pas anodin que l’ANPE soit fondée en 1967. Apparaît aussi à ce moment-là un secrétariat d’Etat à l’Emploi, dont Jacques Chirac a la charge. Ses détracteurs l’appellent d’ailleurs « M. Chômage ». La thématique du déclassement commence également à émerger. Certains étudiants le disent : <em>« Notre licence ne va servir à rien ! »</em> Ils redoutent déjà de ne pas trouver d’emploi à la hauteur de leur formation.</p>
+        <p>Enfin, les jeunes subissent d’une certaine manière un « préjudice de l’âge » sur le marché du travail, à travers les abattements d’âge instaurés à la Libération. A travail égal et à qualification égale, ils sont moins rémunérés que les ouvriers adultes de plus de 21 ans et ne touchent qu’un pourcentage de ce salaire, variable selon les branches et les secteurs professionnels.</p>
+        <p><strong>Peut-on dire de Mai 68 que c’est un mouvement de jeunes ?</strong></p>
+        <p><strong>L. B. :</strong> Difficile de parler d’un mouvement purement générationnel quand 10 millions de personnes s’arrêtent de travailler en France, dont plus de 7 millions de salariés en grève ! Il y a néanmoins une dynamique spécifique de la jeunesse dans le déclenchement des événements. Pas seulement à Nanterre ou au Quartier latin, mais aussi à Caen, quelques mois plus tôt, où de nombreux jeunes ouvriers issus d’un milieu rural entament une grève très dure. Les jeunes sont aussi très présents dans les mobilisations d’agriculteurs qui ont précédé Mai 68. C’est d’ailleurs à Quimper que les premiers pavés ont été lancés contre la préfecture et au Mans que les premières barricades ont été dressées, en octobre 1967.</p>
+        <p>Ce qui est intéressant dans toutes ces mobilisations, c’est qu’il y a bel et bien une rencontre entre des milieux sociaux qui, jusqu’à présent, dialoguaient assez peu. A Caen, des étudiants ont prêté main-forte aux jeunes ouvriers sur les piquets de grèves. Au Quartier latin même, il y a plein de jeunes ouvriers, mais aussi des postiers, des employés, des coursiers, des plongeurs de restaurant, des garçons de café. Des formes de solidarités juvéniles s’expriment dans l’affrontement avec les forces de l’ordre.</p>
+        <p>Sur cette solidarité pratique de bagarre contre la police se greffe, chez les étudiants mobilisés, un projet d’alliance sociale. Les étudiants ne veulent pas être réduits à leur statut de fils à papa ; ils ne veulent pas être, comme ils le disent, les rouages de la bourgeoisie.</p>
+        <p><strong>Etre jeune en 2018, cela n’a plus rien à voir ?</strong></p>
+        <p><strong>Camille Peugny :</strong> Avoir 20 ans en 1968, c’est, quelle que soit son origine sociale, être né à un moment où la forte croissance façonne la perception de l’avenir. Les enfants nés en 1948, par exemple, ont vu la société se transformer, et même si les inégalités se maintiennent, chacun peut se projeter dans ce mouvement socialement ascendant. A l’inverse, celui ou celle qui a 20 ans en 2018 est né dans une société où, déjà, la génération de ses parents a connu la crise au cours des années 1980. L’espoir de s’élever tend à être remplacé par la crainte de chuter socialement. Evidemment, cela change tout.</p>
+        <p>Par ailleurs, être jeune en 1968, c’est être jeune dans une société où le poids démographique des jeunes s’accroît, où ces générations vont guider les transformations sociales. C’est frappant dans les écrits de certains sociologues qui, au cours des années 1970 et 1980, enterrent en quelque sorte les classes sociales pour prophétiser la « moyennisation » de la société. Chez Henri Mendras<sup><a id="ref-1" href="#footnote-1">1</a></sup>, par exemple, cette moyennisation passe par les jeunes. Il décrit les nouveaux métiers qui émergent dans les années 1970 dans le secteur médico-social, l’éducation, la culture... Et il fait des jeunes qui les exercent les <em>« noyaux innovateurs »</em>, autrement dit ceux qui vont tourner la page du monde ancien.</p>
+        <p>Une argumentation contestable, dans la mesure où les jeunes constituent alors, comme aujourd’hui, une catégorie socialement très hétérogène, mais qui souligne, en creux, combien les jeunes de 2018 sont dépossédés des leviers du changement social. L’Assemblée nationale sortie des urnes en 1981 compte, il faut s’en rappeler, autant de députés trentenaires que sexagénaires. Dans l’Assemblée de 2012, ces derniers sont huit fois plus nombreux. Avec, parmi eux, nombre de trentenaires de 1981... Ajoutons que, à la manière des abattements de 68, il existe toujours une barrière d’âge pour devenir un citoyen social à part entière, puisqu’il faut attendre vingt-cinq ans pour avoir droit aux minima sociaux sans restrictions.</p>
+        <p><strong>Peut-on dire de Mai 68 qu’il s’agissait d’une révolte de jeunes contre leurs aînés ?</strong></p>
+        <p><strong>L. B. :</strong> L’essentiel ne me paraît pas être une opposition de générations. Il y a une vraie solidarité intergénérationnelle dans l’événement. En témoigne l’enjeu des conditions de travail. Partout en France, au 1er mai, une revendication importante des manifestations est la « défense de l’emploi », comme on le lit sur les tracts et les banderoles. Mais la question centrale est celle du coût de la prospérité. La croissance est là, le confort s’améliore, mais on travaille toujours énormément, près de 46 heures par semaine, quel que soit l’âge !</p>
+        <p>D’autre part, dans la foulée de 68, l’aspiration principale de la jeunesse a été de trouver sa place dans la société, d’y être mieux intégrée, de trouver un emploi. Ses valeurs étaient les mêmes que celles des générations précédentes : un grand attachement à la famille, à la fidélité dans l’amour... Même si l’événement 68 a eu une force contestataire indéniable en suspendant les évidences – les hiérarchies, l’autorité arbitraire, la concentration des pouvoirs... – et en interrogeant l’ordre social.</p>
+        <p><strong>C. P. :</strong> On retrouve la même chose aujourd’hui. L’enquête « Génération quoi ? », que nous avons coordonnée avec Cécile Van de Velde pour France Télévisions en 2013<sup><a id="ref-2" href="#footnote-2">2</a></sup>, montre que le sentiment de frustration chez les jeunes est intense, mais la volonté qui s’exprime est majoritairement d’obtenir un contrat à durée indéterminée (CDI) et de devenir des citoyens comme les autres, rarement celle de s’orienter vers un autre modèle de société. Par ailleurs, ceux qui ont 20 ans en 2018 sont la deuxième génération de la crise. Leurs parents ont connu les mêmes difficultés à s’insérer au début des années 1980. Ce qui peut créer les conditions d’une solidarité intergénérationnelle qu’on ne retrouvait peut-être pas avec la même intensité il y a quelques décennies.</p>
+        <p><strong>Donc, il n’y a pas plus de conflit générationnel en 2018 qu’en 1968 ?</strong></p>
+        <p><strong>C. P. :</strong> La critique de l’égoïsme des baby-boomers qui auraient dilapidé les fruits de la croissance et légué des dettes à la génération de leurs enfants est un discours qui me semble politiquement dangereux. D’une part, en mettant en avant un clivage générationnel, il invisibilise les inégalités entre groupes sociaux. D’autre part, il permet de dédouaner les politiques publiques menées depuis plusieurs décennies de toute responsabilité. Bien sûr, il y a des inégalités entre générations. Devoir attendre l’âge de 30 ans pour obtenir son premier CDI, c’est ne pas pouvoir devenir propriétaire ou louer sans la caution de ses parents, ne pas pouvoir avoir d’enfants... Mais cela ne doit pas faire oublier que chaque classe d’âge connaît elle-même des inégalités sociales : les classes sociales traversent et fracturent les générations !</p>
+        <p><strong>L. B. :</strong> J’ajouterais qu’on ne peut appréhender le destin d’une génération uniquement par le biais de son entrée dans la vie active : des baby-boomers ont été licenciés à 54 ans et sont restés au chômage jusqu’à la retraite. Eux aussi ont subi le préjudice de l’âge : <em>« Vous êtes trop vieux, vous ne savez pas vous adapter, vous n’êtes pas assez flexibles... »</em></p>
+        <p>Les figures médiatisées de Daniel Cohn-Bendit, Serge July ou Bernard Kouchner ne sont pas représentatives des 10 millions de personnes qui se sont mobilisées en mai et juin 1968 ! Par ailleurs, Il faut également prendre en compte les solidarités intergénérationnelles, et le soutien financier que les parents apportent actuellement à leurs enfants. Au fond, dénigrer 68 revient à dire : <em>« Regardez ce que ça a donné, surtout ne refaites pas la même chose ! » </em>Les détracteurs d’une grève générale avec occupations y trouvent leur compte.</p>
+        <p><strong>Un autre procès récurrent fait à Mai 68 est d’avoir ouvert la porte à une société ultra-individualiste...</strong></p>
+        <p><strong>L. B. :</strong> C’est un autre contresens majeur. Tout ce que portent les grévistes, les manifestants, bref les protagonistes de l’événement est orienté vers la perspective d’une émancipation collective. On ne peut pas réduire 68 à quelques slogans, aussi poétiques soient-ils, comme <em>« Jouissons sans entrave »</em> : ces mots sont peints sur les murs par une toute petite poignée de jeunes gens. D’ailleurs, le thème de la sexualité n’est pas vraiment abordé en 68. On cherche à penser une amélioration pour toutes et tous des conditions de travail et d’existence. C’est un mouvement qui est profondément solidaire.</p>
+        <p><strong>C. P. :</strong> Aujourd’hui, les jeunes restent très attachés aux voies collectives de la mobilité sociale que sont l’école et le travail. Mais ils ont une image très négative de leur réalité actuelle, jugeant l’école injuste et leurs efforts peu récompensés dans le monde du travail. <em>« Désormais, on ne peut plus s’en sortir que par soi-même »</em>, considèrent-ils. Mais il serait abusif d’interpréter ça comme une forme d’individualisme : c’est davantage un <em>« libéralisme de nécessité »</em>. Ils ont le sentiment que ces voies de mobilité ont bien fonctionné pour leurs parents, mais que pour eux elles sont bloquées.</p>
+        <p><strong>L. B. :</strong> En fait, comme l’ont bien montré Luc Boltanski et Eve Chiappello<sup><a id="ref-3" href="#footnote-3">3</a></sup>, c’est le néomanagement, à compter des années 1980, qui a mis la question de l’individu au goût du jour en récupérant les mots d’ordre de 1968 : vous ne voulez plus de contremaîtres, c’est trop hiérarchique ? Vous allez être vos propres contremaîtres, l’entrepreneur de vous-même ! C’est ce qui a conduit au mouvement de déstructuration des collectifs et d’individualisation des conditions de travail, <em>via</em> la multiplication des évaluations et des incitations à la performance, que l’on a connue ces dernières décennies, avec les drames qui l’ont accompagnée.</p>
+        <p><strong>C. P. :</strong> Cette individualisation de la relation de travail est accentuée par le capitalisme de plate-forme (incarné par Uber ou Deliveroo, par exemple) et l’essor des services à la personne... Les auto-entrepreneurs, ce sont pour beaucoup des jeunes qui n’ont plus aucun collectif de travail, qui sont très isolés. C’est une dimension importante de la précarisation du travail. Aujourd’hui, des millions de personnes de moins de 40 ans travaillent sans jamais avoir rencontré un délégué du personnel ! C’est un obstacle majeur à la mobilisation.</p>
+        <section id="footnotes">
+          <p id="footnote-1"><a href="#ref-1">1</a> <em>La seconde révolution française. 1965-1984</em>, Gallimard, 1988.</p>
+          <p id="footnote-2"><a href="#ref-2">2</a> A consulter sur <a href="https://lc.cx/daTu">https://lc.cx/daTu</a></p>
+          <p id="footnote-3"><a href="#ref-3">3</a> <em>Le nouvel esprit du capitalisme</em>, Gallimard, 1999.</p>
+        </section>
+      ]]>
+    </inlineXML>
+  </contentSet>
+</NewsItem>

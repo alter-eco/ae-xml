@@ -25,12 +25,12 @@
       <uri>https://www.alternatives-economiques.fr</uri>
     </publisher>
     <pubStatus>usable</pubStatus>
-    <versionCreated>2018-08-25T18:23:56</versionCreated>
-    <embargoed>2018-09-01T12:00:00Z</embargoed>
+    <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
+    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
   </itemMeta>
   <contentMeta>
-    <created>2018-08-25T16:25:32</created>
-    <modified>2018-08-25T18:23:56</modified>
+    <created>YYYY-MM-DDTHH:MM:SS</created>
+    <modified>YYYY-MM-DDTHH:MM:SS</modified>
     <title>Bac -3/Bac +3, un cursus en chamboulement</title>
     <genre>encadré</genre>
   </contentMeta>
