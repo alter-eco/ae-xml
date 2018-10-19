@@ -19,9 +19,8 @@ Des informations sur une propriété
 <Balise propriété="machin">...</Balise>
 ```
 ---
-## La balise racine 
 
-### `<NewsItem>`
+## `<NewsItem>`
 
 La balise racine. Nous ne détaillons pas les propriétés de base de [l'XML Schema](https://www.w3.org/TR/xml-names/)
 
@@ -72,13 +71,9 @@ La version du document. Commence à `1`, et incrémente avec chaque nouvelle ver
   <contentSet>...</contentSet>
 </NewsItem>
 ```
-## Droits
+## `<rightsInfo>`
 
-Contient des informations sur les droits du contenu. 
-
-### `<rightsInfo>`
-
-Contient les balises `<copyrightHolder>` et `<copyrightNotice>`.
+Contient des informations sur les droits du contenu. Contient les balises `<copyrightHolder>` et `<copyrightNotice>`.
 
 ### `<copyrightHolder>`
 
@@ -100,6 +95,15 @@ L'avertissement relatif aux droits.
   </rightsInfo>
  ```
 
+## `<itemMeta>`
 
+Données rélatives à l'entité. Contient des informations sur le type de l'entité, l'état de publication de l'entité, s'il est sous embargo, s'il est lié à une autre entité.
 
+## `<contentMeta>`
+
+Données relatives au contenu de l'entité. Contient le gros du contenu en dehors du corps du texte, par exemple le titre, chapô, auteur, rubrique, date de création/modification, image associée etc.
+
+## `<contentSet>`
+
+Contenu de l'entité. Le contenu brut du texte, normalement mise en forme avec un balisage conforme HTML5.
 
