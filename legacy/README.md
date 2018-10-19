@@ -10,7 +10,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Auteur>`|`<author>`|/NewsItem/contentMeta/author|Non
 `<BiblioItem>`|`<relatedInfoItem>`|/NewsItem/contentMeta/relatedInfo/relatedInfoItem|Non
 `<Chapeau>`|`<lead>`|/NewsItem/contentMeta/lead|Non
-`<Code>`|N/A|N/A|Non
+`<Code>`|obsolète|N/A|N/A
 `<CodePère>`|`<parentItem>`|/NewsItem/itemMeta/parentItem|Non
 `<DateRevue>`|`<created>`|/NewsItem/contentMeta/created|Non
 `<Document>`|`<NewsItem>`|/NewsItem|Non
@@ -42,7 +42,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<SousRub>`|`<subSection>`|/NewsItem/contentMeta/subSection|Non
 `<Strong>`|`<strong>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong)
 `<Sujet>`|`<subject>`|/NewsItem/contentMeta/subject|Non
-`<Tete>`|`<>`||Non
+`<Tete>`|`<title>`|/NewsItem/contentMeta/marginalia/marginaliaItem/title|Non
 `<Texte>`|`<inlineXML>`|/NewsItem/contentSet/inlineXML|Non
 `<Titre>`|`<title>`|/NewsItem/contentMeta/title|Non
 `<TitreCdrom>`|obsolète|N/A|N/A
