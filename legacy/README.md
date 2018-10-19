@@ -29,8 +29,8 @@ Ancien format | AE-XML | Situation |  HTML5
 `<MotCle>`|obsolète|N/A|N/A
 `<Nom>`|`<surname>`|/NewsItem/contentMeta/author/surname|Non
 `<Note>`|`<section id="footnotes">`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|Oui
-`<NoticeBiblio>`|`<>`||Non
-`<Ouvrage>`|`<>`||
+`<NoticeBiblio>`|obsolète|N/A|N/A
+`<Ouvrage>`|`<reviewedItem>`|/NewsItem/contentMeta/reviewedItem|Non
 `<Para>`|`<p>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p)
 `<Prenom>`|`<firstname>`|/NewsItem/contentMeta/author/firstname|Non
 `<Rub>`|`<section>`|/NewsItem/contentMeta/section|Non
