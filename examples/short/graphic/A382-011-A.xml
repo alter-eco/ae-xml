@@ -20,10 +20,6 @@
     <parentPublication id="A382" />
     <parentItem id="A382-010-A" />
     <itemClass type="short"/>
-    <publisher>
-      <name>Alternatives Economiques</name>
-      <uri>https://www.alternatives-economiques.fr</uri>
-    </publisher>
     <pubStatus>usable</pubStatus>
     <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
     <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>

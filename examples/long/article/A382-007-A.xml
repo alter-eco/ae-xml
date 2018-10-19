@@ -3,8 +3,8 @@
   xmlns="https://www.alternatives-economiques.fr/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/long.xsd"
+  
   standard="AE-XML"
-
   id="A382-007-A"
   version="1"
   >
@@ -19,10 +19,6 @@
   <itemMeta>
     <parentPublication id="A382" />
     <itemClass type="long"/>
-    <publisher>
-      <name>Alternatives Economiques</name>
-      <uri>https://www.alternatives-economiques.fr</uri>
-    </publisher>
     <pubStatus>usable</pubStatus>
     <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
     <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>

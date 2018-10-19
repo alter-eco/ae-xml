@@ -19,11 +19,7 @@
   <itemMeta>
     <parentPublication id="A382" />
     <parentItem id="A382-067-A" />
-    <itemClass type="short"/>
-    <publisher>
-      <name>Alternatives Economiques</name>
-      <uri>https://www.alternatives-economiques.fr</uri>
-    </publisher>
+    <itemClass type="short" />
     <pubStatus>usable</pubStatus>
     <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
     <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
