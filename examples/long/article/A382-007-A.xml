@@ -43,6 +43,22 @@
       <caption>Lorem ipsum dolor sit amet</caption>
       <uri>path/to/file.jpg</uri>
     </figure>
+    <relatedInfo>
+      <relatedInfoItem>
+        <inlineXML contenttype="text/html">
+          <![CDATA[
+            <p>Les résultats de la balance des paiements de l'économie française au 2e trimestre 2018, Banque de France, <a href="https://bit.ly/2jX3Fwl">https://bit.ly/2jX3Fwl</a></p>
+          ]]>
+        </inlineXML>
+      </relatedInfoItem>
+      <relatedInfoItem>
+        <inlineXML contenttype="text/html">
+          <![CDATA[
+            <p>Les comptes du commerce extérieur français au 2e trimestre 2018, <a href="https://bit.ly/2N9RSuo">https://bit.ly/2N9RSuo</a></p>
+          ]]>
+        </inlineXML>
+      </relatedInfoItem>
+    </relatedInfo>
   </contentMeta>
   <contentSet>
     <inlineXML contenttype="text/html">
@@ -52,10 +68,6 @@
         <p>Comment se fait-il alors qu'on s'alarme depuis tant d'années de ce fameux déficit extérieur ? Parce qu'il a été longtemps surestimé. La Banque de France a en effet réévalué en avril dernier les rentrées du tourisme, considérées comme une exportation française de services, d'une dizaine de milliards d'euros sur l'année 2017 : les enquêtes menées auprès du secteur ont montré que les recettes tirées du tourisme extra-européen étaient très sous-estimées. La Banque de France a aussi réévalué, d'un montant comparable, les services exportés par les entreprises françaises en matière de recherche et développement, de conseils juridiques ou encore de gestion. Moyennant quoi le déficit des échanges de biens et de services (la balance courante moins les échanges de revenus), jusque-là estimé par l'Insee à 1,9 point de PIB en 2016, a été ramené à 0,8 point de PIB seulement, plus de deux fois moins.</p>
         <p>Bref, la France ne se trouve pas du tout dans la situation de surconsommation où étaient l'Espagne, la Grèce ou le Portugal en 2008, avant la crise, avec des déficits courants de l'ordre de 10 % de leur PIB. Pour l'avenir, il convient cependant d'améliorer la capacité de production et d'exportation de l'industrie française, mais cela n'implique pas nécessairement des mesures d'austérité supplémentaires dans l'immédiat. Au contraire même, puisque de telles mesures risqueraient d'amputer l'effort indispensable en matière d'éducation, de recherche et d'amélioration des infrastructures matérielles et immatérielles du pays.</p>
         <p><em>Question d'Antoine Lepaulmier</em></p>
-        <aside id="more-info">
-          <p>Les comptes du commerce extérieur français au 2e trimestre 2018, <a href="https://bit.ly/2N9RSuo">https://bit.ly/2N9RSuo</a></p>
-          <p>Les résultats de la balance des paiements de l'économie française au 2e trimestre 2018, Banque de France, <a href="https://bit.ly/2jX3Fwl">https://bit.ly/2jX3Fwl</a></p>
-        </aside>
       ]]>
     </inlineXML>
   </contentSet>
