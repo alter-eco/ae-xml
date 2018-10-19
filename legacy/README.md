@@ -4,8 +4,8 @@
 
 Ancien format | AE-XML | Situation |  HTML5 
 -|-|-|-
-`<AppelNote>`|obsolète|N/A|
-`<AppelDef>`|obsolète|N/A| 
+`<AppelNote>`|obsolète|N/A|N/A
+`<AppelDef>`|obsolète|N/A|N/A
 `<AppelUrl>`|`<a>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a)
 `<Auteur>`|`<author>`|/NewsItem/contentMeta/author|Non
 `<BiblioItem>`|`<relatedInfoItem>`|/NewsItem/contentMeta/relatedInfo/relatedInfoItem|Non
@@ -26,7 +26,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Legende>`|`<caption>`|/NewsItem/contentMeta/figure/caption|Non
 `<LienExt>`|`<embedded-content>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|Non
 `<Marginalia>`|`<marginalia>`|/NewsItem/contentMeta/marginalia|Non
-`<MotCle>`|obsolète||
+`<MotCle>`|obsolète|N/A|N/A
 `<Nom>`|`<surname>`|/NewsItem/contentMeta/author/surname|Non
 `<Note>`|`<section id="footnotes">`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|Oui
 `<NoticeBiblio>`|`<>`||Non
@@ -34,10 +34,10 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Para>`|`<p>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p)
 `<Prenom>`|`<firstname>`|/NewsItem/contentMeta/author/firstname|Non
 `<Rub>`|`<section>`|/NewsItem/contentMeta/section|Non
-`<Sect1>`|obsolète||Non
-`<Sect2>`|obsolète||Non
-`<Sect3>`|obsolète||Non
-`<Sect4>`|obsolète||Non
+`<Sect1>`|obsolète|N/A|N/A
+`<Sect2>`|obsolète|N/A|N/A
+`<Sect3>`|obsolète|N/A|N/A
+`<Sect4>`|obsolète|N/A|N/A
 `<Source>`|`<source>`|/NewsItem/contentMeta/source|Non
 `<SousRub>`|`<subject>`|/NewsItem/contentMeta/subject|Non
 `<Strong>`|`<strong>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong)
@@ -45,9 +45,9 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Tete>`|`<>`||Non
 `<Texte>`|`<inlineXML>`|/NewsItem/contentSet/inlineXML|Non
 `<Titre>`|`<title>`|/NewsItem/contentMeta/title|Non
-`<TitreCdrom>`|obsolète||Non
-`<TitreRevue>`|obsolète||Non
-`<TitreWeb>`|obsolète||Non
+`<TitreCdrom>`|obsolète|N/A|N/A
+`<TitreRevue>`|obsolète|N/A|N/A
+`<TitreWeb>`|obsolète|N/A|N/A
 `<Unite>`|`<unit>`|/NewsItem/contentMeta/unit|Non
 
 
