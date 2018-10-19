@@ -2,22 +2,6 @@
 
 Ce document détaille et complémente en langage humain ce que les fichiers `short.xsd`, `long.xsd`, et `publication.xsd` détaillent en langage informatique.
 
-## Comment lire ce fichier
-
-Vous trouverez des informations détaillées, balise par balise, sur toutes les balises ainsi que leurs propriétés et contenus dans la manière suivante.
-
-### `<Balise>`
-
-Une courte description.
-
-#### `@propriété`
-
-Des informations sur une propriété
-
-#### Exemple : 
-```xml
-<Balise propriété="machin">...</Balise>
-```
 ---
 
 ## `<NewsItem>`
