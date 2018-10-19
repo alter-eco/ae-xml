@@ -39,9 +39,9 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Sect3>`|obsolète|N/A|N/A
 `<Sect4>`|obsolète|N/A|N/A
 `<Source>`|`<source>`|/NewsItem/contentMeta/source|Non
-`<SousRub>`|`<subject>`|/NewsItem/contentMeta/subject|Non
+`<SousRub>`|`<subSection>`|/NewsItem/contentMeta/subSection|Non
 `<Strong>`|`<strong>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong)
-`<Sujet>`|`<>`||Non
+`<Sujet>`|`<subject>`|/NewsItem/contentMeta/subject|Non
 `<Tete>`|`<>`||Non
 `<Texte>`|`<inlineXML>`|/NewsItem/contentSet/inlineXML|Non
 `<Titre>`|`<title>`|/NewsItem/contentMeta/title|Non
