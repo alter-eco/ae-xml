@@ -20,7 +20,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Exp>`|`<sup>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/sup)
 `<Fonction>`|`<description>`|/NewsItem/contentMeta/author/description ou /NewsItem/contentMeta/interviewee/description|Non
 `<Image>`|`<figure>`|/NewsItem/contentMeta/figure|Non
-`<Ind>`|`<>`||Non
+`<Ind>`|`<sub>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/sub)
 `<Inter1>`|`<h2>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
 `<Inter2>`|`<h3>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
 `<Legende>`|`<caption>`|/NewsItem/contentMeta/figure/caption|Non
