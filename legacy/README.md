@@ -2,7 +2,7 @@
 
 ## Balises
 
-Ancien format | AE-XML | XPath |  HTML5 
+Ancien format | AE-XML | Situation |  HTML5 
 -|-|-|-
 `<AppelNote>`|obsolète|N/A|
 `<AppelDef>`|obsolète|N/A| 
@@ -17,7 +17,7 @@ Ancien format | AE-XML | XPath |  HTML5
 `<Emphasis>`|`<em>`|/NewsItem/contentSet/inlineXML/\*|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/em)
 `<EnSavoirPlus>`|`<relatedInfo>`|/NewsItem/contentMeta/relatedInfo|Non
 `<EntretienAvec>`|`<interviewee>`|/NewsItem/contentMeta/interviewee|Non
-`<Exp>`|`<>`||Non
+`<Exp>`|`<sup>`|/NewsItem/contentSet/inlineXML/\*|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/sup)
 `<Fonction>`|`<>`||Non
 `<Image>`|`<figure>`|/NewsItem/contentMeta/figure|Non
 `<Ind>`|`<>`||Non
