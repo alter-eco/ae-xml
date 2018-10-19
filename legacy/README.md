@@ -18,7 +18,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<EnSavoirPlus>`|`<relatedInfo>`|/NewsItem/contentMeta/relatedInfo|Non
 `<EntretienAvec>`|`<interviewee>`|/NewsItem/contentMeta/interviewee|Non
 `<Exp>`|`<sup>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/sup)
-`<Fonction>`|`<>`||Non
+`<Fonction>`|`<description>`|/NewsItem/contentMeta/author/description ou /NewsItem/contentMeta/interviewee/description|Non
 `<Image>`|`<figure>`|/NewsItem/contentMeta/figure|Non
 `<Ind>`|`<>`||Non
 `<Inter1>`|`<h2>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
