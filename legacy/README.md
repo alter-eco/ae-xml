@@ -28,7 +28,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Marginalia>`|`<marginalia>`|/NewsItem/contentMeta/marginalia|Non
 `<MotCle>`|obsolète||
 `<Nom>`|`<surname>`|/NewsItem/contentMeta/author/surname|Non
-`<Note>`|`<>`||Non
+`<Note>`|`<section id="footnotes">`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|Oui
 `<NoticeBiblio>`|`<>`||Non
 `<Ouvrage>`|`<>`||
 `<Para>`|`<p>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p)
@@ -39,7 +39,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Sect3>`|obsolète||Non
 `<Sect4>`|obsolète||Non
 `<Source>`|`<source>`|/NewsItem/contentMeta/source|Non
-`<SousRub>`|`<>`||Non
+`<SousRub>`|`<subject>`|/NewsItem/contentMeta/subject|Non
 `<Strong>`|`<strong>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong)
 `<Sujet>`|`<>`||Non
 `<Tete>`|`<>`||Non
