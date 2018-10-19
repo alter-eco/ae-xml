@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-19 12:25:36 +0000 -->
+<!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-19 12:29:55 +0000 -->
 <xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:ns1='https://www.alternatives-economiques.fr/' elementFormDefault='qualified' targetNamespace='https://www.alternatives-economiques.fr/'>
     <xs:element name='NewsItem'>
         <xs:complexType>
@@ -64,7 +64,7 @@
                 <xs:element ref='ns1:modified'/>
                 <xs:element ref='ns1:title'/>
                 <xs:element ref='ns1:section'/>
-                <xs:element minOccurs='0' ref='ns1:subSection'/>
+                <xs:element minOccurs='0' maxOccurs='unbounded' ref='ns1:subSection'/>
                 <xs:element minOccurs='0' ref='ns1:subject'/>
                 <xs:element ref='ns1:genre'/>
                 <xs:element minOccurs='0' maxOccurs='unbounded' ref='ns1:author'/>
