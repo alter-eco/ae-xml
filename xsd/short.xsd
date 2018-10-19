@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-18 14:22:05 +0000 -->
+<!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-19 09:20:32 +0000 -->
 <xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:ns1='https://www.alternatives-economiques.fr/' elementFormDefault='qualified' targetNamespace='https://www.alternatives-economiques.fr/'>
     <xs:element name='NewsItem'>
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref='ns1:rightsInfo'/>
-                <xs:element ref='ns1:itemMeta'/>
-                <xs:element ref='ns1:contentMeta'/>
+                <xs:choice maxOccurs='unbounded'>
+                    <xs:element ref='ns1:contentMeta'/>
+                    <xs:element ref='ns1:itemMeta'/>
+                    <xs:element ref='ns1:rightsInfo'/>
+                </xs:choice>
                 <xs:element ref='ns1:contentSet'/>
             </xs:sequence>
             <xs:attribute name='id' use='required' type='xs:NCName'/>
@@ -14,16 +16,46 @@
             <xs:attribute name='version' use='required' type='xs:integer'/>
         </xs:complexType>
     </xs:element>
-    <xs:element name='rightsInfo'>
+    <xs:element name='contentMeta'>
+        <xs:complexType>
+            <xs:choice maxOccurs='unbounded'>
+                <xs:element ref='ns1:created'/>
+                <xs:element ref='ns1:figure'/>
+                <xs:element ref='ns1:genre'/>
+                <xs:element ref='ns1:modified'/>
+                <xs:element ref='ns1:source'/>
+                <xs:element ref='ns1:title'/>
+                <xs:element ref='ns1:unit'/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='created' type='xs:NMTOKEN'/>
+    <xs:element name='figure'>
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref='ns1:copyrightHolder'/>
-                <xs:element ref='ns1:copyrightNotice'/>
+                <xs:sequence minOccurs='0'>
+                    <xs:element ref='ns1:caption'/>
+                    <xs:element ref='ns1:copyright'/>
+                </xs:sequence>
+                <xs:element ref='ns1:uri'/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name='copyrightHolder' type='xs:string'/>
-    <xs:element name='copyrightNotice' type='xs:string'/>
+    <xs:element name='caption'>
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name='copyright'>
+        <xs:complexType mixed='true'>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='ns1:NewsItem'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='genre' type='xs:NCName'/>
+    <xs:element name='modified' type='xs:NMTOKEN'/>
+    <xs:element name='source' type='xs:string'/>
+    <xs:element name='title' type='xs:string'/>
+    <xs:element name='unit' type='xs:string'/>
     <xs:element name='itemMeta'>
         <xs:complexType>
             <xs:sequence>
@@ -64,44 +96,16 @@
     <xs:element name='pubStatus' type='xs:NCName'/>
     <xs:element name='versionCreated' type='xs:NMTOKEN'/>
     <xs:element name='embargoed' type='xs:NMTOKEN'/>
-    <xs:element name='contentMeta'>
+    <xs:element name='rightsInfo'>
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref='ns1:created'/>
-                <xs:element ref='ns1:modified'/>
-                <xs:element ref='ns1:title'/>
-                <xs:element ref='ns1:genre'/>
-                <xs:sequence minOccurs='0'>
-                    <xs:element ref='ns1:unit'/>
-                    <xs:element ref='ns1:source'/>
-                </xs:sequence>
-                <xs:element minOccurs='0' ref='ns1:figure'/>
+                <xs:element ref='ns1:copyrightHolder'/>
+                <xs:element ref='ns1:copyrightNotice'/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name='created' type='xs:NMTOKEN'/>
-    <xs:element name='modified' type='xs:NMTOKEN'/>
-    <xs:element name='title' type='xs:string'/>
-    <xs:element name='genre' type='xs:NCName'/>
-    <xs:element name='unit' type='xs:string'/>
-    <xs:element name='source' type='xs:string'/>
-    <xs:element name='figure'>
-        <xs:complexType>
-            <xs:sequence>
-                <xs:sequence minOccurs='0'>
-                    <xs:element ref='ns1:caption'/>
-                    <xs:element ref='ns1:copyright'/>
-                </xs:sequence>
-                <xs:element ref='ns1:uri'/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name='caption'>
-        <xs:complexType/>
-    </xs:element>
-    <xs:element name='copyright'>
-        <xs:complexType/>
-    </xs:element>
+    <xs:element name='copyrightHolder' type='xs:string'/>
+    <xs:element name='copyrightNotice' type='xs:string'/>
     <xs:element name='contentSet'>
         <xs:complexType>
             <xs:sequence>
