@@ -31,6 +31,8 @@ Il y a trois types d'entité ; `publication`, `long`, et `short`, mais comme ave
 
 [Voir plus sur l'anatomie d'un fichier AE-XML](https://github.com/alter-eco/ae-xml/tree/master/xsd)
 
+[Voir un fichier qui liste les équivalents approximatifs entre AE-XML et le format précédent](https://github.com/alter-eco/ae-xml/tree/master/legacy)
+
 ### Exemples 
 
 Voir les [exemples](https://github.com/alter-eco/ae-xml/tree/master/examples) selon les types de contenus. Chaque exemple est accompagné d'un fichier du format XML précedent dont le nom termine en `.old.xml`
