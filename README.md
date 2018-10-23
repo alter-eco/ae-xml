@@ -29,7 +29,7 @@ Il y a trois types d'entité ; `publication`, `long`, et `short`, mais comme ave
 `long` - pour les articles, entretiens, éditos, chroniques, recensions de livres, dossiers
 `short` - pour les brèves, encadrés, graphiques
 
-[test](/ae-xml/tree/master/xsd)
+[Voir plus sur l'anatomie d'un fichier AE-XML](https://github.com/alter-eco/ae-xml/tree/master/xsd)
 
 ### Exemples 
 
