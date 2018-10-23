@@ -25,9 +25,9 @@ Pour résumer, nous ne respectons pas le format NewsML mais préservons sa logiq
 
 Il y a trois types d'entité ; `publication`, `long`, et `short`, mais comme avec le format NewsML, toute entité partage une structure de base.
 
-`publication` - pour les numéros
-`long` - pour les articles, entretiens, éditos, chroniques, recensions de livres, dossiers
-`short` - pour les brèves, encadrés, graphiques
+1. `publication` - pour les numéros
+2. `long` - pour les articles, entretiens, éditos, chroniques, recensions de livres, dossiers
+3. `short` - pour les brèves, encadrés, graphiques
 
 [Voir plus sur l'anatomie d'un fichier AE-XML](https://github.com/alter-eco/ae-xml/tree/master/xsd)
 
