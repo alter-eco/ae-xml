@@ -23,25 +23,13 @@ Pour résumer, nous ne respectons pas le format NewsML mais préservons sa logiq
 
 ### Structure
 
-Comme avec le format NewsML, toute entité partage une structure de base. On trouve obligatoirement les balises suivantes à l'intérieur de la balise parente :
+Il y a trois types d'entité ; `publication`, `long`, et `short`, mais comme avec le format NewsML, toute entité partage une structure de base.
 
-#### @rightsInfo
+`publication` - pour les numéros
+`long` - pour les articles, entretiens, éditos, chroniques, recensions de livres, dossiers
+`short` - pour les brèves, encadrés, graphiques
 
-Contient des informations rélatives aux droits associés au contenu de l'entité.
-
-#### @itemMeta
-
-Contient des informations rélatives aux metadonnées de l'entité ; la date de création de la version de ce contenu (concept distinct de la date de création et de modification de ce contenu), son statut par rapport à d'éventuels embargos sur sa publication.
-
-#### @contentMeta
-
-Contient des informations rélatives aux métadonnées du contenu de l'entité ; dans le cas d'un article par exemple, son titre, son auteur, sa date de création, ses rubriques thématiques.
-
-#### @contentSet
-
-Contient les contenus de l'entité ; dans le cas d'un article, le texte balisé en format HTML5 dans une sous-balise `@inlineXML`. Dans le cas d'une publication, une liste structurée de contenus liés à la publication.
-
-\[... plus d'informations sur la structure à venir ...\]
+[test](/ae-xml/tree/master/xsd)
 
 ### Exemples 
 
