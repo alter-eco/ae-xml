@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-19 13:54:26 +0000 -->
-<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:ns1='https://www.alternatives-economiques.fr/' elementFormDefault='qualified' targetNamespace='https://www.alternatives-economiques.fr/'>
+<!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-23 08:02:49 +0000 -->
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:ns1='AlterEco' elementFormDefault='qualified' targetNamespace='AlterEco'>
     <xs:element name='NewsItem'>
         <xs:complexType>
             <xs:sequence>
@@ -59,6 +59,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:element name='uri' type='xs:string'/>
     <xs:element name='genre' type='xs:NCName'/>
     <xs:element name='modified' type='xs:NMTOKEN'/>
     <xs:element name='section' type='xs:NCName'/>
@@ -90,9 +91,6 @@
                 <xs:element ref='ns1:parentPublication'/>
                 <xs:element minOccurs='0' ref='ns1:parentItem'/>
                 <xs:element ref='ns1:itemClass'/>
-                <xs:element ref='ns1:publisher'/>
-                <xs:element ref='ns1:pubStatus'/>
-                <xs:element ref='ns1:versionCreated'/>
                 <xs:element ref='ns1:embargoed'/>
             </xs:sequence>
         </xs:complexType>
@@ -112,17 +110,6 @@
             <xs:attribute name='type' use='required' type='xs:NCName'/>
         </xs:complexType>
     </xs:element>
-    <xs:element name='publisher'>
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref='ns1:name'/>
-                <xs:element ref='ns1:uri'/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name='name' type='xs:string'/>
-    <xs:element name='pubStatus' type='xs:NCName'/>
-    <xs:element name='versionCreated' type='xs:NMTOKEN'/>
     <xs:element name='embargoed' type='xs:NMTOKEN'/>
     <xs:element name='rightsInfo'>
         <xs:complexType>
@@ -135,7 +122,6 @@
     <xs:element name='copyrightHolder' type='xs:string'/>
     <xs:element name='copyrightNotice' type='xs:string'/>
     <xs:element name='contentSet' type='ns1:inlineXML'/>
-    <xs:element name='uri' type='xs:anyURI'/>
     <xs:complexType name='inlineXML'>
         <xs:sequence>
             <xs:element ref='ns1:inlineXML'/>

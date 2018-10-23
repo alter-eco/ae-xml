@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem 
-  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns="AlterEco"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/short.xsd"
   standard="AE-XML"
@@ -20,8 +20,6 @@
     <parentPublication id="A382" />
     <parentItem id="A382-010-B" />
     <itemClass type="short"/>
-    <pubStatus>usable</pubStatus>
-    <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
     <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
   </itemMeta>
   <contentMeta>

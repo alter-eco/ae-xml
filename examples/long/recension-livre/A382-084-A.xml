@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem 
-  xmlns="https://www.alternatives-economiques.fr/"
+  xmlns="AlterEco"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/long.xsd"
   standard="AE-XML"
@@ -19,8 +19,6 @@
   <itemMeta>
     <parentPublication id="A382" />
     <itemClass type="long"/>
-    <pubStatus>usable</pubStatus>
-    <versionCreated>YYYY-MM-DDTHH:MM:SS</versionCreated>
     <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
   </itemMeta>
   <contentMeta>
@@ -47,6 +45,10 @@
         <firstname>Pierre</firstname>
         <surname>Rosanvallon</surname>
       </author>
+      <figure>
+        <copyright>iStock</copyright>
+        <uri>path/to/file.jpg</uri>
+      </figure>
       <description>par Pierre Rosanvallon</description>
       <source>Coll. Les livres du nouveau monde, Le Seuil, 2018, 437 p., 22,50 euros.</source>
     </reviewedItem>
