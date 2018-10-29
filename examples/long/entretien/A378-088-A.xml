@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem 
-  xmlns="AlterEco"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/long.xsd"
-  standard="AE-XML"
-
-  id="A378-088-A"
-  version="1"
-  >
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="A378-088-A" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -17,18 +9,18 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication id="A378" />
+    <parentPublication id="A378"/>
     <itemClass type="long"/>
-    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+    <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
   <contentMeta>
-    <created>YYYY-MM-DDTHH:MM:SS</created>
-    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <created>2018-10-29T09:30:10Z</created>
+    <modified>2018-10-29T09:30:10Z</modified>
     <title>Avoir 20 ans en 1968 et en 2018</title>
+    <genre>entretien</genre>
     <section>Dossier</section>
     <subSection>société</subSection>
     <subject>1968-2018 : les cinquante ans qui ont révolutionné la France</subject>
-    <genre>entretien</genre>
     <author>
       <firstname>Xavier</firstname>
       <surname>Molénat</surname>
@@ -55,8 +47,7 @@
     </figure>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
-      <![CDATA[
+    <inlineXML contenttype="text/html"><![CDATA[
         <p><strong>Qu’est-ce que cela signifiait d’être jeune en 1968 ?</strong></p>
         <p><strong>Ludivine Bantigny :</strong> A cette époque-là, les conditions matérielles commencent à être réunies pour que la jeunesse existe comme une catégorie sociale à part entière. On lui accorde davantage de moyens pour exister comme telle, avec des loisirs spécifiques. Dans les espaces domestiques, par exemple, les conditions de logement s’améliorent. Le fait d’avoir une chambre à soi, de pouvoir y écouter sa musique, avec l’apparition du transistor, est quelque chose de très important pour que la jeunesse puisse se vivre comme un âge singulier. Elle commence à faire l’objet de politiques publiques spécifiques, comme le montre la création d’un secrétariat d’Etat (1963), puis d’un ministère (1966) de la Jeunesse et des Sports.</p>
         <p>Ceci dit, elle est traversée par de nombreux clivages. Les goûts culturels restent socialement différenciés. Les étudiants sont alors une toute petite minorité, globalement très privilégiée d’un point de vue social et culturel. Les enfants d’ouvriers représentent 10 % des étudiants de cette époque, les enfants de paysans autour de 4 % à 6 %.</p>
@@ -88,7 +79,6 @@
           <p id="footnote-2"><a href="#ref-2">2</a> A consulter sur <a href="https://lc.cx/daTu">https://lc.cx/daTu</a></p>
           <p id="footnote-3"><a href="#ref-3">3</a> <em>Le nouvel esprit du capitalisme</em>, Gallimard, 1999.</p>
         </section>
-      ]]>
-    </inlineXML>
+      ]]></inlineXML>
   </contentSet>
 </NewsItem>

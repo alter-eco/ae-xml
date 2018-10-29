@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-23 08:03:30 +0000 -->
-<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:ns1='AlterEco' elementFormDefault='qualified' targetNamespace='AlterEco'>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:ns1='https://www.alternatives-economiques.fr' elementFormDefault='qualified' targetNamespace='https://www.alternatives-economiques.fr'>
     <xs:element name='NewsItem'>
         <xs:complexType>
             <xs:sequence>
@@ -33,12 +33,20 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name='itemClass'>
+    <xs:element name="itemClass">
         <xs:complexType>
-            <xs:attribute name='type' use='required' type='xs:NCName'/>
+            <xs:attribute name="type" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="long"/>
+                        <xs:enumeration value="short"/>
+                        <xs:enumeration value="publication"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
         </xs:complexType>
     </xs:element>
-    <xs:element name='embargoed' type='xs:NMTOKEN'/>
+    <xs:element name='embargoed' type='xs:dateTime'/>
     <xs:element name='contentMeta'>
         <xs:complexType>
             <xs:sequence>
@@ -52,12 +60,12 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name='created' type='xs:NMTOKEN'/>
-    <xs:element name='modified' type='xs:NMTOKEN'/>
+    <xs:element name='created' type='xs:dateTime'/>
+    <xs:element name='modified' type='xs:dateTime'/>
     <xs:element name='title' type='xs:string'/>
     <xs:element name='price' type='xs:decimal'/>
     <xs:element name='issue' type='xs:integer'/>
-    <xs:element name='issueDate' type='xs:NMTOKEN'/>
+    <xs:element name='issueDate' type='xs:date'/>
     <xs:element name='figure'>
         <xs:complexType>
             <xs:sequence>
@@ -67,9 +75,9 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name='copyright' type='xs:NCName'/>
+    <xs:element name='copyright' type='xs:string'/>
     <xs:element name='caption' type='xs:string'/>
-    <xs:element name='uri' type='xs:string'/>
+    <xs:element name='uri' type='xs:anyURI'/>
     <xs:element name='contentSet'>
         <xs:complexType>
             <xs:sequence>

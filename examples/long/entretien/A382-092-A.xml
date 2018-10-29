@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem 
-  xmlns="AlterEco"
+  xmlns="https://www.alternatives-economiques.fr"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/long.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd"
   standard="AE-XML"
 
   id="A382-092-A"
@@ -19,24 +19,27 @@
   <itemMeta>
     <parentPublication id="A382" />
     <itemClass type="long"/>
-    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+    <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
   <contentMeta>
-    <created>YYYY-MM-DDTHH:MM:SS</created>
-    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <created>2018-10-29T09:30:10Z</created>
+    <modified>2018-10-29T09:30:10Z</modified>
     <title>Comment enseigner l'économie ?</title>
-    <section>Idées et débats</section>
     <genre>entretien</genre>
+    <section>Idées et débats</section>
+    
     <author>
       <firstname>Christian</firstname>
       <surname>Chavagneux</surname>
     </author>
     <interviewee>
-      <name>Yann Algan</name>
+      <firstname>Yann</firstname>
+      <surname>Algan</surname>
       <description>professeur d'économie à sciences po et doyen de l'ecole d'affaires publiques</description>
     </interviewee>
     <interviewee>
-      <name>Florence Jany-Catrice</name>
+      <firstname>Florenc</firstname>
+      <surname>Jany-Catrice</surname>
       <description>professeure d'économie à l'université de Lille, chercheuse au Clersé-UMR8019 et présidente de l'Association française d'économie politique (Afep)</description>
     </interviewee>
     <lead>Un récent manuel propose de renouveler l'enseignement de l'économie. Yann Algan a participé à l'élaboration de cet outil, qui reste perfectible selon Florence Jany-Catrice.</lead>

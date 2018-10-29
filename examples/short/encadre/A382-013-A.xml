@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem 
-  xmlns="AlterEco"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/short.xsd"
-  standard="AE-XML"
-
-  id="A382-013-A"
-  version="1"
-  >
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="A382-013-A" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -17,24 +9,22 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication id="A382" />
-    <parentItem id="A382-010-B" />
+    <parentPublication id="A382"/>
+    <parentItem id="A382-010-B"/>
     <itemClass type="short"/>
-    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+    <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
   <contentMeta>
-    <created>YYYY-MM-DDTHH:MM:SS</created>
-    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <created>2018-10-29T09:30:10Z</created>
+    <modified>2018-10-29T09:30:10Z</modified>
     <title>Bac -3/Bac +3, un cursus en chamboulement</title>
     <genre>encadré</genre>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
-      <![CDATA[
+    <inlineXML contenttype="text/html"><![CDATA[
         <p>La loi relative à l’orientation et la réussite de l’étudiant (ORE), qui définit les modalités de Parcoursup, comporte également un volet sur l’organisation des licences universitaires. Un arrêté du 30 juillet pose notamment que désormais <em>"les parcours de formation (en licence) peuvent être organisés et personnalisés selon des rythmes et des durées d’apprentissage diversifiés"</em>. Il élargit aussi les possibilités de mutualisation des enseignements et de recours aux outils numériques pour la délivrance des cours et l’évaluation (<em>moocs</em>, examens en ligne...).</p>
         <p>Une réforme en affinité avec celle, en cours, du baccalauréat, qui met fin aux séries (L, ES, S) pour instaurer un tronc commun et des "spécialités" choisies par le lycéen, ainsi que de nouvelles modalités d’évaluation (davantage de contrôle continu, introduction d’une épreuve orale...).</p>
         <p>L’ensemble dessine un projet cohérent, dont les traits communs sont la modularisation des enseignements et l’individualisation des parcours, dans un cadre réglementaire assoupli. Plusieurs questions se posent néanmoins : au lycée, la spécialisation ne se fait-elle pas au détriment d’une logique de "culture commune" ? A l’université, le numérique n’est-il pas avant tout un moyen de faire des économies de personnel ? Et comment assurer que, malgré l’individualisation des parcours, tous les bacs et toutes les licences gardent la même valeur faciale ?</p>
-      ]]>
-    </inlineXML>
+      ]]></inlineXML>
   </contentSet>
 </NewsItem>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem 
-  xmlns="AlterEco"
+  xmlns="https://www.alternatives-economiques.fr"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/short.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd"
   standard="AE-XML"
 
   id="A382-065-A"
@@ -20,14 +20,16 @@
     <parentPublication id="A382" />
     <parentItem id="A382-064-A" />
     <itemClass type="short"/>
-    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+    <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
   <contentMeta>
-    <created>YYYY-MM-DDTHH:MM:SS</created>
-    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <created>2018-10-29T09:30:10Z</created>
+    <modified>2018-10-29T09:30:10Z</modified>
     <title>Le grand cycle des crises</title>
     <genre>graphique</genre>
     <figure>
+      <caption></caption>
+      <copyright></copyright>
       <uri>path/to/file.jpg</uri>
     </figure>
   </contentMeta>

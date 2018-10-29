@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem 
-  xmlns="AlterEco"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr/ ../../../xsd/short.xsd"
-  standard="AE-XML"
-
-  id="A382-030-C"
-  version="1"
-  >
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="A382-030-C" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -17,29 +9,27 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication id="A382" />
+    <parentPublication id="A382"/>
     <itemClass type="short"/>
-    <embargoed>YYYY-MM-DDTHH:MM:SSZ</embargoed>
+    <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
   <contentMeta>
-    <created>YYYY-MM-DDTHH:MM:SS</created>
-    <modified>YYYY-MM-DDTHH:MM:SS</modified>
+    <created>2018-10-29T09:30:10Z</created>
+    <modified>2018-10-29T09:30:10Z</modified>
     <title>Les suites de l'affaire Lactalis</title>
+    <genre>brève</genre>
     <section>Actualité</section>
     <subSection>France</subSection>
-    <genre>brève</genre>
     <author>
       <firstname>Claire</firstname>
       <surname>Alet</surname>
     </author>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
-      <![CDATA[
+    <inlineXML contenttype="text/html"><![CDATA[
         <p>La commission d'enquête parlementaire chargée de tirer les enseignements de l'affaire Lactalis a présenté son rapport en juillet dernier. La crise avait été déclenchée en décembre 2017 lorsque la contamination à la salmonelle de lait infantile produit par Lactalis avait été détectée. Selon Santé publique France, 38 nourrissons ont été malades en France et trois à l'étranger. Ils sont aujourd'hui en bonne santé.</p>
         <p>Le rapport fait des propositions pour renforcer la sécurité alimentaire&nbsp;: accroître les obligations des industriels, mais aussi muscler les moyens de contrôle des pouvoirs publics grâce à une nouvelle redevance payée par les entreprises. Le rapport souligne l'éclatement actuel des compétences entre trois directions et prône leur rapprochement au sein du ministère de l'Agriculture et de l'Alimentation. Il propose de créer un site Internet et une application unique pour informer le public, mais aussi d'améliorer les procédures de retrait-rappel des produits. Une proposition de loi sera déposée à l'automne.</p>
         <p><em>"Ces propositions sont utiles, mais cela ne suffira pas à éviter d'autres crises</em>, affirme Karine Jacquemart, de l'association Foodwatch. <em>C'est à la justice d'établir les responsabilités."</em> L'association a porté plainte en février dernier.</p>
-      ]]>
-    </inlineXML>
+      ]]></inlineXML>
   </contentSet>
 </NewsItem>
