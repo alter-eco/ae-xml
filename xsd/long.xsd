@@ -9,8 +9,14 @@
                 <xs:element ref="ns1:contentMeta"/>
                 <xs:element ref="ns1:contentSet"/>
             </xs:sequence>
-            <xs:attribute name="id" use="required" type="xs:NCName"/>
-            <xs:attribute name="standard" use="required" type="xs:NCName"/>
+            <xs:attribute name="id" use="required" type="ns1:aeXmlId" />
+            <xs:attribute name="standard" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="AE-XML"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
             <xs:attribute name="version" use="required" type="xs:integer"/>
         </xs:complexType>
     </xs:element>
@@ -36,7 +42,7 @@
     </xs:element>
     <xs:element name="parentPublication">
         <xs:complexType>
-            <xs:attribute name="id" use="required" type="xs:NCName"/>
+            <xs:attribute name="id" use="required" type="ns1:aeXmlId"/>
         </xs:complexType>
     </xs:element>
     <xs:element name="parentItem">
@@ -81,24 +87,30 @@
     <xs:element name="created" type="xs:dateTime"/>
     <xs:element name="modified" type="xs:dateTime"/>
     <xs:element name="section" type="xs:string"/>
-    <xs:element name="subSection" type="xs:string"/>
+    <xs:element name="subSection">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="20"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
     <xs:element name="subject" type="xs:string"/>
     <xs:element name="genre">
         <xs:simpleType>
             <xs:restriction base="xs:string">
-                <xs:enumeration value="article"></xs:enumeration>
-                <xs:enumeration value="chronique"></xs:enumeration>
-                <xs:enumeration value="éditorial"></xs:enumeration>
-                <xs:enumeration value="entretien"></xs:enumeration>
-                <xs:enumeration value="recension de livre"></xs:enumeration>
+                <xs:enumeration value="article"/>
+                <xs:enumeration value="chronique"/>
+                <xs:enumeration value="dossier"/>
+                <xs:enumeration value="éditorial"/>
+                <xs:enumeration value="entretien"/>
+                <xs:enumeration value="recension de livre"/>
             </xs:restriction>
         </xs:simpleType>
     </xs:element>
     <xs:element name="interviewee">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="ns1:firstname"/>
-                <xs:element ref="ns1:surname"/>
+                <xs:element ref="ns1:name"/>
                 <xs:element ref="ns1:description"/>
             </xs:sequence>
         </xs:complexType>
@@ -152,24 +164,29 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="title" type="xs:string"/>
+    <xs:element name="title">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="255"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
     <xs:element name="author">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="ns1:firstname"/>
-                <xs:element ref="ns1:surname"/>
+                <xs:element ref="ns1:name"/>
+                <xs:element minOccurs="0" ref="ns1:description"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="firstname" type="xs:NCName"/>
-    <xs:element name="surname" type="xs:NCName"/>
+    <xs:element name="name" type="xs:string" />
     <xs:element name="description" type="xs:string"/>
-    <xs:element name='figure'>
+    <xs:element name="figure">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref='ns1:caption'/>
-                <xs:element ref='ns1:copyright'/>
-                <xs:element ref='ns1:uri'/>
+                <xs:element ref="ns1:caption"/>
+                <xs:element ref="ns1:copyright"/>
+                <xs:element ref="ns1:uri"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -181,4 +198,9 @@
             <xs:attribute name="contenttype" use="required"/>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="aeXmlId">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(K4|D7)-[0-9]+"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
