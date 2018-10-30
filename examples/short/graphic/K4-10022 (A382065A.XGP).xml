@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="K4-10022" version="1">
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <parentPublication id="A382"/>
+    <parentItem id="A382-064-A"/>
+    <itemClass type="short"/>
+    <embargoed>2018-11-29T09:30:10Z</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>2018-10-29T09:30:10Z</created>
+    <modified>2018-10-29T09:30:10Z</modified>
+    <title>Le grand cycle des crises</title>
+    <genre>graphique</genre>
+    <figure>
+      <caption/>
+      <copyright/>
+      <uri>path/to/file.jpg</uri>
+    </figure>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html"/>
+  </contentSet>
+</NewsItem>

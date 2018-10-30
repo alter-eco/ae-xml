@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="A382-052-A" version="1">
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="K4-10010" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -21,8 +21,7 @@
     <section>Actualité</section>
     <subSection>Environnement</subSection>
     <author>
-      <firstname>Aude</firstname>
-      <surname>Martin</surname>
+      <name>Aude Martin</name>
     </author>
     <interviewee>
       <name>Jean Jouzel</name>
@@ -30,8 +29,8 @@
     </interviewee>
     <lead>Le changement climatique est irréversible, mais il est encore possible d'en limiter l'ampleur si nous agissons rapidement, selon le climatologue Jean Jouzel.</lead>
     <figure>
-      <copyright>iStock</copyright>
       <caption>Lorem ipsum dolor sit amet</caption>
+      <copyright>iStock</copyright>
       <uri>path/to/file.jpg</uri>
     </figure>
   </contentMeta>

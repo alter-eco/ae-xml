@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem 
-  xmlns="https://www.alternatives-economiques.fr"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd"
-  standard="AE-XML"
-
-  id="A382-053-A"
-  version="1"
-  >
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="K4-10019" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -17,8 +9,8 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication id="A382" />
-    <parentItem id="A382-052-A" />
+    <parentPublication id="A382"/>
+    <parentItem id="A382-052-A"/>
     <itemClass type="short"/>
     <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
@@ -29,15 +21,13 @@
     <genre>encadré</genre>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
-      <![CDATA[
+    <inlineXML contenttype="text/html"><![CDATA[
         <p>2017 a été la troisième année la plus chaude jamais enregistrée, selon le dernier rapport annuel sur l’état du climat publié par l’Agence américaine d’observation de l’océan et de l’atmosphère<sup><a href="#footnote-1">1</a></sup>. Preuve d’une accélération de tendance, les deux autres années sur le podium ne sont autres que... 2015 et 2016. L’année 2017 a aussi été marquée par des niveaux records de concentration de gaz à effet de serre dans l’atmosphère, et son accumulation progresse quatre fois plus rapidement que dans les années 1960.</p>
         <p>Au vu de ce réchauffement global, la vague de chaleur en Europe du Nord avait ainsi deux fois plus de chances de se produire aujourd’hui que dans le passé<sup><a href="#footnote-2">2</a></sup>. <em>"L’étape suivante consiste à établir un lien causal direct entre la survenue d’extrêmes climatiques et l’activité humaine. Déjà établies pour plusieurs pics de chaleur, ces attributions ne font pas encore consensus"</em>, explique Jean Jouzel.</p>
         <section id="footnotes">
           <p id="footnote-1">Voir le "Rapport annuel sur l’Etat du climat", NOAA, août 2018, <a href="https://bit.ly/2LS2rF0">https://bit.ly/2LS2rF0</a></p>
           <p id="footnote-2">Voir "Heatwave in Northern Europe, Summer 2018", World Weather Attribution, juillet 2018, <a href="https://bit.ly/2KIMFHC">https://bit.ly/2KIMFHC</a></p>
         </section>
-      ]]>
-    </inlineXML>
+      ]]></inlineXML>
   </contentSet>
 </NewsItem>

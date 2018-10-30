@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd"
   standard="AE-XML"
 
-  id="A382-092-A"
+  id="K4-10011"
   version="1"
   >
   <rightsInfo>
@@ -27,25 +27,21 @@
     <title>Comment enseigner l'économie ?</title>
     <genre>entretien</genre>
     <section>Idées et débats</section>
-    
     <author>
-      <firstname>Christian</firstname>
-      <surname>Chavagneux</surname>
+      <name>Christian Chavagneux</name>
     </author>
     <interviewee>
-      <firstname>Yann</firstname>
-      <surname>Algan</surname>
+      <name>Yann Algan</name>
       <description>professeur d'économie à sciences po et doyen de l'ecole d'affaires publiques</description>
     </interviewee>
     <interviewee>
-      <firstname>Florenc</firstname>
-      <surname>Jany-Catrice</surname>
+      <name>Florenc Jany-Catrice</name>
       <description>professeure d'économie à l'université de Lille, chercheuse au Clersé-UMR8019 et présidente de l'Association française d'économie politique (Afep)</description>
     </interviewee>
     <lead>Un récent manuel propose de renouveler l'enseignement de l'économie. Yann Algan a participé à l'élaboration de cet outil, qui reste perfectible selon Florence Jany-Catrice.</lead>
     <figure>
+      <caption>Lorem ipsum dolor sit amet</caption>      
       <copyright>iStock</copyright>
-      <caption>Lorem ipsum dolor sit amet</caption>
       <uri>path/to/file.jpg</uri>
     </figure>
   </contentMeta>

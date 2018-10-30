@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem 
-  xmlns="https://www.alternatives-economiques.fr"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd"
-  standard="AE-XML"
-
-  id="A382-090-C"
-  version="1"
-  >
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="K4-10017" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -17,7 +9,7 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication id="A382" />
+    <parentPublication id="A382"/>
     <itemClass type="short"/>
     <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
@@ -25,16 +17,14 @@
     <created>2018-10-29T09:30:10Z</created>
     <modified>2018-10-29T09:30:10Z</modified>
     <title>DVD : Etoiles polaires</title>
+    <genre>brève</genre>    
     <section>Ecrans</section>
-    <genre>brève</genre>
     <author>
-      <firstname>Igor</firstname>
-      <surname>Martinache</surname>
+      <name>Igor Martinache</name>
     </author>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
-      <![CDATA[
+    <inlineXML contenttype="text/html"><![CDATA[
         <p>DVD Dans leurs films, Lapsuy et Lehmuskallio montrent toute la richesse culturelle des peuples du Grand Nord, mais aussi leur destruction progressive par la "civilisation".</p>
         <p>Depuis 1922 et <em>Nanouk l'Esquimau</em> de Robert Flaherty, les cinéastes se sont peu intéressés aux peuples du Grand Nord. Et pourtant, ces derniers illuminent l'objectif, comme permettent de s'en rendre compte les films d'Anastasia Lapsuy et Markku Lehmuskallio, dont plusieurs viennent d'être réédités.</p>
         <h2>Rois et rennes</h2>
@@ -46,7 +36,6 @@
         <ul>
           <li><strong>Lapsuy &amp; Lehmuskallio</strong><br/><em>Coffret de quatre films des deux réalisateurs</em><br/> Editions Montparnasse, 20 euros.</li>
         </ul>
-      ]]>
-    </inlineXML>
+      ]]></inlineXML>
   </contentSet>
 </NewsItem>

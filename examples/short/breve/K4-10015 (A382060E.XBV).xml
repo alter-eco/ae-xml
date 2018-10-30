@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem 
-  xmlns="https://www.alternatives-economiques.fr"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd"
-  standard="AE-XML"
-
-  id="A382-060-E"
-  version="1"
-  >
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="K4-10015" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -17,7 +9,7 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication id="A382" />
+    <parentPublication id="A382"/>
     <itemClass type="short"/>
     <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
@@ -25,24 +17,20 @@
     <created>2018-10-29T09:30:10Z</created>
     <modified>2018-10-29T09:30:10Z</modified>
     <title>Coopératives : l'emploi progresse</title>
+    <genre>brève</genre>
     <section>Agir</section>
     <subSection>En bref</subSection>
-    <genre>brève</genre>
     <relatedInfo>
       <relatedInfoItem>
-        <inlineXML contenttype="text/html">
-          <![CDATA[
+        <inlineXML contenttype="text/html"><![CDATA[
             <a Href="http://frama.link/fFYe_kd-">frama.link/fFYe_kd-</a>
-          ]]>
-        </inlineXML>
+          ]]></inlineXML>
       </relatedInfoItem>
     </relatedInfo>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
-      <![CDATA[
+    <inlineXML contenttype="text/html"><![CDATA[
         <p>Entre 2016 et 2017, l'emploi a progressé de 8&nbsp;% dans les quelque 3 000 coopératives (Scop et Scic) de l'Hexagone, soit 4 000 emplois nets supplémentaires. Au total, les coopératives emploient près de 58 000 personnes. Ces chiffres sont publiés par la CG Scop, qui s'est fixé pour objectif 70 000 emplois coopératifs en 2020.</p>
-      ]]>
-    </inlineXML>
+      ]]></inlineXML>
   </contentSet>
 </NewsItem>

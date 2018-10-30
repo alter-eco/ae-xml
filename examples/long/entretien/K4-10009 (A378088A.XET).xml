@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="A378-088-A" version="1">
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="K4-10009" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -22,27 +22,23 @@
     <subSection>société</subSection>
     <subject>1968-2018 : les cinquante ans qui ont révolutionné la France</subject>
     <author>
-      <firstname>Xavier</firstname>
-      <surname>Molénat</surname>
+      <name>Xavier Molénat</name>
     </author>
     <author>
-      <firstname>Laurent</firstname>
-      <surname>Jeanneau</surname>
+      <name>Laurent Jeanneau</name>
     </author>
     <interviewee>
-      <firstname>Ludivine</firstname>
-      <surname>Bantigny</surname>
+      <name>Ludivine Bantigny</name>
       <description>historienne</description>
     </interviewee>
     <interviewee>
-      <firstname>Camille</firstname>
-      <surname>Peugny</surname>
+      <name>Camille Peugny</name>
       <description>sociologue</description>
     </interviewee>
     <lead>Les jeunes de 1968 sont-ils très différents de ceux d'aujourd'hui ? L'analyse de l'historienne Ludivine Bantigny et du sociologue Camille Peugny.</lead>
     <figure>
-      <copyright>iStock</copyright>
       <caption>Lorem ipsum dolor sit amet</caption>
+      <copyright>iStock</copyright>
       <uri>path/to/file.jpg</uri>
     </figure>
   </contentMeta>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="A382-007-A" version="1">
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="K4-10002" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -20,13 +20,12 @@
     <genre>article</genre>
     <section>Question de lecteur</section>
     <author>
-      <firstname>Guillaume</firstname>
-      <surname>Duval</surname>
+      <name>Guillaume Duval</name>
     </author>
     <lead>Les chiffres du commerce extérieur ont suscité des commentaires alarmistes. Mais la balance courante est presque à l'équilibre et il n'y a pas péril en la demeure.</lead>
     <figure>
-      <copyright>iStock</copyright>
       <caption>Lorem ipsum dolor sit amet</caption>
+      <copyright>iStock</copyright>
       <uri>path/to/file.jpg</uri>
     </figure>
     <relatedInfo>

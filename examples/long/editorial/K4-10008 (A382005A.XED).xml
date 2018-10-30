@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd"
   standard="AE-XML"
 
-  id="A382-005-A"
+  id="K4-10008"
   version="1"
   >
   <rightsInfo>
@@ -25,11 +25,10 @@
     <created>2018-10-29T09:30:10Z</created>
     <modified>2018-10-29T09:30:10Z</modified>
     <title>Titanic</title>
-    <section>L'éditorial de Guillaume Duval</section>
     <genre>éditorial</genre>
+    <section>L'éditorial de Guillaume Duval</section>
     <author>
-      <firstname>Guillame</firstname>
-      <surname>Duval</surname>
+      <name>Guillame Duval</name>
     </author>
   </contentMeta>
   <contentSet>

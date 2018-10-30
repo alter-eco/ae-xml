@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd"
   standard="AE-XML"
 
-  id="A382-008-A"
+  id="K4-10013"
   version="1"
   >
   <rightsInfo>
@@ -25,8 +25,8 @@
     <created>2018-10-29T09:30:10Z</created>
     <modified>2018-10-29T09:30:10Z</modified>
     <title>En voiture Simone</title>
-    <section>Buzz</section>
     <genre>brève</genre>
+    <section>Buzz</section>
   </contentMeta>
   <contentSet>
     <inlineXML contenttype="text/html">

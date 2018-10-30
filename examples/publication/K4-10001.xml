@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../xsd/publication.xsd" standard="AE-XML" id="K4-10001" version="1">
+  <rightsInfo>
+    <copyrightHolder>
+      Alternatives Economiques
+    </copyrightHolder>
+    <copyrightNotice>
+      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
+    </copyrightNotice>
+  </rightsInfo>
+  <itemMeta>
+    <itemClass type="publication"/>
+    <embargoed>2018-11-29T09:30:10Z</embargoed>
+  </itemMeta>
+  <contentMeta>
+    <created>2018-10-29T09:30:10Z</created>
+    <modified>2018-10-29T09:30:10Z</modified>
+    <publicationId>AE</publicationId>
+    <title>Faut-il encore avoir peur de la finance ?</title>
+    <price>5.90</price>
+    <issueNumber>382</issueNumber>
+    <issueDate>2018-10-29</issueDate>
+    <figure>
+      <copyright>iStock</copyright>
+      <caption>Lorem ipsum dolor sit amet</caption>
+      <uri>path/to/file.jpg</uri>
+    </figure>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="text/html"/>
+  </contentSet>
+  <itemSet>
+    <itemRef id="A382-005-A"/>
+    <itemRef id="A382-007-A"/>
+    <itemRef id="A382-010-A"/>
+    <itemRef id="A382-010-B"/>
+    <itemRef id="A382-012-A"/>
+    <itemRef id="A382-014-A"/>
+    <itemRef id="A382-016-A"/>
+    <itemRef id="A382-018-A"/>
+    <itemRef id="A382-022-A"/>
+    <itemRef id="A382-024-A"/>
+    <itemRef id="A382-026-A"/>
+    <itemRef id="A382-027-A"/>
+    <itemRef id="A382-030-A"/>
+    <itemRef id="A382-031-C"/>
+    <itemRef id="A382-031-D"/>
+    <itemRef id="A382-032-A"/>
+    <itemRef id="A382-035-A"/>
+    <itemRef id="A382-036-A"/>
+    <itemRef id="A382-038-A"/>
+    <itemRef id="A382-040-A"/>
+    <itemRef id="A382-043-A"/>
+    <itemRef id="A382-044-A"/>
+    <itemRef id="A382-046-A"/>
+    <itemRef id="A382-046-B"/>
+    <itemRef id="A382-048-A"/>
+    <itemRef id="A382-051-A"/>
+    <itemRef id="A382-052-A"/>
+    <itemRef id="A382-054-A"/>
+    <itemRef id="A382-056-A"/>
+    <itemRef id="A382-059-A"/>
+    <itemRef id="A382-060-A"/>
+    <itemRef id="A382-060-B"/>
+    <itemRef id="A382-063-A"/>
+    <itemRef id="A382-064-A"/>
+    <itemRef id="A382-068-A"/>
+    <itemRef id="A382-071-A"/>
+    <itemRef id="A382-073-A"/>
+    <itemRef id="A382-076-A"/>
+    <itemRef id="A382-078-A"/>
+    <itemRef id="A382-080-A"/>
+    <itemRef id="A382-081-A"/>
+    <itemRef id="A382-082-A"/>
+    <itemRef id="A382-083-A"/>
+    <itemRef id="A382-092-A"/>
+    <itemRef id="A382-094-A"/>
+    <itemRef id="A382-096-A"/>
+    <itemRef id="A382-098-A"/>
+  </itemSet>
+</NewsItem>

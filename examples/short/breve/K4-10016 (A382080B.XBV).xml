@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem 
-  xmlns="https://www.alternatives-economiques.fr"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd"
-  standard="AE-XML"
-
-  id="A382-080-B"
-  version="1"
-  >
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="K4-10016" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -17,7 +9,7 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication id="A382" />
+    <parentPublication id="A382"/>
     <itemClass type="short"/>
     <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>
@@ -25,19 +17,17 @@
     <created>2018-10-29T09:30:10Z</created>
     <modified>2018-10-29T09:30:10Z</modified>
     <title>Économie : l'actualité des études</title>
+    <genre>brève</genre>    
     <section>Comprendre</section>
     <subSection>Economie</subSection>
-    <genre>brève</genre>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
-      <![CDATA[
+    <inlineXML contenttype="text/html"><![CDATA[
         <ul>
           <li><strong>Le dernier rapport de l'International Federation of Robotics</strong> confirme encore une fois combien la Chine a pris la robotisation de son économie au sérieux. Le marché mondial du robot continue sa forte progression&nbsp;: en 2017, 381 000 unités supplémentaires ont été achetées dans le monde. La Chine a été à l'origine de 36,2&nbsp;% de cette demande avec une hausse spectaculaire de 58&nbsp;% de ses achats par rapport à 2016, soit 138 000 unités supplémentaires. Avec leurs 33 000 robots de plus, les Etats-Unis font pâle figure, sans parler des 5 000 robots achetés par la France, moins que le Vietnam et le Mexique. L'automobile et les secteurs électrique et électronique en sont les principaux utilisateurs, loin devant ceux des métaux et de la chimie.<br/> A consulter sur <a href="http://www.ifr.org">www.ifr.org</a></li>
           <li><strong>La démographie influe largement sur le degré d'automatisation des économies,</strong> expliquent les chercheurs Daron Acemoglu et Pascual Restrepo. Plus la force de travail âgée entre 26 et 55 ans est faible, comme en Allemagne, en Corée du Sud ou au Japon, plus l'automatisation se développe dans l'industrie. Les écarts démographiques expliquent près de 40&nbsp;% des différences entre les pays.<br/> A consulter sur <a href="http://www.nber.org">www.nber.org</a></li>
           <li><strong>La part de la Chine dans les publications scientifiques internationales</strong> est passée de 4&nbsp;% en 2000 à 18,6&nbsp;% en 2016. Si l'on tient compte des Chinois hors Chine et des publications en chinois, on atteint 36&nbsp;%.<br/> A consulter sur <a href="http://www.nber.org">www.nber.org</a></li>
         </ul>
-      ]]>
-    </inlineXML>
+      ]]></inlineXML>
   </contentSet>
 </NewsItem>
