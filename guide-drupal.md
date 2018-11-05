@@ -7,6 +7,7 @@ Par nom système
 - `article`
 - `media_content`
 - `ouvrage`
+- `issue`
 
 #### `article`
 
@@ -96,3 +97,26 @@ Par nom système
 - `path`
 - `redirect`
 - `metatags`
+
+#### `issue`
+
+- `title`
+- `field_issue_type`
+- `field_issue_pub_date_label`
+- `field_issue_cover`
+- `field_issue_numero`
+- `field_issue_price`
+- `field_issue_paragraphs`
+- `field_issue_feat_content`
+- `field_issue_newsltr_feat_content`
+- `field_issue_nwsltr_feat_issues`
+- `field_promo_text_footer`
+- `field_issue_featured_articles`
+- `body`
+- `path`
+- `redirect`
+- `xmlsitemap`
+- `field_xml_code`
+- `field_old_cms_id`
+- `metatags`
+- `field_numero_epuise`
