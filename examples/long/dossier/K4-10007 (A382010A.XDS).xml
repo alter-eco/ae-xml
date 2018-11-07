@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
   xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd"
   standard="AE-XML"
 
@@ -32,9 +32,9 @@
   <contentSet>
     <inlineXML contenttype="text/html">
       <![CDATA[
-        <object type="application/xml" data="A382-010-B.xml"></object>
-        <object type="application/xml" data="A382-012-A.xml"></object>
-        <object type="application/xml" data="A382-014-A.xml"></object>
+        <object type="application/xml" data="K4-XXXXX.xml"></object>
+        <object type="application/xml" data="K4-XXXXX.xml"></object>
+        <object type="application/xml" data="K4-XXXXX.xml"></object>
       ]]>
     </inlineXML>
   </contentSet>

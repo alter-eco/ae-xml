@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="K4-10002" version="1">
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/long.xsd" standard="AE-XML" id="K4-10002" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -9,7 +9,7 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication id="A382"/>
+    <parentPublication xlink:href="type.html"/>
     <itemClass type="long"/>
     <embargoed>2018-11-29T09:30:10Z</embargoed>
   </itemMeta>

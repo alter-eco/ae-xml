@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
   xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd"
   standard="AE-XML"
 
