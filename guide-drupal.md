@@ -11,7 +11,7 @@ Par nom système
 
 #### `article`
 
-- `title`
+- `title` - NewsItem.contentMeta.title
 - `field_subhead`
 - `field_doc_type`
 - `field_user_reference`
