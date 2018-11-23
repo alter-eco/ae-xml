@@ -4,9 +4,9 @@
 
 Par nom système
 
-- `article`
-- `media_content`
-- `ouvrage`
-- `issue`
+- [`article`](https://github.com/alter-eco/ae-xml/blob/master/drupal-docs/article.md)
+- [`media_content`](https://github.com/alter-eco/ae-xml/blob/master/drupal-docs/media_content.md)
+- [`ouvrage`](https://github.com/alter-eco/ae-xml/blob/master/drupal-docs/ouvrage.md)
+- [`issue`](https://github.com/alter-eco/ae-xml/blob/master/drupal-docs/issue.md)
 
 
