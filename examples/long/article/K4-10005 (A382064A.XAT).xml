@@ -20,13 +20,12 @@
     <genre>article</genre>
     <section>Dossier</section>
     <author>
-      <firstname>Christian</firstname>
-      <surname>Chavagneux</surname>
+      <name>Christian Chavagneux</name>
     </author>
     <lead>Des tulipes hollandaises au XVIIe siècle à 2008, en passant par 1929, les crises se suivent... et se ressemblent. On vous explique tout sur les bulles financières.</lead>
     <figure>
-      <copyright>Soulcié pour Alternatives Economiques</copyright>
       <caption/>
+      <copyright>Soulcié pour Alternatives Economiques</copyright>
       <uri>./souclie.png</uri>
     </figure>
   </contentMeta>
