@@ -48,7 +48,7 @@
     </xs:element>
     <xs:element name="parentItem">
         <xs:complexType>
-            <xs:attribute name="id" use="required" type="xs:NCName"/>
+            <xs:attribute ref="xlink:href" use="required" />  
         </xs:complexType>
     </xs:element>
     <xs:element name="itemClass">

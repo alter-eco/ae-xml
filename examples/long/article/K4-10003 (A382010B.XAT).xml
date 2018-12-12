@@ -22,13 +22,12 @@
     <section>L'événement</section>
     <subSection>Société</subSection>
     <author>
-      <firstname>Xavier</firstname>
-      <surname>Molénat</surname>
+      <name>Xavier Molénat</name>
     </author>
     <lead>Lorem ipsum dolor sit amet</lead>
     <figure>
-      <copyright>iStock</copyright>
       <caption>Lorem ipsum dolor sit amet</caption>
+      <copyright>iStock</copyright>
       <uri>path/to/file.jpg</uri>
     </figure>
   </contentMeta>
