@@ -128,7 +128,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref="ns1:title"/>
-                <xs:element ref="ns1:inlineXML"/>
+                <xs:element ref="ns1:HTML5"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -142,7 +142,7 @@
     <xs:element name="relatedInfoItem">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="ns1:inlineXML"/>
+                <xs:element ref="ns1:HTML5"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -161,7 +161,7 @@
     <xs:element name="contentSet">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="ns1:inlineXML"/>
+                <xs:element ref="ns1:HTML5"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -194,11 +194,7 @@
     <xs:element name="copyright" type="xs:string"/>
     <xs:element name="caption" type="xs:string"/>
     <xs:element name="uri" type="xs:anyURI"/>
-    <xs:element name="inlineXML">
-        <xs:complexType mixed="true">
-            <xs:attribute name="contenttype" use="required"/>
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="HTML5" type="xs:string"/>
     <xs:simpleType name="aeXmlId">
         <xs:restriction base="xs:string">
             <xs:pattern value="(K4|D7)-[0-9]+"/>

@@ -46,7 +46,7 @@
     </figure>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
+    <HTML5>
       <![CDATA[
         <p>Après la crise démarrée en 2007-2008, de nombreuses associations d'étudiants en économie ont vu le jour dans plusieurs pays pour dénoncer une théorie dominante trop formalisée, peu ouverte au pluralisme des idées et aux autres sciences sociales. Depuis 2016, un manuel propose de renouveler l'enseignement de l'économie. Utilisé à Sciences Po et à la Toulouse School of Economics, il est désormais disponible en français à partir d'un site (<a href="https://core-econ.org/the-economy/?lang=fr">https://core-econ.org/the-economy/?lang=fr</a>) et d'un ouvrage, L'économie (Eyrolles), à paraître en octobre. Suivront un cours plus avancé et une version adaptée au programme des lycées. Répond-il aux inquiétudes des étudiants ? Débat.</p>
         <p><strong>Yann Algan, vous avez participé à un vaste projet international visant à renouveler complètement la façon d'enseigner l'économie. Qu'est-ce qui n'allait pas ?</strong></p>
@@ -64,6 +64,6 @@
         <p><strong>Où est le manuel alternatif qui porte ce genre d’enseignements ?</strong></p>
         <p><strong>F. J.-C.:</strong> Il n’existe pas, car nous sommes en pleine inégalité institutionnelle ! Pour faire un manuel, il faut des enseignants, et ceux qui portent ce genre d’approches ont été marginalisés par les instances de recrutement : ils représentent 6 % des professeurs sélectionnés en 2018 ! Nous sommes en manque de moyens.</p>
       ]]>
-    </inlineXML>
+    </HTML5>
   </contentSet>
 </NewsItem>

@@ -30,7 +30,7 @@
     </figure>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html"><![CDATA[
+    <HTML5><![CDATA[
         <p><strong>Des tulipes hollandaises au XVIIe siècle à 2008, en passant par 1929, les crises se suivent... et se ressemblent. On vous explique tout sur les bulles financières.</strong></p>
         <p>La faillite de la banque américaine Lehman Brothers, le 15 septembre 2008, a été le moment clé de l’éclatement d’une bulle financière aux proportions historiques. Partie des crédits immobiliers américains, la crise s’est répandue partout dans le monde, provoquant une chute de la croissance mondiale (de 5,6 % en 2007 à 0 % en 2009) et la montée du chômage (d’un peu plus de 5 % en 2007 à 8 % jusqu’en 2013 dans les pays avancés). L’étude détaillée des mécanismes de montée de la bulle montre de manière fascinante qu’elle a suivi en tout point le cycle des grandes crises de l’histoire, des tulipes hollandaises au XVIIe siècle à celle de 1929. Si l’on veut éviter un prochain dérapage, mieux vaut en comprendre les ressorts. Voici comment naît et grandit une bulle financière.</p>
         <h2>1. Comment commence une bulle ?</h2>
@@ -69,6 +69,6 @@
           <p id="footnote-3"><a href="#ref-3">3</a> Consultable sur <a href="https://lc.cx/muG">https://lc.cx/muG</a>L</p>
           <p id="footnote-4"><a href="#ref-4">4</a> Voir Carnets graphiques. L’économie mondiale dévoile ses courbes, <a href="https://lc.cx/muGb">https://lc.cx/muGb</a></p>
         </section>
-      ]]></inlineXML>
+      ]]></HTML5>
   </contentSet>
 </NewsItem>

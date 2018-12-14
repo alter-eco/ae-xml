@@ -30,12 +30,12 @@
     <lead>Lenteur, opacité, soupçons de discrimination : la nouvelle plate-forme d'orientation dans le supérieur peine à convaincre de ses vertus.</lead>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
+    <HTML5>
       <![CDATA[
         <object type="application/xml" data="K4-XXXXX.xml"></object>
         <object type="application/xml" data="K4-XXXXX.xml"></object>
         <object type="application/xml" data="K4-XXXXX.xml"></object>
       ]]>
-    </inlineXML>
+    </HTML5>
   </contentSet>
 </NewsItem>

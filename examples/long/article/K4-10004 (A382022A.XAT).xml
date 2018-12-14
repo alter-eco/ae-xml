@@ -30,14 +30,14 @@
     <marginalia>
       <marginaliaItem>
         <title>Seuil de pauvrété</title>
-        <inlineXML contenttype="text/html"><![CDATA[
+        <HTML5><![CDATA[
             <p>Ce seuil est fixé à 60 % du médian (celui tel que la moitié des gens a plus, l'autre moitié a moins). En 2015, il était de 1 015 euros pour une personne seule, de 1 520 euros pour un couple et de 2 030 euros pour un couple avec deux enfants de moins de 14 ans.</p>
-          ]]></inlineXML>
+          ]]></HTML5>
       </marginaliaItem>
     </marginalia>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html"><![CDATA[
+    <HTML5><![CDATA[
         <h2>1. Où en est-on&nbsp;?</h2>
         <p>Après avoir repoussé sa présentation début juillet pour cause de Coupe du monde, l'exécutif devrait dévoiler ce mois-ci son plan de lutte contre la pauvreté pour une mise en oeuvre prévue au 1er janvier 2019. Objectif affiché&nbsp;: attaquer "la pauvreté à la racine" et non pas simplement ses symptômes. Sur le long terme, la proportion des personnes dont le niveau de vie est inférieur au seuil de pauvreté* s'est réduite en France, passant de 18&nbsp;% de la population en 1970 (8,6 millions de personnes) à 14,2&nbsp;% en 2015 (8,9 millions). Mais si la baisse a été quasi continue jusqu'en 2004 (12,6&nbsp;%), depuis cette date, cette proportion tend de nouveau à progresser, notamment du fait de la crise et du chômage qui en a résulté.</p>
         <p>Cette approche monétaire n'est pas la seule. Une enquête menée désormais chaque année sur les conditions de vie des ménages permet de cerner ceux d'entre eux qui, selon l'Insee, sont <em>"incapables de couvrir les dépenses liées à au moins huit éléments de la vie courante sur 27 considérés comme souhaitables, voire nécessaires, pour avoir un niveau de vie acceptable"</em>&nbsp;: ressources ne permettant pas de faire face aux dépenses, retards de paiement, restrictions de consommation, difficultés de logement (insalubrité, chauffage...). En 2004, 14,6&nbsp;% des ménages enquêtés étaient pauvres en conditions de vie, mais seulement 11,7&nbsp;% l'étaient en 2015. Une baisse de près de trois points, alors que, sur la même période, on constatait au contraire une augmentation du taux de pauvreté monétaire de 1,6 point. Les conditions de vie telles que les ressentent les ménages en général se sont améliorées, mais bien moins pour le cinquième le plus pauvre que pour les autres, mieux lotis en matière de revenus. Globalement, la pauvreté en conditions de vie se concentre donc sur ce cinquième le moins bien loti, tandis que le reste de la population voit ses conditions de vie devenir moins difficiles. Il s'agit donc d'un signe inquiétant de décrochage au détriment des moins bien lotis.</p>
@@ -56,6 +56,6 @@
           <p id="footnote-2"><a href="#ref-2">2</a> Etre considéré comme chômeur au sens de l’Insee implique de rechercher activement un emploi et de n’avoir pas du tout travaillé au cours d’une semaine de référence. Les demandeurs d’emploi en activité réduite ne sont donc pas considérés comme chômeurs.</p>
           <p id="footnote-3"><a href="#ref-3">3</a> Voir le site <a href="http://www.federationsolidarite.org">www.federationsolidarite.org</a></p>
         </section>
-      ]]></inlineXML>
+      ]]></HTML5>
   </contentSet>
 </NewsItem>

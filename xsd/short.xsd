@@ -100,7 +100,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="relatedInfoItem" type="ns1:inlineXML"/>
+    <xs:element name="relatedInfoItem" type="ns1:HTML5"/>
     <xs:element name="itemMeta">
         <xs:complexType>
             <xs:sequence>
@@ -145,17 +145,9 @@
     </xs:element>
     <xs:element name="copyrightHolder" type="xs:string"/>
     <xs:element name="copyrightNotice" type="xs:string"/>
-    <xs:element name="contentSet" type="ns1:inlineXML"/>
-    <xs:complexType name="inlineXML">
-        <xs:sequence>
-            <xs:element ref="ns1:inlineXML"/>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:element name="inlineXML">
-        <xs:complexType mixed="true">
-            <xs:attribute name="contenttype" use="required"/>
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="contentSet" type="ns1:HTML5"/>
+    <xs:element name="HTML5" type="xs:string"/>
+    <xs:element name="HTML5" type="xs:string"/>
     <xs:simpleType name="aeXmlId">
         <xs:restriction base="xs:string">
             <xs:pattern value="(K4|D7)-[0-9]+"/>

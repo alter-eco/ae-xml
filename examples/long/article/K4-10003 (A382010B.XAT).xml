@@ -32,7 +32,7 @@
     </figure>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html"><![CDATA[
+    <HTML5><![CDATA[
         <p>A quelques jours de la rentrée, combien de candidats à l’enseignement supérieur sont encore en attente d’une place ? Difficile de le savoir. Les données de la nouvelle plate-forme d’affectation Parcoursup ont en effet nourri un feuilleton estival dont la ministre de l’Enseignement supérieur et de la Recherche se serait sans doute bien passée. Promesse de transparence oblige, un "tableau de bord" quotidien est publié sur le site de Parcoursup. Jusqu’au 22 juillet, celui-ci indiquait l’évolution du nombre de candidats ayant définitivement accepté une proposition d’affectation, ceux n’ayant pas encore fait leur choix, ceux n’ayant encore reçu aucune proposition, ou qui avaient quitté la plate-forme...</p>
         <p>Or, les performances de la plate-forme n’étaient guère reluisantes. Au 22 juillet, seuls 57 % des 810 000 candidats ayant formulé un voeu sur Parcoursup avaient définitivement validé l’une des propositions d’affectation qu’ils avaient reçues, et donc savaient où ils se trouveraient à la rentrée. Plus de 60 000 candidats attendaient toujours, eux, qu’on leur propose quelque chose.</p>
         <p>Le lendemain, surprise : le ministère chamboule la présentation du tableau de bord, distinguant notamment les candidats <em>"qui souhaitent s’inscrire dans l’enseignement supérieur via Parcoursup"</em> des <em>"inactifs"</em>, censés n’avoir pas (encore) fait les démarches nécessaires pour trouver une place (inscription en phase complémentaire, sollicitation de l’aide du rectorat...). Miracle : le nombre de candidats "souhaitant s’inscrire" tombe en dessous des 20 000 !</p>
@@ -55,6 +55,6 @@
           <p id="footnote-2"><a href="#ref-2">2</a> "Le Parcoursup des filles. Classe et genre à l’université", La vie des idées, 1er juin 2018, <a href="www.laviedesidees.fr/Le-Parcoursup-des-filles.html">www.laviedesidees.fr/Le-Parcoursup-des-filles.html</a></p>
           <p id="footnote-3"><a href="#ref-3">3</a> "50 % à la licence... mais comment ? Les jeunes de familles populaires à l’université en France", par Yaël Brinbaum, Cédric Hugrée et Tristan Poullaouec, <em>Economie et Statistique</em> n° 499, juin 2018.</p>
         </section>
-      ]]></inlineXML>
+      ]]></HTML5>
   </contentSet>
 </NewsItem>

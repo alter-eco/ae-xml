@@ -105,15 +105,11 @@
     <xs:element name="contentSet">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="ns1:inlineXML"/>
+                <xs:element ref="ns1:HTML5"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="inlineXML">
-        <xs:complexType>
-            <xs:attribute name="contenttype" use="required"/>
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="HTML5" type="xs:string"/>
     <xs:element name="itemSet">
         <xs:complexType>
             <xs:sequence>
