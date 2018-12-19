@@ -1,0 +1,25 @@
+{
+  "name": "ae-xml",
+  "version": "0.0.2-alpha",
+  "description": "Un format structuré pour les contenus produits par [Alternatives Economiques](https://www.alternatives-economiques.fr), nouveau pour 2018. Il remplace l'ancien format, en place depuis le milieu des années 2000.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alter-eco/ae-xml.git"
+  },
+  "keywords": [
+    "xml"
+  ],
+  "author": "laurencedorman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/alter-eco/ae-xml/issues"
+  },
+  "homepage": "https://github.com/alter-eco/ae-xml#readme"
+}
