@@ -72,7 +72,7 @@ N/A
 
 ##### `body`
 
-NewsItem.contentSet.inlineXML
+NewsItem.contentSet.HTML5
 
 ##### `field_media_source`
 

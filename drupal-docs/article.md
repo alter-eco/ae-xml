@@ -34,7 +34,7 @@ NewsItem.contentMeta.lead
 
 ##### `body`
 
-NewsItem.contentSet.inlineXML
+NewsItem.contentSet.HTML5
 
 ##### `field_press_review`
 

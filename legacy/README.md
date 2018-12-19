@@ -6,7 +6,7 @@ Ancien format | AE-XML | Situation |  HTML5
 -|-|-|-
 `<AppelNote>`|obsolète|N/A|N/A
 `<AppelDef>`|obsolète|N/A|N/A
-`<AppelUrl>`|`<a>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a)
+`<AppelUrl>`|`<a>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a)
 `<Auteur>`|`<author>`|/NewsItem/contentMeta/author|Non
 `<BiblioItem>`|`<relatedInfoItem>`|/NewsItem/contentMeta/relatedInfo/relatedInfoItem|Non
 `<Chapeau>`|`<lead>`|/NewsItem/contentMeta/lead|Non
@@ -14,24 +14,24 @@ Ancien format | AE-XML | Situation |  HTML5
 `<CodePère>`|`<parentItem>`|/NewsItem/itemMeta/parentItem|Non
 `<DateRevue>`|`<created>`|/NewsItem/contentMeta/created|Non
 `<Document>`|`<NewsItem>`|/NewsItem|Non
-`<Emphasis>`|`<em>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/em)
+`<Emphasis>`|`<em>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/em)
 `<EnSavoirPlus>`|`<relatedInfo>`|/NewsItem/contentMeta/relatedInfo|Non
 `<EntretienAvec>`|`<interviewee>`|/NewsItem/contentMeta/interviewee|Non
-`<Exp>`|`<sup>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/sup)
+`<Exp>`|`<sup>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/sup)
 `<Fonction>`|`<description>`|/NewsItem/contentMeta/author/description ou /NewsItem/contentMeta/interviewee/description|Non
 `<Image>`|`<figure>`|/NewsItem/contentMeta/figure|Non
-`<Ind>`|`<sub>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/sub)
-`<Inter1>`|`<h2>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
-`<Inter2>`|`<h3>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
+`<Ind>`|`<sub>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/sub)
+`<Inter1>`|`<h2>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
+`<Inter2>`|`<h3>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
 `<Legende>`|`<caption>`|/NewsItem/contentMeta/figure/caption|Non
-`<LienExt>`|`<object>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object)
+`<LienExt>`|`<object>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object)
 `<Marginalia>`|`<marginalia>`|/NewsItem/contentMeta/marginalia|Non
 `<MotCle>`|obsolète|N/A|N/A
 `<Nom>`|`<surname>`|/NewsItem/contentMeta/author/surname|Non
-`<Note>`|`<section id="footnotes">`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|Oui
+`<Note>`|`<section id="footnotes">`|Toute balise `<HTML5>` avec `contenttype="text/html"`|Oui
 `<NoticeBiblio>`|obsolète|N/A|N/A
 `<Ouvrage>`|`<reviewedItem>`|/NewsItem/contentMeta/reviewedItem|Non
-`<Para>`|`<p>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p)
+`<Para>`|`<p>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p)
 `<Prenom>`|`<firstname>`|/NewsItem/contentMeta/author/firstname|Non
 `<Rub>`|`<section>`|/NewsItem/contentMeta/section|Non
 `<Sect1>`|obsolète|N/A|N/A
@@ -40,10 +40,10 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Sect4>`|obsolète|N/A|N/A
 `<Source>`|`<source>`|/NewsItem/contentMeta/source|Non
 `<SousRub>`|`<subSection>`|/NewsItem/contentMeta/subSection|Non
-`<Strong>`|`<strong>`|Toute balise `<inlineXML>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong)
+`<Strong>`|`<strong>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong)
 `<Sujet>`|`<subject>`|/NewsItem/contentMeta/subject|Non
 `<Tete>`|`<title>`|/NewsItem/contentMeta/marginalia/marginaliaItem/title|Non
-`<Texte>`|`<inlineXML>`|/NewsItem/contentSet/inlineXML|Non
+`<Texte>`|`<HTML5>`|/NewsItem/contentSet/HTML5|Non
 `<Titre>`|`<title>`|/NewsItem/contentMeta/title|Non
 `<TitreCdrom>`|obsolète|N/A|N/A
 `<TitreRevue>`|obsolète|N/A|N/A
