@@ -2,7 +2,7 @@
 <NewsItem 
   xmlns="https://www.alternatives-economiques.fr"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd"
+  xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.0.3-alpha/xsd/short.xsd"
   standard="AE-XML"
 
   id="K4-10013"
@@ -29,10 +29,10 @@
     <section>Buzz</section>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html">
+    <HTML5>
       <![CDATA[
         <p>Le Conseil d'Etat a validé fin juillet une large partie du plan autoroutier décidé par François Hollande en 2016. Il permettra de construire, entre autres, 23 nouveaux échangeurs comme de réaménager le périphérique de Nantes. Montant des travaux&nbsp;: 700 millions d'euros, financés à moitié par les collectivités locales et à moitié par une hausse des péages. Cette opération, qui succède à un autre plan de 3,2 milliards d'euros adopté en 2015, n'a pas rassasié les concessionnaires, qui espèrent déjà un troisième plan. <em>Let's make our C02 emissions great again&nbsp;!</em></p>
       ]]>
-    </inlineXML>
+    </HTML5>
   </contentSet>
 </NewsItem>

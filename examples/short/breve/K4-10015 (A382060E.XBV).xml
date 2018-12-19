@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="K4-10015" version="1">
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.0.3-alpha/xsd/short.xsd" standard="AE-XML" id="K4-10015" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -22,15 +22,15 @@
     <subSection>En bref</subSection>
     <relatedInfo>
       <relatedInfoItem>
-        <inlineXML contenttype="text/html"><![CDATA[
+        <HTML5><![CDATA[
             <a Href="http://frama.link/fFYe_kd-">frama.link/fFYe_kd-</a>
-          ]]></inlineXML>
+          ]]></HTML5>
       </relatedInfoItem>
     </relatedInfo>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html"><![CDATA[
+    <HTML5><![CDATA[
         <p>Entre 2016 et 2017, l'emploi a progressé de 8&nbsp;% dans les quelque 3 000 coopératives (Scop et Scic) de l'Hexagone, soit 4 000 emplois nets supplémentaires. Au total, les coopératives emploient près de 58 000 personnes. Ces chiffres sont publiés par la CG Scop, qui s'est fixé pour objectif 70 000 emplois coopératifs en 2020.</p>
-      ]]></inlineXML>
+      ]]></HTML5>
   </contentSet>
 </NewsItem>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://www.alternatives-economiques.fr ../../../xsd/short.xsd" standard="AE-XML" id="K4-10020" version="1">
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.0.3-alpha/xsd/short.xsd" standard="AE-XML" id="K4-10020" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -21,10 +21,10 @@
     <genre>encadré</genre>
   </contentMeta>
   <contentSet>
-    <inlineXML contenttype="text/html"><![CDATA[
+    <HTML5><![CDATA[
         <p>Au-delà de leurs dimensions particulières, les crises de 1929 et de 2007-2008 s’avèrent très comparables. Innovation financière majeure, de nouvelles sociétés d’investissement sont créées dans les années 1920 pour faciliter les placements risqués en Bourse. Il y en avait 160 en 1926 et 750 en 1929. En concurrence avec les filiales de marchés financiers des banques commerciales, elles font exploser les placements spéculatifs. Le volume d’échange à la Bourse de New York passe de 236 millions d’actions en 1923 à 1,1 milliard en 1929. Des placements soutenus par une bulle de crédits : entre 1921 et 1930, la croissance annuelle moyenne des prêts garantis par la valeur des actions détenues par les emprunteurs a été de 98 % ! Le tout avec des régulateurs absents et un ministre des Finances, Andrew W. Mellon, ultralibéral avant l’heure, confiant dans l’autorégulation des marchés. Les années 1920 ont aussi été celles des fraudeurs, à l’image de Carlo Ponzi, qui laissera son nom au système consistant à rémunérer fortement les premiers investisseurs avec l’argent reçu des suivants pour en attirer de nouveaux. Les enquêtes de la commission dirigée par le magistrat Ferdinand Pecora montreront à l’époque des comportements de fraude généralisée.</p>
         <object type="application/xml" data="A382-067-B.xml"></object>
         <p>De manière étonnante, les niveaux d’inégalité et de dérégulation financière étaient identiques en 1929 et en 2007, soulignant la même dimension sociopolitique de toute crise financière.</p>
-      ]]></inlineXML>
+      ]]></HTML5>
   </contentSet>
 </NewsItem>
