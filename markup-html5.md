@@ -24,3 +24,9 @@ Les balises qui peuvent apparaître dans les fichiers AE-XML sont globalement d�
   </contentSet>
 </NewsItem>
 ```
+
+Il y a néanmoins quelques règles de gestion spécifiques avec le format AE-XML. Elles gèrent les :
+
+- marginalia
+- embeds
+- notes de bas de page
