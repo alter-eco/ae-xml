@@ -40,6 +40,7 @@ Dans un contenu de type article, nous pouvons avoir de marginalia. Pour chaque m
 
 Ensuite lors de l'import on peut écrire du javaScript pour lier les `<sup>` au marginalia.
 
+#### Exemple
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem>
@@ -72,6 +73,26 @@ Ensuite lors de l'import on peut écrire du javaScript pour lier les `<sup>` au 
 ```
 
 ## Embeds
+
+On a le concept de pouvoir imbriquer (embed) de contenus dans d'autres. Par exemple, un graphique dans un article, ou bien un article dans un article dans le cadre d'un dossier. Nous utilisons la balise native HTML5 `<object>` dans ces cas. Comme spécifie [la documentation](https://developer.mozilla.org/fr/docs/Web/HTML/Element/object), il porte les attributs obligatoires `type` et `data`. 
+
+
+#### Exemple
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem>
+  <rightsInfo>...</rightsInfo>
+  <itemMeta>...</itemMeta>
+  <contentMeta>...</contentMeta>
+  <contentSet>
+    <HTML5><![CDATA[
+        <p>Un peu de texte</p>
+        <object type="application/xml" data="K4-XXXXX.xml"></object>
+        <p>Un peu plus de texte</p>
+      ]]></HTML5>
+  </contentSet>
+</NewsItem>
+```
 
 ## Notes de bas de page
 
