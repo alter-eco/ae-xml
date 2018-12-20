@@ -30,3 +30,48 @@ Il y a néanmoins quelques règles de gestion spécifiques avec le format AE-XML
 - marginalia
 - embeds
 - notes de bas de page
+
+## Marginalia
+
+Dans un contenu de type article, nous pouvons avoir de marginalia. Pour chaque marginalia, il faut ;
+
+1. Une balise `<marginaliaItem>` avec son contenu dans la balise `<contentMeta>`
+2. Les balises `<sup><span data-marginalia="1">*</span></sup>` dans le markup qui se trouve dans la balise `<HTML5>`.
+
+Ensuite lors de l'import on peut écrire du javaScript pour lier les `<sup>` au marginalia.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem>
+  <rightsInfo>...</rightsInfo>
+  <itemMeta>...</itemMeta>
+  <contentMeta>
+    ...
+    <marginalia>
+      <marginaliaItem>
+        <title>Titre du premier marginalia</title>
+        <HTML5><![CDATA[
+            <p>Texte du marginalia</p>
+        ]]></HTML5>
+      </marginaliaItem>
+      <marginaliaItem>
+        <title>Titre du deuxième marginalia</title>
+        <HTML5><![CDATA[
+            <p>Texte du marginalia</p>
+        ]]></HTML5>
+      </marginaliaItem>
+    </marginalia>
+  </contentMeta>
+  <contentSet>
+    <HTML5><![CDATA[
+        <p>Texte du contenu, avec un marginalia<sup><span data-marginalia="1">*</span></sup></p>
+        <p>Ensuite un deuxième marginalia<sup><span data-marginalia="2">*</span></sup></p>
+      ]]></HTML5>
+  </contentSet>
+</NewsItem>
+```
+
+## Embeds
+
+## Notes de bas de page
+
