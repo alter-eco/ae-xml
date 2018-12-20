@@ -40,7 +40,7 @@ Dans un contenu de type article, nous pouvons avoir de marginalia. Pour chaque m
 
 Ensuite lors de l'import on peut écrire du javaScript pour lier les `<sup>` au marginalia.
 
-#### Exemple
+#### Exemple :
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem>
@@ -76,8 +76,7 @@ Ensuite lors de l'import on peut écrire du javaScript pour lier les `<sup>` au 
 
 On a le concept de pouvoir imbriquer (embed) de contenus dans d'autres. Par exemple, un graphique dans un article, ou bien un article dans un article dans le cadre d'un dossier. Nous utilisons la balise native HTML5 `<object>` dans ces cas. Comme spécifie [la documentation](https://developer.mozilla.org/fr/docs/Web/HTML/Element/object), il porte les attributs obligatoires `type` et `data`. 
 
-
-#### Exemple
+#### Exemple :
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem>
@@ -96,3 +95,24 @@ On a le concept de pouvoir imbriquer (embed) de contenus dans d'autres. Par exem
 
 ## Notes de bas de page
 
+Pour les notes de bas de page, nous avons retenu les propositions du W3C en matière de notes de bas de page. Plus précisement, [l'exemple numéro 14](https://www.w3.org/TR/html53/common-idioms-without-dedicated-elements.html#footnotes).
+
+#### Exemple :
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<NewsItem>
+  <rightsInfo>...</rightsInfo>
+  <itemMeta>...</itemMeta>
+  <contentMeta>...</contentMeta>
+  <contentSet>
+    <HTML5><![CDATA[
+        <p>Un peu de texte <a id="ref-1" href="#footnote-1">1</a></p>
+        <p>Et un peu plus de texte <a id="ref-2" href="#footnote-2">2</a></p>
+        <section id="footnotes">
+          <p id="footnote-1"><a href="#ref-1">1</a> Le texte de la première note de bas de page</p>
+          <p id="footnote-2"><a href="#ref-2">2</a> Le texte de la deuxième note de bas de page, <a href="#">elle peuvent contenir de liens</a></p>
+        </section>
+      ]]></HTML5>
+  </contentSet>
+</NewsItem>
+```
