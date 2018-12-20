@@ -33,6 +33,8 @@ Il y a trois types d'entité ; `publication`, `long`, et `short`, mais comme ave
 
 [Voir un fichier qui liste les équivalents approximatifs entre AE-XML et le format précédent](https://github.com/alter-eco/ae-xml/tree/master/legacy)
 
+[Voir les spécificités du markup HTML5](https://github.com/alter-eco/ae-xml/blob/master/markup-html5.md)
+
 ### Exemples 
 
 Voir les [exemples](https://github.com/alter-eco/ae-xml/tree/master/examples) selon les types de contenus. Chaque exemple est accompagné d'un fichier du format XML précedent dont le nom termine en `.old.xml`
