@@ -28,7 +28,7 @@
     <figure>
       <caption>Lorem ipsum dolor sit amet</caption>
       <copyright>iStock</copyright>
-      <uri>path/to/file.jpg</uri>
+      <uri><![CDATA[https://images.unsplash.com/photo-1546704259-d4dac118f426?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb]]></uri>
     </figure>
   </contentMeta>
   <contentSet>
