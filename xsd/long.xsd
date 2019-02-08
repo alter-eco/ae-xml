@@ -77,7 +77,6 @@
                 <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:interviewee"/>
                 <xs:element minOccurs="0" ref="ns1:lead"/>
                 <xs:element minOccurs="0" ref="ns1:figure"/>
-                <xs:element minOccurs="0" ref="ns1:marginalia"/>
                 <xs:element minOccurs="0" ref="ns1:relatedInfo"/>
                 <xs:element minOccurs="0" ref="ns1:reviewedItem"/>
             </xs:sequence>
@@ -115,21 +114,6 @@
         </xs:complexType>
     </xs:element>
     <xs:element name="lead" type="xs:string"/>
-    <xs:element name="marginalia">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="ns1:marginaliaItem"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="marginaliaItem">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="ns1:title"/>
-                <xs:element ref="ns1:HTML5"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
     <xs:element name="relatedInfo">
         <xs:complexType>
             <xs:sequence>

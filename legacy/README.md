@@ -25,7 +25,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<Inter2>`|`<h3>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
 `<Legende>`|`<caption>`|/NewsItem/contentMeta/figure/caption|Non
 `<LienExt>`|`<object>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object)
-`<Marginalia>`|`<marginalia>`|/NewsItem/contentMeta/marginalia|Non
+`<Marginalia>`|obsolète|N/A|N/A
 `<MotCle>`|obsolète|N/A|N/A
 `<Nom>`|`<surname>`|/NewsItem/contentMeta/author/surname|Non
 `<Note>`|`<section id="footnotes">`|Toute balise `<HTML5>` avec `contenttype="text/html"`|Oui
@@ -42,7 +42,7 @@ Ancien format | AE-XML | Situation |  HTML5
 `<SousRub>`|`<subSection>`|/NewsItem/contentMeta/subSection|Non
 `<Strong>`|`<strong>`|Toute balise `<HTML5>` avec `contenttype="text/html"`|[Oui](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong)
 `<Sujet>`|`<subject>`|/NewsItem/contentMeta/subject|Non
-`<Tete>`|`<title>`|/NewsItem/contentMeta/marginalia/marginaliaItem/title|Non
+`<Tete>`|obsolète|N/A|N/A
 `<Texte>`|`<HTML5>`|/NewsItem/contentSet/HTML5|Non
 `<Titre>`|`<title>`|/NewsItem/contentMeta/title|Non
 `<TitreCdrom>`|obsolète|N/A|N/A

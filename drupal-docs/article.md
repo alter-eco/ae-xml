@@ -66,7 +66,7 @@ En attente
 
 ##### `field_marginalia`
 
-NewsItem.contentMeta.marginalia.marginaliaItem
+À extraire de NewsItem.contentSet.HTML5
 
 ##### `field_similar_content_reference`
 
