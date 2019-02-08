@@ -107,7 +107,6 @@
                 <xs:element ref="ns1:parentPublication"/>
                 <xs:element minOccurs="0" ref="ns1:parentItem"/>
                 <xs:element ref="ns1:itemClass"/>
-                <xs:element ref="ns1:embargoed"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -134,7 +133,6 @@
             </xs:attribute>
         </xs:complexType>
     </xs:element>
-    <xs:element name="embargoed" type="xs:dateTime"/>
     <xs:element name="rightsInfo">
         <xs:complexType>
             <xs:sequence>
