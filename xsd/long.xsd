@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Derived using MOSO Xmplify 1.8.3 by Laurence Dorman on 2018-10-29 10:16:11 +0000 -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns1="https://www.alternatives-economiques.fr" elementFormDefault="qualified" targetNamespace="https://www.alternatives-economiques.fr">
-    <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.w3.org/1999/xlink.xsd"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="https://www.alternatives-economiques.fr"
+           elementFormDefault="qualified" targetNamespace="https://www.alternatives-economiques.fr">
     <xs:element name="NewsItem">
         <xs:complexType>
             <xs:sequence>
@@ -10,7 +10,7 @@
                 <xs:element ref="ns1:contentMeta"/>
                 <xs:element ref="ns1:contentSet"/>
             </xs:sequence>
-            <xs:attribute name="id" use="required" type="ns1:aeXmlId" />
+            <xs:attribute name="id" use="required" type="ns1:aeXmlId"/>
             <xs:attribute name="standard" use="required">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -40,16 +40,11 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="parentPublication">
-        <xs:complexType>
-            <xs:attribute ref="xlink:href" use="required" />  
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="parentItem">
-        <xs:complexType>
-            <xs:attribute ref="xlink:href" use="required" />  
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="parentPublication" type="Link1Type"/>
+    <xs:element name="parentItem" type="Link1Type"/>
+    <xs:complexType name="Link1Type">
+        <xs:attribute name="residref" type="xs:string" use="required"/>
+    </xs:complexType>
     <xs:element name="itemClass">
         <xs:complexType>
             <xs:attribute name="type" use="required">
@@ -162,7 +157,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="name" type="xs:string" />
+    <xs:element name="name" type="xs:string"/>
     <xs:element name="description" type="xs:string"/>
     <xs:element name="figure">
         <xs:complexType>

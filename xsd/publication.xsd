@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Derived using MOSO Xmplify 1.8.3 by Laurence on 2018-10-23 08:03:30 +0000 -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns1="https://www.alternatives-economiques.fr" elementFormDefault="qualified" targetNamespace="https://www.alternatives-economiques.fr">
-    <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.w3.org/1999/xlink.xsd"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="https://www.alternatives-economiques.fr"
+           elementFormDefault="qualified" targetNamespace="https://www.alternatives-economiques.fr">
     <xs:element name="NewsItem">
         <xs:complexType>
             <xs:sequence>
@@ -36,6 +36,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref="ns1:itemClass"/>
+                <xs:element ref="ns1:embargoed"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -52,6 +53,7 @@
             </xs:attribute>
         </xs:complexType>
     </xs:element>
+    <xs:element name="embargoed" type="xs:dateTime"/>
     <xs:element name="contentMeta">
         <xs:complexType>
             <xs:sequence>
@@ -68,20 +70,20 @@
     </xs:element>
     <xs:element name="created" type="xs:dateTime"/>
     <xs:element name="modified" type="xs:dateTime"/>
-        <xs:element name="title">
+    <xs:element name="title">
         <xs:simpleType>
             <xs:restriction base="xs:string">
-                <xs:maxLength value="255" />
+                <xs:maxLength value="255"/>
             </xs:restriction>
-        </xs:simpleType>        
+        </xs:simpleType>
     </xs:element>
     <xs:element name="publicationId">
         <xs:simpleType>
             <xs:restriction base="xs:string">
-                <xs:enumeration value="AE" />
-                <xs:enumeration value="EP" />
-                <xs:enumeration value="HS" />
-                <xs:enumeration value="ST" />
+                <xs:enumeration value="AE"/>
+                <xs:enumeration value="EP"/>
+                <xs:enumeration value="HS"/>
+                <xs:enumeration value="ST"/>
             </xs:restriction>
         </xs:simpleType>
     </xs:element>
@@ -115,11 +117,10 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="itemRef">
-        <xs:complexType>
-            <xs:attribute ref="xlink:href" use="required" />
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="itemRef" type="Link1Type"/>
+    <xs:complexType name="Link1Type">
+        <xs:attribute name="residref" type="xs:string" use="required"/>
+    </xs:complexType>
     <xs:simpleType name="aeXmlId">
         <xs:restriction base="xs:string">
             <xs:pattern value="(K4|D7)-[0-9]+"/>

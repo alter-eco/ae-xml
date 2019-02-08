@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.0.3-alpha/xsd/short.xsd" standard="AE-XML" id="K4-10021" version="1">
+<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.0.3-alpha/xsd/short.xsd" standard="AE-XML" id="K4-10021" version="1">
   <rightsInfo>
     <copyrightHolder>
       Alternatives Economiques
@@ -9,7 +9,7 @@
     </copyrightNotice>
   </rightsInfo>
   <itemMeta>
-    <parentPublication xlink:href="K4-10001.xml"/>
+    <parentPublication residref="K4-10001"/>
     <parentItem xlink:href="K4-XXXXX.xml" />
     <itemClass type="short"/>
   </itemMeta>
