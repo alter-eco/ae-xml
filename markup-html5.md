@@ -74,7 +74,7 @@ Ensuite lors de l'import on peut écrire du javaScript pour lier les `<sup>` au 
 
 ## Embeds
 
-On a le concept de pouvoir imbriquer (embed) de contenus dans d'autres. Par exemple, un graphique dans un article, ou bien un article dans un article dans le cadre d'un dossier. Nous utilisons la balise native HTML5 `<object>` dans ces cas. Comme spécifie [la documentation](https://developer.mozilla.org/fr/docs/Web/HTML/Element/object), il porte les attributs obligatoires `type` et `data`. 
+On a le concept de pouvoir imbriquer (embed) de contenus dans d'autres. Par exemple, un graphique dans un article, ou bien un article dans un article dans le cadre d'un dossier. Nous utilisons la balise native HTML5 `<span>` dans ces cas, avec l'attribut data-embed-id-id. 
 
 #### Exemple :
 ```xml
@@ -86,7 +86,7 @@ On a le concept de pouvoir imbriquer (embed) de contenus dans d'autres. Par exem
   <contentSet>
     <HTML5><![CDATA[
         <p>Un peu de texte</p>
-        <object type="application/xml" data="K4-XXXXX.xml"></object>
+        <span data-embed-id="K4-XXXXX"></span>
         <p>Un peu plus de texte</p>
       ]]></HTML5>
   </contentSet>

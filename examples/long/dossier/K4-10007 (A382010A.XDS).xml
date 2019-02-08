@@ -32,9 +32,9 @@
   <contentSet>
     <HTML5>
       <![CDATA[
-        <object type="application/xml" data="K4-XXXXX.xml"></object>
-        <object type="application/xml" data="K4-XXXXX.xml"></object>
-        <object type="application/xml" data="K4-XXXXX.xml"></object>
+        <span data-embed-id="K4-XXXXX"></span>
+        <span data-embed-id="K4-XXXXX"></span>
+        <span data-embed-id="K4-XXXXX"></span>
       ]]>
     </HTML5>
   </contentSet>
