@@ -91,7 +91,7 @@
     </xs:complexType>
     <xs:simpleType name="aeXmlId">
         <xs:restriction base="xs:string">
-            <xs:pattern value="(K4|D7)-[0-9]+"/>
+            <xs:pattern value="[0-9A-Z\-]+"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
