@@ -10,7 +10,7 @@
   </rightsInfo>
   <itemMeta>
     <parentPublication residref="K4-10001"/>
-    <parentItem xlink:href="K4-XXXXX.xml" />
+    <parentItem residref="K4-XXXXX"/>
     <itemClass type="short"/>
   </itemMeta>
   <contentMeta>

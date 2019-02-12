@@ -36,7 +36,6 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref="ns1:itemClass"/>
-                <xs:element ref="ns1:embargoed"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -53,7 +52,6 @@
             </xs:attribute>
         </xs:complexType>
     </xs:element>
-    <xs:element name="embargoed" type="xs:dateTime"/>
     <xs:element name="contentMeta">
         <xs:complexType>
             <xs:sequence>
