@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Derived using MOSO Xmplify 1.8.3 by Laurence Dorman on 2018-10-29 10:16:11 +0000 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="https://www.alternatives-economiques.fr"
+           elementFormDefault="qualified" targetNamespace="https://www.alternatives-economiques.fr">
+
+    <xs:element name="author">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ns1:name"/>
+                <xs:element minOccurs="0" ref="ns1:description"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="caption" type="xs:string"/>
+    <xs:element name="contentSet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ns1:HTML5"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="copyright" type="xs:string"/>
+    <xs:element name="copyrightHolder" type="xs:string"/>
+    <xs:element name="copyrightNotice" type="xs:string"/>
+    <xs:element name="created" type="xs:dateTime"/>
+    <xs:element name="description" type="xs:string"/>
+    <xs:element name="figure">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ns1:caption"/>
+                <xs:element ref="ns1:copyright"/>
+                <xs:element ref="ns1:uri"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="HTML5" type="xs:string"/>
+    <xs:element name="itemClass">
+        <xs:complexType>
+            <xs:attribute name="type" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="long"/>
+                        <xs:enumeration value="short"/>
+                        <xs:enumeration value="publication"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="lead" type="xs:string"/>
+    <xs:element name="modified" type="xs:dateTime"/>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="parentItem" type="Link1Type"/>
+    <xs:element name="parentPublication" type="Link1Type"/>
+    <xs:element name="relatedInfoItem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ns1:HTML5"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rightsInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ns1:copyrightHolder"/>
+                <xs:element ref="ns1:copyrightNotice"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section" type="xs:string"/>
+    <xs:element name="source" type="xs:string"/>
+    <xs:element name="subject" type="xs:string"/>
+    <xs:element name="subSection">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="20"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="title">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="255"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="uri" type="xs:anyURI"/>
+
+    <xs:complexType name="Link1Type">
+        <xs:attribute name="residref" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:simpleType name="aeXmlId">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(K4|D7)-[0-9]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
