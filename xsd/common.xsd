@@ -33,7 +33,22 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="HTML5" type="xs:string"/>
+    <xs:element name="HTML5" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>
+                Contient toutes les données du corps du contenu (alternance de texte HTML, d'images,...). Certains
+                éléments ne pourront pas être exploitées directement par le HTML5 (par exemple des liens internes). Pour
+                ces besoins particuliers, le HTML pourra être parsé spécifiquement par le système destinataire (une
+                syntaxe précise est définie dans la documentation). Mais si ce parsing n'est pas fait, le HTML présent
+                dans le XML doit pouvoir être affiché tel quel à l'internaute, sans qu'il semble manquer quelque chose
+                (même si en fait il manque un enrichissement de l'information).
+                Le HTML ne doit contenir aucune information de forme (mise en page, style), mais peut bien sûr contenir
+                des informations de structuration sémantique (h2, strong, section, p,...).
+                NB : les autres champs de type xs:string, par exemple "title", ne doivent pas contenir de HTML mais du
+                texte brut (pas de nbsp, br,...).
+            </xs:documentation>
+        </xs:annotation>
+    </xs:element>
     <xs:element name="itemClass">
         <xs:complexType>
             <xs:attribute name="type" use="required">
@@ -90,6 +105,14 @@
         <xs:attribute name="residref" type="xs:string" use="required"/>
     </xs:complexType>
     <xs:simpleType name="aeXmlId">
+        <xs:annotation>
+            <xs:documentation>
+                L'identifiant du contenu : ne doit pas varier durant la vie du contenu, doit être unique à chaque
+                contenu évoluant indépendamment (qui inversement ne doit avoir qu'un seul identifiant), et ne doit pas
+                contenir d'informations présentes ailleurs.
+                Format conseillé : Identifiant du système émetteur-Identifiant du contenu dans le système émetteur
+            </xs:documentation>
+        </xs:annotation>
         <xs:restriction base="xs:string">
             <xs:pattern value="[0-9A-Z\-]+"/>
         </xs:restriction>
