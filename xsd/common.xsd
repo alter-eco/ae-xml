@@ -65,8 +65,8 @@
     <xs:element name="lead" type="xs:string"/>
     <xs:element name="modified" type="xs:dateTime"/>
     <xs:element name="name" type="xs:string"/>
-    <xs:element name="parentItem" type="Link1Type"/>
-    <xs:element name="parentPublication" type="Link1Type"/>
+    <xs:element name="parentItem" type="InternalLinkType"/>
+    <xs:element name="parentPublication" type="InternalLinkType"/>
     <xs:element name="relatedInfoItem">
         <xs:complexType>
             <xs:sequence>
@@ -101,7 +101,7 @@
     </xs:element>
     <xs:element name="uri" type="xs:anyURI"/>
 
-    <xs:complexType name="Link1Type">
+    <xs:complexType name="InternalLinkType">
         <xs:attribute name="residref" type="xs:string" use="required"/>
     </xs:complexType>
     <xs:simpleType name="aeXmlId">

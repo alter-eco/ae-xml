@@ -53,7 +53,7 @@
     </xs:element>
     <xs:element name="issueDate" type="xs:date"/>
     <xs:element name="issueNumber" type="xs:integer"/>
-    <xs:element name="itemRef" type="Link1Type"/>
+    <xs:element name="itemRef" type="InternalLinkType"/>
     <xs:element name="price" type="xs:decimal"/>
     <xs:element name="publicationId">
         <xs:simpleType>
