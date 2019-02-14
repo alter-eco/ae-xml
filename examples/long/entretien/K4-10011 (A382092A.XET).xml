@@ -1,52 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem 
-  xmlns="https://www.alternatives-economiques.fr"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd"
-  standard="AE-XML"
+<NewsItem
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="https://www.alternatives-economiques.fr"
+        xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd"
+        standard="AE-XML"
 
-  id="K4-10011"
-  version="1"
-  >
-  <rightsInfo>
-    <copyrightHolder>
-      Alternatives Economiques
-    </copyrightHolder>
-    <copyrightNotice>
-      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
-    </copyrightNotice>
-  </rightsInfo>
-  <itemMeta>
-    <parentPublication residref="K4-XXXXXX" />
-    <itemClass type="long"/>
-  </itemMeta>
-  <contentMeta>
-    <created>2018-10-29T09:30:10Z</created>
-    <modified>2018-10-29T09:30:10Z</modified>
-    <title>Comment enseigner l'économie ?</title>
-    <genre>entretien</genre>
-    <section>Idées et débats</section>
-    <author>
-      <name>Christian Chavagneux</name>
-    </author>
-    <interviewee>
-      <name>Yann Algan</name>
-      <description>professeur d'économie à sciences po et doyen de l'ecole d'affaires publiques</description>
-    </interviewee>
-    <interviewee>
-      <name>Florenc Jany-Catrice</name>
-      <description>professeure d'économie à l'université de Lille, chercheuse au Clersé-UMR8019 et présidente de l'Association française d'économie politique (Afep)</description>
-    </interviewee>
-    <lead>Un récent manuel propose de renouveler l'enseignement de l'économie. Yann Algan a participé à l'élaboration de cet outil, qui reste perfectible selon Florence Jany-Catrice.</lead>
-    <figure>
-      <caption>Lorem ipsum dolor sit amet</caption>      
-      <copyright>iStock</copyright>
-      <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
-    </figure>
-  </contentMeta>
-  <contentSet>
-    <HTML5>
-      <![CDATA[
+        id="K4-10011"
+        version="1"
+>
+    <rightsInfo>
+        <copyrightHolder>
+            Alternatives Economiques
+        </copyrightHolder>
+        <copyrightNotice>
+            Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et
+            documents parus est soumis à l'autorisation préalable de l'éditeur.
+        </copyrightNotice>
+    </rightsInfo>
+    <itemMeta>
+        <parentPublication residref="K4-XXXXXX"/>
+        <itemClass type="long"/>
+    </itemMeta>
+    <contentMeta>
+        <created>2018-10-29T09:30:10Z</created>
+        <modified>2018-10-29T09:30:10Z</modified>
+        <title>Comment enseigner l'économie ?</title>
+        <genre>entretien</genre>
+        <section>Idées et débats</section>
+        <author>
+            <name>Christian Chavagneux</name>
+        </author>
+        <interviewee>
+            <name>Yann Algan</name>
+            <description>professeur d'économie à sciences po et doyen de l'ecole d'affaires publiques</description>
+        </interviewee>
+        <interviewee>
+            <name>Florenc Jany-Catrice</name>
+            <description>professeure d'économie à l'université de Lille, chercheuse au Clersé-UMR8019 et présidente de
+                l'Association française d'économie politique (Afep)
+            </description>
+        </interviewee>
+        <lead>Un récent manuel propose de renouveler l'enseignement de l'économie. Yann Algan a participé à
+            l'élaboration de cet outil, qui reste perfectible selon Florence Jany-Catrice.
+        </lead>
+        <figure>
+            <caption>Lorem ipsum dolor sit amet</caption>
+            <copyright>iStock</copyright>
+            <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
+        </figure>
+    </contentMeta>
+    <contentSet>
+        <HTML5>
+            <![CDATA[
         <p>Après la crise démarrée en 2007-2008, de nombreuses associations d'étudiants en économie ont vu le jour dans plusieurs pays pour dénoncer une théorie dominante trop formalisée, peu ouverte au pluralisme des idées et aux autres sciences sociales. Depuis 2016, un manuel propose de renouveler l'enseignement de l'économie. Utilisé à Sciences Po et à la Toulouse School of Economics, il est désormais disponible en français à partir d'un site (<a href="https://core-econ.org/the-economy/?lang=fr">https://core-econ.org/the-economy/?lang=fr</a>) et d'un ouvrage, L'économie (Eyrolles), à paraître en octobre. Suivront un cours plus avancé et une version adaptée au programme des lycées. Répond-il aux inquiétudes des étudiants ? Débat.</p>
         <p><strong>Yann Algan, vous avez participé à un vaste projet international visant à renouveler complètement la façon d'enseigner l'économie. Qu'est-ce qui n'allait pas ?</strong></p>
         <p><strong>Yann Algan :</strong> Il fallait un manuel qui fasse comme si les trente dernières années avaient vraiment eu lieu ! Au lieu d’une approche désincarnée, aborder les grands défis contemporains, les inégalités, les crises financières, le réchauffement climatique, etc. Et le faire en intégrant les derniers résultats de la recherche en économie, incluant l’économie comportementale, la théorie des contrats, l’imperfection des marchés, les interactions stratégiques et l’instabilité financière, mais aussi ceux de la recherche en psychologie, en droit, en sciences humaines.</p>
@@ -63,6 +68,6 @@
         <p><strong>Où est le manuel alternatif qui porte ce genre d’enseignements ?</strong></p>
         <p><strong>F. J.-C.:</strong> Il n’existe pas, car nous sommes en pleine inégalité institutionnelle ! Pour faire un manuel, il faut des enseignants, et ceux qui portent ce genre d’approches ont été marginalisés par les instances de recrutement : ils représentent 6 % des professeurs sélectionnés en 2018 ! Nous sommes en manque de moyens.</p>
       ]]>
-    </HTML5>
-  </contentSet>
+        </HTML5>
+    </contentSet>
 </NewsItem>

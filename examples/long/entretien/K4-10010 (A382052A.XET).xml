@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd" standard="AE-XML" id="K4-10010" version="1">
-  <rightsInfo>
-    <copyrightHolder>
-      Alternatives Economiques
-    </copyrightHolder>
-    <copyrightNotice>
-      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
-    </copyrightNotice>
-  </rightsInfo>
-  <itemMeta>
-    <parentPublication residref="K4-10001"/>
-    <itemClass type="long"/>
-  </itemMeta>
-  <contentMeta>
-    <created>2018-10-29T09:30:10Z</created>
-    <modified>2018-10-29T09:30:10Z</modified>
-    <title>"Face au réchauffement, la fenêtre de tir est étroite"</title>
-    <genre>entretien</genre>
-    <section>Actualité</section>
-    <subSection>Environnement</subSection>
-    <author>
-      <name>Aude Martin</name>
-    </author>
-    <interviewee>
-      <name>Jean Jouzel</name>
-      <description>Entretien avec Jean Jouzel, climatologue, directeur de recherche au CEA, ancien vice-président du groupe scientifique du Giec Jean Jouzel est l'auteur, avec Pierre Larrouturou, de l'ouvrage Pour éviter le chaos climatique et financier, paru en 2017 chez Odile Jacob.</description>
-    </interviewee>
-    <lead>Le changement climatique est irréversible, mais il est encore possible d'en limiter l'ampleur si nous agissons rapidement, selon le climatologue Jean Jouzel.</lead>
-    <figure>
-      <caption>Lorem ipsum dolor sit amet</caption>
-      <copyright>iStock</copyright>
-      <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
-    </figure>
-  </contentMeta>
-  <contentSet>
-    <HTML5><![CDATA[
+<NewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.alternatives-economiques.fr"
+          xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd"
+          standard="AE-XML" id="K4-10010" version="1">
+    <rightsInfo>
+        <copyrightHolder>
+            Alternatives Economiques
+        </copyrightHolder>
+        <copyrightNotice>
+            Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et
+            documents parus est soumis à l'autorisation préalable de l'éditeur.
+        </copyrightNotice>
+    </rightsInfo>
+    <itemMeta>
+        <parentPublication residref="K4-10001"/>
+        <itemClass type="long"/>
+    </itemMeta>
+    <contentMeta>
+        <created>2018-10-29T09:30:10Z</created>
+        <modified>2018-10-29T09:30:10Z</modified>
+        <title>"Face au réchauffement, la fenêtre de tir est étroite"</title>
+        <genre>entretien</genre>
+        <section>Actualité</section>
+        <subSection>Environnement</subSection>
+        <author>
+            <name>Aude Martin</name>
+        </author>
+        <interviewee>
+            <name>Jean Jouzel</name>
+            <description>Entretien avec Jean Jouzel, climatologue, directeur de recherche au CEA, ancien vice-président
+                du groupe scientifique du Giec Jean Jouzel est l'auteur, avec Pierre Larrouturou, de l'ouvrage Pour
+                éviter le chaos climatique et financier, paru en 2017 chez Odile Jacob.
+            </description>
+        </interviewee>
+        <lead>Le changement climatique est irréversible, mais il est encore possible d'en limiter l'ampleur si nous
+            agissons rapidement, selon le climatologue Jean Jouzel.
+        </lead>
+        <figure>
+            <caption>Lorem ipsum dolor sit amet</caption>
+            <copyright>iStock</copyright>
+            <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
+        </figure>
+    </contentMeta>
+    <contentSet>
+        <HTML5><![CDATA[
         <p>Feux de forêts en Californie, canicules en Europe du Nord ou au Japon : l'été 2018 marque un tournant dans notre lutte contre le réchauffement climatique. Nombre de rapports scientifiques évoquent désormais le risque d'atteindre un point de rupture. Pour le climatologue Jean Jouzel, nous pouvons encore agir, mais il est impératif que nous relevions l'ambition des deux degrés prévue par l'accord de Paris.</p>
         <p><strong>Assiste-t-on à un emballement du réchauffement climatique ?</strong></p>
         <p>Les événements actuels correspondent à ce qu'anticipent les climatologues depuis plus de trente ans. En moyenne, la température à la surface de la Terre augmente de près de deux dixièmes de degré par décennie. A ce réchauffement moyen - imputable aux activités humaines - s'ajoute désormais une évolution rapide des "extrêmes climatiques", expliquant la recrudescence et l'intensification des vagues de chaleur depuis le début des années 2000. Pour une hausse des températures moyennes d'un degré, les extrêmes augmenteraient ainsi de deux degrés.</p>
@@ -53,5 +61,5 @@
         <p><strong>Au niveau individuel, pouvons-nous encore espérer avoir un impact positif quelconque ?</strong></p>
         <p>Bien sûr. Lutter contre le réchauffement climatique est enthousiasmant pour les jeunes générations, car cela implique de changer tout notre modèle de développement : urbanisme, transport, habitudes d’alimentation et de consommation. Nous avons tous, et je m’y inclus, une part d’égoïsme qui complique la prise en compte du changement climatique à l’échelle individuelle, mais il n’y a pas de petit effort pour tendre vers un mode de vie plus sobre. Cela se joue dans les dizaines de décisions que nous prenons au quotidien, et qui doivent être encouragées par les Etats et les collectivités locales, qui sont en première ligne de ce combat.</p>
       ]]></HTML5>
-  </contentSet>
+    </contentSet>
 </NewsItem>

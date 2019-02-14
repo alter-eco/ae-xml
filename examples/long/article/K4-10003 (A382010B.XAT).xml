@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd" standard="AE-XML" id="K4-10003" version="1">
-  <rightsInfo>
-    <copyrightHolder>
-      Alternatives Economiques
-    </copyrightHolder>
-    <copyrightNotice>
-      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
-    </copyrightNotice>
-  </rightsInfo>
-  <itemMeta>
-    <parentPublication residref="K4-10001"/>
-    <parentItem residref="K4-10007"/>
-    <itemClass type="long"/>
-  </itemMeta>
-  <contentMeta>
-    <created>2018-10-29T09:30:10Z</created>
-    <modified>2018-10-29T09:30:10Z</modified>
-    <title>Parcoursup : les dessous d’un bug</title>
-    <genre>article</genre>
-    <section>L'événement</section>
-    <subSection>Société</subSection>
-    <author>
-      <name>Xavier Molénat</name>
-    </author>
-    <lead>Lorem ipsum dolor sit amet</lead>
-    <figure>
-      <caption>Lorem ipsum dolor sit amet</caption>
-      <copyright>iStock</copyright>
-      <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
-    </figure>
-  </contentMeta>
-  <contentSet>
-    <HTML5><![CDATA[
+<NewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.alternatives-economiques.fr"
+          xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd"
+          standard="AE-XML" id="K4-10003" version="1">
+    <rightsInfo>
+        <copyrightHolder>
+            Alternatives Economiques
+        </copyrightHolder>
+        <copyrightNotice>
+            Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et
+            documents parus est soumis à l'autorisation préalable de l'éditeur.
+        </copyrightNotice>
+    </rightsInfo>
+    <itemMeta>
+        <parentPublication residref="K4-10001"/>
+        <parentItem residref="K4-10007"/>
+        <itemClass type="long"/>
+    </itemMeta>
+    <contentMeta>
+        <created>2018-10-29T09:30:10Z</created>
+        <modified>2018-10-29T09:30:10Z</modified>
+        <title>Parcoursup : les dessous d’un bug</title>
+        <genre>article</genre>
+        <section>L'événement</section>
+        <subSection>Société</subSection>
+        <author>
+            <name>Xavier Molénat</name>
+        </author>
+        <lead>Lorem ipsum dolor sit amet</lead>
+        <figure>
+            <caption>Lorem ipsum dolor sit amet</caption>
+            <copyright>iStock</copyright>
+            <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
+        </figure>
+    </contentMeta>
+    <contentSet>
+        <HTML5><![CDATA[
         <p>A quelques jours de la rentrée, combien de candidats à l’enseignement supérieur sont encore en attente d’une place ? Difficile de le savoir. Les données de la nouvelle plate-forme d’affectation Parcoursup ont en effet nourri un feuilleton estival dont la ministre de l’Enseignement supérieur et de la Recherche se serait sans doute bien passée. Promesse de transparence oblige, un "tableau de bord" quotidien est publié sur le site de Parcoursup. Jusqu’au 22 juillet, celui-ci indiquait l’évolution du nombre de candidats ayant définitivement accepté une proposition d’affectation, ceux n’ayant pas encore fait leur choix, ceux n’ayant encore reçu aucune proposition, ou qui avaient quitté la plate-forme...</p>
         <p>Or, les performances de la plate-forme n’étaient guère reluisantes. Au 22 juillet, seuls 57 % des 810 000 candidats ayant formulé un voeu sur Parcoursup avaient définitivement validé l’une des propositions d’affectation qu’ils avaient reçues, et donc savaient où ils se trouveraient à la rentrée. Plus de 60 000 candidats attendaient toujours, eux, qu’on leur propose quelque chose.</p>
         <p>Le lendemain, surprise : le ministère chamboule la présentation du tableau de bord, distinguant notamment les candidats <em>"qui souhaitent s’inscrire dans l’enseignement supérieur via Parcoursup"</em> des <em>"inactifs"</em>, censés n’avoir pas (encore) fait les démarches nécessaires pour trouver une place (inscription en phase complémentaire, sollicitation de l’aide du rectorat...). Miracle : le nombre de candidats "souhaitant s’inscrire" tombe en dessous des 20 000 !</p>
@@ -55,5 +58,5 @@
           <p id="footnote-3"><a href="#ref-3">3</a> "50 % à la licence... mais comment ? Les jeunes de familles populaires à l’université en France", par Yaël Brinbaum, Cédric Hugrée et Tristan Poullaouec, <em>Economie et Statistique</em> n° 499, juin 2018.</p>
         </section>
       ]]></HTML5>
-  </contentSet>
+    </contentSet>
 </NewsItem>

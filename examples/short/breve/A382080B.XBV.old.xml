@@ -1,19 +1,55 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE Document SYSTEM "CdAE.dtd">
 <Document>
-  <Breve>
-    <Code>A382080B</Code>
-    <DateRevue>00/09/2018</DateRevue>
-    <MotCle></MotCle>
-    <Rub>Comprendre</Rub>
-    <SousRub>Economie</SousRub>
-    <TitreRevue>Ã‰conomie&nbsp;: l'actualitÃ© des Ã©tudes</TitreRevue>
-    <TitreCdrom>Ã‰conomie&nbsp;: l'actualitÃ© des Ã©tudes</TitreCdrom>
-    <Auteur><Nom>*</Nom></Auteur>
-    <Liste>
-      <Item><Strong>Le dernier rapport de l'International Federation of Robotics</Strong> confirme encore une fois combien la Chine a pris la <AppelDef Entree="Automatisation">robotisation</AppelDef> de son Ã©conomie au sÃ©rieux. Le marchÃ© mondial du robot continue sa forte progression&nbsp;: en 2017, 381 000 unitÃ©s supplÃ©mentaires ont Ã©tÃ© achetÃ©es dans le monde. La Chine a Ã©tÃ© Ã  l'origine de 36,2&nbsp;% de cette demande avec une hausse spectaculaire de 58&nbsp;% de ses achats par rapport Ã  2016, soit 138 000 unitÃ©s supplÃ©mentaires. Avec leurs 33 000 robots de plus, les Etats-Unis font pÃ¢le figure, sans parler des 5 000 robots achetÃ©s par la France, moins que le Vietnam et le Mexique. L'automobile et les secteurs Ã©lectrique et Ã©lectronique en sont les principaux utilisateurs, loin devant ceux des mÃ©taux et de la chimie.<BR/> A consulter sur <AppelURL Href="http://www.ifr.org">www.ifr.org</AppelURL></Item>
-      <Item><Strong>La <AppelDef Entree="DÃ©mographie">dÃ©mographie</AppelDef> influe largement sur le degrÃ© d'<AppelDef Entree="Automatisation">automatisation</AppelDef> des Ã©conomies,</Strong> expliquent les chercheurs Daron Acemoglu et Pascual Restrepo. Plus la <AppelDef Entree="Force de travail">force de travail</AppelDef> Ã¢gÃ©e entre 26 et 55 ans est faible, comme en Allemagne, en CorÃ©e du Sud ou au Japon, plus l'<AppelDef Entree="Automatisation">automatisation</AppelDef> se dÃ©veloppe dans l'industrie. Les Ã©carts dÃ©mographiques expliquent prÃ¨s de 40&nbsp;% des diffÃ©rences entre les pays.<BR/> A consulter sur <AppelURL Href="http://www.nber.org">www.nber.org</AppelURL></Item>
-      <Item><Strong>La part de la Chine dans les publications scientifiques internationales</Strong> est passÃ©e de 4&nbsp;% en 2000 Ã  18,6&nbsp;% en 2016. Si l'on tient compte des Chinois hors Chine et des publications en chinois, on atteint 36&nbsp;%.<BR/> A consulter sur <AppelURL Href="http://www.nber.org">www.nber.org</AppelURL></Item>
-    </Liste>
-  </Breve>
+    <Breve>
+        <Code>A382080B</Code>
+        <DateRevue>00/09/2018</DateRevue>
+        <MotCle></MotCle>
+        <Rub>Comprendre</Rub>
+        <SousRub>Economie</SousRub>
+        <TitreRevue>Économie&nbsp;: l'actualité des études</TitreRevue>
+        <TitreCdrom>Économie&nbsp;: l'actualité des études</TitreCdrom>
+        <Auteur>
+            <Nom>*</Nom>
+        </Auteur>
+        <Liste>
+            <Item>
+                <Strong>Le dernier rapport de l'International Federation of Robotics</Strong>
+                confirme encore une fois combien la Chine a pris la <AppelDef Entree="Automatisation">robotisation
+            </AppelDef> de son économie au sérieux. Le marché mondial du robot continue sa forte progression&nbsp;: en
+                2017, 381 000 unités supplémentaires ont été achetées dans le monde. La Chine a été à l'origine de 36,2&nbsp;%
+                de cette demande avec une hausse spectaculaire de 58&nbsp;% de ses achats par rapport à 2016, soit 138
+                000 unités supplémentaires. Avec leurs 33 000 robots de plus, les Etats-Unis font pâle figure, sans
+                parler des 5 000 robots achetés par la France, moins que le Vietnam et le Mexique. L'automobile et les
+                secteurs électrique et électronique en sont les principaux utilisateurs, loin devant ceux des métaux et
+                de la chimie.
+                <BR/>
+                A consulter sur
+                <AppelURL Href="http://www.ifr.org">www.ifr.org</AppelURL>
+            </Item>
+            <Item>
+                <Strong>La <AppelDef Entree="Démographie">démographie</AppelDef> influe largement sur le degré d'<AppelDef
+                        Entree="Automatisation">automatisation
+                </AppelDef> des économies,
+                </Strong>
+                expliquent les chercheurs Daron Acemoglu et Pascual Restrepo. Plus la <AppelDef
+                    Entree="Force de travail">force de travail
+            </AppelDef> âgée entre 26 et 55 ans est faible, comme en Allemagne, en Corée du Sud ou au Japon, plus l'<AppelDef
+                    Entree="Automatisation">automatisation
+            </AppelDef> se développe dans l'industrie. Les écarts démographiques expliquent près de 40&nbsp;% des
+                différences entre les pays.
+                <BR/>
+                A consulter sur
+                <AppelURL Href="http://www.nber.org">www.nber.org</AppelURL>
+            </Item>
+            <Item>
+                <Strong>La part de la Chine dans les publications scientifiques internationales</Strong>
+                est passée de 4&nbsp;% en 2000 à 18,6&nbsp;% en 2016. Si l'on tient compte des Chinois hors Chine et des
+                publications en chinois, on atteint 36&nbsp;%.
+                <BR/>
+                A consulter sur
+                <AppelURL Href="http://www.nber.org">www.nber.org</AppelURL>
+            </Item>
+        </Liste>
+    </Breve>
 </Document>

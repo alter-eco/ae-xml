@@ -1,40 +1,190 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE Document SYSTEM "CdAE.dtd">
 <Document>
-  <Article>
-    <Code>A382010B</Code>
-    <CodePere>A382010A</CodePere>
-    <DateRevue>00/09/2018</DateRevue>
-    <MotCle></MotCle>
-    <Rub>L'événement</Rub>
-    <Sujet>Parcoursup : les dessous d'un bug</Sujet>
-    <TitreRevue>Parcoursup&nbsp;: les dessous d'un bug</TitreRevue>
-    <TitreCdrom>Parcoursup&nbsp;: les dessous d'un bug</TitreCdrom>
-    <Auteur><Nom>Molénat</Nom><Prenom>Xavier</Prenom></Auteur>
-    <Para>A quelques jours de la rentrée, combien de candidats à l'enseignement supérieur sont encore en attente d'une place&nbsp;? Difficile de le savoir. Les données de la nouvelle plate-forme d'affectation Parcoursup ont en effet nourri un feuilleton estival dont la ministre de l'Enseignement supérieur et de la Recherche se serait sans doute bien passée. Promesse de transparence oblige, un "tableau de bord" quotidien est publié sur le site de Parcoursup. Jusqu'au 22 juillet, celui-ci indiquait l'évolution du nombre de candidats ayant définitivement accepté une proposition d'affectation, ceux n'ayant pas encore fait leur choix, ceux n'ayant encore reçu aucune proposition, ou qui avaient quitté la plate-forme... Or, les performances de la plate-forme n'étaient guère reluisantes. Au 22 juillet, seuls 57&nbsp;% des 810 000 candidats ayant formulé un voeu sur Parcoursup avaient définitivement validé l'une des propositions d'affectation qu'ils avaient reçues, et donc savaient où ils se trouveraient à la rentrée. Plus de 60 000 candidats attendaient toujours, eux, qu'on leur propose quelque chose.</Para>
-    <Para>Le lendemain, surprise&nbsp;: le ministère chamboule la présentation du tableau de bord, distinguant notamment les candidats <Emphasis>"</Emphasis><Emphasis>qui souhaitent s'inscrire dans l'enseignement supérieur</Emphasis> via <Emphasis>Parcoursup</Emphasis><Emphasis>"</Emphasis> des <Emphasis>"</Emphasis><Emphasis>inactifs</Emphasis><Emphasis>"</Emphasis>, censés n'avoir pas (encore) fait les démarches nécessaires pour trouver une place (inscription en phase complémentaire, sollicitation de l'aide du rectorat...). Miracle&nbsp;: le nombre de candidats "souhaitant s'inscrire" tombe en dessous des 20 000&nbsp;!</Para>
-    <Para>Une manoeuvre qui ne convainc guère, mais qui contribue à exacerber davantage les inquiétudes suscitées par le fonctionnement de la plate-forme. La procédure ne sera achevée que le 21 septembre, mais les chiffres sont là&nbsp;: au 22 août, seuls 60,4&nbsp;% des candidats avaient définitivement validé leur affectation. 163 000 autres avaient, quant à eux, tout simplement quitté la plate-forme, sans que l'on en connaisse les raisons exactes&nbsp;: échec au baccalauréat&nbsp;? Orientation vers une formation hors Parcoursup&nbsp;? Résignation&nbsp;? Les délais deviennent difficiles à supporter pour les autres, ainsi que pour certains responsables de formation, qui ne connaissent que très partiellement leurs effectifs pour la rentrée 2018-2019. Les classes préparatoires, les IUT et les BTS, qui démarrent début septembre, ont d'ailleurs obtenu du ministère de pouvoir avancer d'une semaine la date limite d'inscription, afin d'accélérer le processus.</Para>
-    <Para><Inter1>Un système controversé</Inter1></Para>
-    <Para>Cette interminable attente n'est que le dernier avatar des controverses qui ont émaillé la mise en oeuvre - en moins d'un an&nbsp;! - de Parcoursup. Au lycée tout d'abord, où la création d'un deuxième professeur principal, chargé d'aider les élèves à s'orienter, et la mission donnée aux conseils de classe de transmettre aux établissements d'enseignement supérieur un avis sur les voeux de chaque lycéen rebutent de nombreux enseignants, qui ne s'estiment ni compétents ni légitimes pour accomplir ces tâches. Puis ce sont les fameux "attendus", ces <Emphasis>"connaissances fondamentales et</Emphasis> (...) <Emphasis>compétences nécessaires à la réussite des étudiants"</Emphasis> indiquées par chaque formation, qui semblent parfois mettre la barre très haut pour de jeunes bacheliers ("avoir le Bafa", "avoir fait des séjours linguistiques", "aptitude à la logique"...).</Para>
-    <Para><LienExt Href="A382011A" Type="gra"/></Para>
-    <Para>Ce sont, ensuite, les conditions d'examen des candidatures qui posent question&nbsp;: dans les <AppelDef Entree="Filière">filières</AppelDef> très sollicitées, les équipes enseignantes se sont trouvées dans l'incapacité d'examiner sérieusement les milliers de dossiers (parfois accompagnés de lettres de motivation) déposés. Enfin, les critères de sélection ont fait débat&nbsp;: dans les <AppelDef Entree="Filière">filières</AppelDef> non sélectives mais à effectifs contingentés, comment ont été classés les candidats&nbsp;? Nul ne le sait, ces décisions étant couvertes par le secret des délibérations. Un secret qui alimente les soupçons de discrimination. Plusieurs organisations syndicales ont d'ailleurs saisi cet été le défenseur des droits afin d'obtenir la publication des algorithmes locaux, assurant que <Emphasis>"</Emphasis><Emphasis>les témoignages démontrant les limites de ce système se multiplient&nbsp;: un pourcentage de boursiers inégalement réparti entre académies, une surreprésentation des jeunes d'origine sociale modeste parmi celles et ceux se retrouvant sans solution d'inscription, des pratiques de pondération des notes en fonction du classement des lycées, une mise au ban des candidats issus de baccalauréats professionnels ou technologiques</Emphasis><Emphasis>"</Emphasis>.</Para>
-    <Para>Il faudra attendre la fin de la procédure, le 21 septembre, pour faire un bilan définitif. Reste que pour l'heure, les progrès par rapport au précédent système APB (Admission post-bac), voué aux gémonies par la ministre de l'Enseignement supérieur Frédérique Vidal, ne sautent pas aux yeux. Il a certes été mis fin au recours au tirage au sort, qui avait scandalisé (bien qu'il n'ait jamais concerné plus de 1&nbsp;% des candidats). Mais cela, au prix d'un processus opaque et, pour beaucoup, injuste, tant il semble pénaliser les élèves les plus fragiles ou n'ayant pas la bonne adresse. Parcoursup doit encore convaincre qu'il ne s'est pas contenté de substituer l'arbitraire à l'aléatoire.</Para>
-    <Para><Inter1>Un antidote à l'échec&nbsp;?</Inter1></Para>
-    <Para>Pour sa défense, Frédérique Vidal a argué que l'examen des dossiers était une manière de <Emphasis>"remettre de l'humain dans le processus d'orientation"</Emphasis> et d'en finir avec le <Emphasis>"gâchis"</Emphasis> que représenterait le taux élevé d'échec en premier cycle. En particulier pour les titulaires d'un baccalauréat professionnel ou technologique qui, par manque de places dans les <AppelDef Entree="Filière">filières</AppelDef> courtes (BTS, IUT), se retrouveraient par défaut et désarmés sur les bancs de l'université. Un diagnostic devenu lieu commun, mais contesté par les sociologues. D'abord, parce que les abandons ne sont pas moins nombreux dans les <AppelDef Entree="Filière">filières</AppelDef> courtes et sélectives, comme le BTS, supposées être le débouché naturel des bacheliers professionnels (les classes préparatoires connaissant elles aussi, soit dit en passant, des taux d'échec très importants). Ensuite, parce que ce taux d'échec à l'université masque une diversité de trajectoires, parfois sinueuses mais souvent réussies (admission à un concours, obtention d'un diplôme dans un autre cursus). Par ailleurs, en 2016, les bacheliers technologiques et professionnels ne représentaient, respectivement, que 14,3&nbsp;% et 5&nbsp;% des nouveaux bacheliers inscrits à l'université.</Para>
-    <Para>Parcoursup soulève ainsi un certain nombre de questions&nbsp;: dans quelle mesure la probabilité de réussite d'un étudiant peut-elle être déduite du dossier scolaire du lycéen qu'il était&nbsp;? Quel droit à l'erreur accorder aux étudiants les plus fragiles&nbsp;? Quelle place laisser aux tâtonnements, aux bifurcations, aux réussites improbables&nbsp;? Parcoursup prévoit, il est vrai, la possibilité de cursus adaptés (les fameuses réponses "oui, si") pour les étudiants n'ayant pas toutes les compétences attendues. Selon le ministère, 135 000 réponses "oui, si" ont été données aux candidats. Mais de nombreuses universités ont prévenu qu'elles n'étaient pas en mesure de les proposer, faute de temps... et de moyens.</Para>
-    <Para><LienExt Href="A382013A" Type="enc"/></Para>
-    <Para>Ces questions sont d'autant plus vives que la procédure se révèle assez stressante pour des élèves fortement responsabilisés dans leur choix. Selon le sociologue François Dubet, <Emphasis>"Parcoursup impose aux jeunes de faire des projets, alors que beaucoup d'entre eux n'en ont pas, et ceci les met dans un état d'angoisse et d'anxiété profond"</Emphasis><AppelNote Num="_N1"/>. Et ce, d'autant plus que les attendus et les informations délivrées sur le nombre de voeux et le taux de réussite de chaque formation ont de quoi décourager l'ambition des élèves les plus fragiles. A quoi s'ajoute la cruauté du verdict pour ceux qui ne sont pris nulle part... <Emphasis>"La loi ORE</Emphasis> [pour "orientation et réussite de l'étudiant", loi dont découle Parcoursup, NDLR] <Emphasis>institutionnalise l'autocensure</Emphasis><Emphasis>"</Emphasis>, tranchent les sociologues Marie-Paule Couto et Fanny Bugeja-Bloch<AppelNote Num="_N2"/>.</Para>
-    <Para><Inter1>Des universités sous-dotées</Inter1></Para>
-    <Para>Rien, dans Parcoursup, ne permet en tout cas de s'attaquer sérieusement aux causes des inégalités de réussite dans le supérieur, qui apparaissent bien en amont. Une récente étude a montré que la probabilité d'obtenir une licence à l'université était fortement corrélée à la qualité des apprentissages... en primaire<AppelNote Num="_N3"/>. De même, la plate-forme laisse intacte le morcellement et la hiérarchisation du système d'enseignement supérieur, et en particulier sa funeste division entre des universités (en théorie) accessibles à tous et des grandes écoles aussi sélectives socialement qu'il y a quarante ans. Une dualité qui, par nature, entrave toute volonté de démocratisation. Mais qui, il est vrai, n'est guère contestée dans l'opinion&nbsp;: <Emphasis>"La sélection est une menace, mais chacun la désire pour lui-même. On peut donc dire "A bas la sélection&nbsp;!" tout en ne contestant pas les institutions les plus sélectives</Emphasis><Emphasis>"</Emphasis>, note, lucide, François Dubet.</Para>
-    <Para>De toute manière, le sous-investissement chronique dont souffre l'enseignement supérieur rend illusoire une quelconque ambition en la matière. Depuis bientôt dix ans, la <AppelDef Entree="Dépense">dépense publique</AppelDef> par étudiant, déjà peu élevée en comparaison des autres pays européens, est en baisse en France. L'effort que la collectivité consent pour un étudiant de classe préparatoire (15 110 euros par an en 2016) reste 1,5 fois supérieur à celui qu'elle consent pour un étudiant d'université (10 210 euros). Et les 30 000 nouvelles places promises pour cette rentrée dans les cursus en tension (Staps, BTS...) ne suffiront pas pour accueillir des étudiants dont le nombre ne devrait cesser de croître dans la décennie à venir. A défaut d'investissement, Parcoursup risque de n'être qu'une nouvelle façon, sans doute pas la plus juste, de gérer la pénurie.</Para>
-    <Note Num="N1">
-      <Para>Voir son entretien sur notre site "Certains ont intérêt à préserver les inégalités scolaires", <Strong><AppelURL Href="https://bit.ly/2L7N1vY">https://bit.ly/2L7N1vY</AppelURL></Strong></Para>
-    </Note>
-    <Note Num="N2">
-      <Para>"Le Parcoursup des filles. Classe et genre à l'université", <Emphasis>La vie des idées</Emphasis>, 1er juin 2018, <Strong><AppelURL Href="http://www.laviedesidees.fr/Le-Parcoursup-des-filles.html">www.laviedesidees.fr/Le-Parcoursup-des-filles.html</AppelURL></Strong></Para>
-    </Note>
-    <Note Num="N3">
-      <Para>"50&nbsp;% à la licence... mais comment&nbsp;? Les jeunes de familles populaires à l'université en France", par Yaël Brinbaum, Cédric Hugrée et Tristan Poullaouec, <Emphasis>Economie et Statistique</Emphasis> n° 499, juin 2018.</Para>
-    </Note>
-  </Article>
+    <Article>
+        <Code>A382010B</Code>
+        <CodePere>A382010A</CodePere>
+        <DateRevue>00/09/2018</DateRevue>
+        <MotCle></MotCle>
+        <Rub>L'événement</Rub>
+        <Sujet>Parcoursup : les dessous d'un bug</Sujet>
+        <TitreRevue>Parcoursup&nbsp;: les dessous d'un bug</TitreRevue>
+        <TitreCdrom>Parcoursup&nbsp;: les dessous d'un bug</TitreCdrom>
+        <Auteur>
+            <Nom>Molénat</Nom>
+            <Prenom>Xavier</Prenom>
+        </Auteur>
+        <Para>A quelques jours de la rentrée, combien de candidats à l'enseignement supérieur sont encore en attente
+            d'une place&nbsp;? Difficile de le savoir. Les données de la nouvelle plate-forme d'affectation Parcoursup
+            ont en effet nourri un feuilleton estival dont la ministre de l'Enseignement supérieur et de la Recherche se
+            serait sans doute bien passée. Promesse de transparence oblige, un "tableau de bord" quotidien est publié
+            sur le site de Parcoursup. Jusqu'au 22 juillet, celui-ci indiquait l'évolution du nombre de candidats ayant
+            définitivement accepté une proposition d'affectation, ceux n'ayant pas encore fait leur choix, ceux n'ayant
+            encore reçu aucune proposition, ou qui avaient quitté la plate-forme... Or, les performances de la
+            plate-forme n'étaient guère reluisantes. Au 22 juillet, seuls 57&nbsp;% des 810 000 candidats ayant formulé
+            un voeu sur Parcoursup avaient définitivement validé l'une des propositions d'affectation qu'ils avaient
+            reçues, et donc savaient où ils se trouveraient à la rentrée. Plus de 60 000 candidats attendaient toujours,
+            eux, qu'on leur propose quelque chose.
+        </Para>
+        <Para>Le lendemain, surprise&nbsp;: le ministère chamboule la présentation du tableau de bord, distinguant
+            notamment les candidats
+            <Emphasis>"</Emphasis>
+            <Emphasis>qui souhaitent s'inscrire dans l'enseignement supérieur</Emphasis>
+            via
+            <Emphasis>Parcoursup</Emphasis>
+            <Emphasis>"</Emphasis>
+            des
+            <Emphasis>"</Emphasis>
+            <Emphasis>inactifs</Emphasis>
+            <Emphasis>"</Emphasis>, censés n'avoir pas (encore) fait les démarches nécessaires pour trouver une place
+            (inscription en phase complémentaire, sollicitation de l'aide du rectorat...). Miracle&nbsp;: le nombre de
+            candidats "souhaitant s'inscrire" tombe en dessous des 20 000&nbsp;!
+        </Para>
+        <Para>Une manoeuvre qui ne convainc guère, mais qui contribue à exacerber davantage les inquiétudes suscitées
+            par le fonctionnement de la plate-forme. La procédure ne sera achevée que le 21 septembre, mais les chiffres
+            sont là&nbsp;: au 22 août, seuls 60,4&nbsp;% des candidats avaient définitivement validé leur affectation.
+            163 000 autres avaient, quant à eux, tout simplement quitté la plate-forme, sans que l'on en connaisse les
+            raisons exactes&nbsp;: échec au baccalauréat&nbsp;? Orientation vers une formation hors Parcoursup&nbsp;?
+            Résignation&nbsp;? Les délais deviennent difficiles à supporter pour les autres, ainsi que pour certains
+            responsables de formation, qui ne connaissent que très partiellement leurs effectifs pour la rentrée
+            2018-2019. Les classes préparatoires, les IUT et les BTS, qui démarrent début septembre, ont d'ailleurs
+            obtenu du ministère de pouvoir avancer d'une semaine la date limite d'inscription, afin d'accélérer le
+            processus.
+        </Para>
+        <Para>
+            <Inter1>Un système controversé</Inter1>
+        </Para>
+        <Para>Cette interminable attente n'est que le dernier avatar des controverses qui ont émaillé la mise en oeuvre
+            - en moins d'un an&nbsp;! - de Parcoursup. Au lycée tout d'abord, où la création d'un deuxième professeur
+            principal, chargé d'aider les élèves à s'orienter, et la mission donnée aux conseils de classe de
+            transmettre aux établissements d'enseignement supérieur un avis sur les voeux de chaque lycéen rebutent de
+            nombreux enseignants, qui ne s'estiment ni compétents ni légitimes pour accomplir ces tâches. Puis ce sont
+            les fameux "attendus", ces <Emphasis>"connaissances fondamentales et</Emphasis> (...) <Emphasis>compétences
+                nécessaires à la réussite des étudiants"
+            </Emphasis> indiquées par chaque formation, qui semblent parfois mettre la barre très haut pour de jeunes
+            bacheliers ("avoir le Bafa", "avoir fait des séjours linguistiques", "aptitude à la logique"...).
+        </Para>
+        <Para>
+            <LienExt Href="A382011A" Type="gra"/>
+        </Para>
+        <Para>Ce sont, ensuite, les conditions d'examen des candidatures qui posent question&nbsp;: dans les <AppelDef
+                Entree="Filière">filières
+        </AppelDef> très sollicitées, les équipes enseignantes se sont trouvées dans l'incapacité d'examiner
+            sérieusement les milliers de dossiers (parfois accompagnés de lettres de motivation) déposés. Enfin, les
+            critères de sélection ont fait débat&nbsp;: dans les <AppelDef Entree="Filière">filières</AppelDef> non
+            sélectives mais à effectifs contingentés, comment ont été classés les candidats&nbsp;? Nul ne le sait, ces
+            décisions étant couvertes par le secret des délibérations. Un secret qui alimente les soupçons de
+            discrimination. Plusieurs organisations syndicales ont d'ailleurs saisi cet été le défenseur des droits afin
+            d'obtenir la publication des algorithmes locaux, assurant que
+            <Emphasis>"</Emphasis>
+            <Emphasis>les témoignages démontrant les limites de ce système se multiplient&nbsp;: un pourcentage de
+                boursiers inégalement réparti entre académies, une surreprésentation des jeunes d'origine sociale
+                modeste parmi celles et ceux se retrouvant sans solution d'inscription, des pratiques de pondération des
+                notes en fonction du classement des lycées, une mise au ban des candidats issus de baccalauréats
+                professionnels ou technologiques
+            </Emphasis>
+            <Emphasis>"</Emphasis>.
+        </Para>
+        <Para>Il faudra attendre la fin de la procédure, le 21 septembre, pour faire un bilan définitif. Reste que pour
+            l'heure, les progrès par rapport au précédent système APB (Admission post-bac), voué aux gémonies par la
+            ministre de l'Enseignement supérieur Frédérique Vidal, ne sautent pas aux yeux. Il a certes été mis fin au
+            recours au tirage au sort, qui avait scandalisé (bien qu'il n'ait jamais concerné plus de 1&nbsp;% des
+            candidats). Mais cela, au prix d'un processus opaque et, pour beaucoup, injuste, tant il semble pénaliser
+            les élèves les plus fragiles ou n'ayant pas la bonne adresse. Parcoursup doit encore convaincre qu'il ne
+            s'est pas contenté de substituer l'arbitraire à l'aléatoire.
+        </Para>
+        <Para>
+            <Inter1>Un antidote à l'échec&nbsp;?</Inter1>
+        </Para>
+        <Para>Pour sa défense, Frédérique Vidal a argué que l'examen des dossiers était une manière de <Emphasis>
+            "remettre de l'humain dans le processus d'orientation"
+        </Emphasis> et d'en finir avec le <Emphasis>"gâchis"</Emphasis> que représenterait le taux élevé d'échec en
+            premier cycle. En particulier pour les titulaires d'un baccalauréat professionnel ou technologique qui, par
+            manque de places dans les <AppelDef Entree="Filière">filières</AppelDef> courtes (BTS, IUT), se
+            retrouveraient par défaut et désarmés sur les bancs de l'université. Un diagnostic devenu lieu commun, mais
+            contesté par les sociologues. D'abord, parce que les abandons ne sont pas moins nombreux dans les <AppelDef
+                    Entree="Filière">filières
+            </AppelDef> courtes et sélectives, comme le BTS, supposées être le débouché naturel des bacheliers
+            professionnels (les classes préparatoires connaissant elles aussi, soit dit en passant, des taux d'échec
+            très importants). Ensuite, parce que ce taux d'échec à l'université masque une diversité de trajectoires,
+            parfois sinueuses mais souvent réussies (admission à un concours, obtention d'un diplôme dans un autre
+            cursus). Par ailleurs, en 2016, les bacheliers technologiques et professionnels ne représentaient,
+            respectivement, que 14,3&nbsp;% et 5&nbsp;% des nouveaux bacheliers inscrits à l'université.
+        </Para>
+        <Para>Parcoursup soulève ainsi un certain nombre de questions&nbsp;: dans quelle mesure la probabilité de
+            réussite d'un étudiant peut-elle être déduite du dossier scolaire du lycéen qu'il était&nbsp;? Quel droit à
+            l'erreur accorder aux étudiants les plus fragiles&nbsp;? Quelle place laisser aux tâtonnements, aux
+            bifurcations, aux réussites improbables&nbsp;? Parcoursup prévoit, il est vrai, la possibilité de cursus
+            adaptés (les fameuses réponses "oui, si") pour les étudiants n'ayant pas toutes les compétences attendues.
+            Selon le ministère, 135 000 réponses "oui, si" ont été données aux candidats. Mais de nombreuses universités
+            ont prévenu qu'elles n'étaient pas en mesure de les proposer, faute de temps... et de moyens.
+        </Para>
+        <Para>
+            <LienExt Href="A382013A" Type="enc"/>
+        </Para>
+        <Para>Ces questions sont d'autant plus vives que la procédure se révèle assez stressante pour des élèves
+            fortement responsabilisés dans leur choix. Selon le sociologue François Dubet,
+            <Emphasis>"Parcoursup impose aux jeunes de faire des projets, alors que beaucoup d'entre eux n'en ont pas,
+                et ceci les met dans un état d'angoisse et d'anxiété profond"
+            </Emphasis>
+            <AppelNote Num="_N1"/>. Et ce, d'autant plus que les attendus et les informations délivrées sur le nombre de
+            voeux et le taux de réussite de chaque formation ont de quoi décourager l'ambition des élèves les plus
+            fragiles. A quoi s'ajoute la cruauté du verdict pour ceux qui ne sont pris nulle part... <Emphasis>"La loi
+                ORE
+            </Emphasis> [pour "orientation et réussite de l'étudiant", loi dont découle Parcoursup, NDLR]
+            <Emphasis>institutionnalise l'autocensure</Emphasis>
+            <Emphasis>"</Emphasis>, tranchent les sociologues Marie-Paule Couto et Fanny Bugeja-Bloch<AppelNote
+                    Num="_N2"/>.
+        </Para>
+        <Para>
+            <Inter1>Des universités sous-dotées</Inter1>
+        </Para>
+        <Para>Rien, dans Parcoursup, ne permet en tout cas de s'attaquer sérieusement aux causes des inégalités de
+            réussite dans le supérieur, qui apparaissent bien en amont. Une récente étude a montré que la probabilité
+            d'obtenir une licence à l'université était fortement corrélée à la qualité des apprentissages... en primaire
+            <AppelNote Num="_N3"/>. De même, la plate-forme laisse intacte le morcellement et la hiérarchisation du
+            système d'enseignement supérieur, et en particulier sa funeste division entre des universités (en théorie)
+            accessibles à tous et des grandes écoles aussi sélectives socialement qu'il y a quarante ans. Une dualité
+            qui, par nature, entrave toute volonté de démocratisation. Mais qui, il est vrai, n'est guère contestée dans
+            l'opinion&nbsp;:
+            <Emphasis>"La sélection est une menace, mais chacun la désire pour lui-même. On peut donc dire "A bas la
+                sélection&nbsp;!" tout en ne contestant pas les institutions les plus sélectives
+            </Emphasis>
+            <Emphasis>"</Emphasis>, note, lucide, François Dubet.
+        </Para>
+        <Para>De toute manière, le sous-investissement chronique dont souffre l'enseignement supérieur rend illusoire
+            une quelconque ambition en la matière. Depuis bientôt dix ans, la <AppelDef Entree="Dépense">dépense
+                publique
+            </AppelDef> par étudiant, déjà peu élevée en comparaison des autres pays européens, est en baisse en France.
+            L'effort que la collectivité consent pour un étudiant de classe préparatoire (15 110 euros par an en 2016)
+            reste 1,5 fois supérieur à celui qu'elle consent pour un étudiant d'université (10 210 euros). Et les 30 000
+            nouvelles places promises pour cette rentrée dans les cursus en tension (Staps, BTS...) ne suffiront pas
+            pour accueillir des étudiants dont le nombre ne devrait cesser de croître dans la décennie à venir. A défaut
+            d'investissement, Parcoursup risque de n'être qu'une nouvelle façon, sans doute pas la plus juste, de gérer
+            la pénurie.
+        </Para>
+        <Note Num="N1">
+            <Para>Voir son entretien sur notre site "Certains ont intérêt à préserver les inégalités scolaires",
+                <Strong>
+                    <AppelURL Href="https://bit.ly/2L7N1vY">https://bit.ly/2L7N1vY</AppelURL>
+                </Strong>
+            </Para>
+        </Note>
+        <Note Num="N2">
+            <Para>"Le Parcoursup des filles. Classe et genre à l'université", <Emphasis>La vie des idées</Emphasis>, 1er
+                juin 2018,
+                <Strong>
+                    <AppelURL Href="http://www.laviedesidees.fr/Le-Parcoursup-des-filles.html">
+                        www.laviedesidees.fr/Le-Parcoursup-des-filles.html
+                    </AppelURL>
+                </Strong>
+            </Para>
+        </Note>
+        <Note Num="N3">
+            <Para>"50&nbsp;% à la licence... mais comment&nbsp;? Les jeunes de familles populaires à l'université en
+                France", par Yaël Brinbaum, Cédric Hugrée et Tristan Poullaouec, <Emphasis>Economie et Statistique
+                </Emphasis> n° 499, juin 2018.
+            </Para>
+        </Note>
+    </Article>
 </Document>

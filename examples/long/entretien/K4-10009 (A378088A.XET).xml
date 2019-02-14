@@ -1,48 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd" standard="AE-XML" id="K4-10009" version="1">
-  <rightsInfo>
-    <copyrightHolder>
-      Alternatives Economiques
-    </copyrightHolder>
-    <copyrightNotice>
-      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
-    </copyrightNotice>
-  </rightsInfo>
-  <itemMeta>
-    <parentPublication residref="K4-XXXXXX"/>
-    <itemClass type="long"/>
-  </itemMeta>
-  <contentMeta>
-    <created>2018-10-29T09:30:10Z</created>
-    <modified>2018-10-29T09:30:10Z</modified>
-    <title>Avoir 20 ans en 1968 et en 2018</title>
-    <genre>entretien</genre>
-    <section>Dossier</section>
-    <subSection>société</subSection>
-    <subject>1968-2018 : les cinquante ans qui ont révolutionné la France</subject>
-    <author>
-      <name>Xavier Molénat</name>
-    </author>
-    <author>
-      <name>Laurent Jeanneau</name>
-    </author>
-    <interviewee>
-      <name>Ludivine Bantigny</name>
-      <description>historienne</description>
-    </interviewee>
-    <interviewee>
-      <name>Camille Peugny</name>
-      <description>sociologue</description>
-    </interviewee>
-    <lead>Les jeunes de 1968 sont-ils très différents de ceux d'aujourd'hui ? L'analyse de l'historienne Ludivine Bantigny et du sociologue Camille Peugny.</lead>
-    <figure>
-      <caption>Lorem ipsum dolor sit amet</caption>
-      <copyright>iStock</copyright>
-      <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
-    </figure>
-  </contentMeta>
-  <contentSet>
-    <HTML5><![CDATA[
+<NewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.alternatives-economiques.fr"
+          xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd"
+          standard="AE-XML" id="K4-10009" version="1">
+    <rightsInfo>
+        <copyrightHolder>
+            Alternatives Economiques
+        </copyrightHolder>
+        <copyrightNotice>
+            Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et
+            documents parus est soumis à l'autorisation préalable de l'éditeur.
+        </copyrightNotice>
+    </rightsInfo>
+    <itemMeta>
+        <parentPublication residref="K4-XXXXXX"/>
+        <itemClass type="long"/>
+    </itemMeta>
+    <contentMeta>
+        <created>2018-10-29T09:30:10Z</created>
+        <modified>2018-10-29T09:30:10Z</modified>
+        <title>Avoir 20 ans en 1968 et en 2018</title>
+        <genre>entretien</genre>
+        <section>Dossier</section>
+        <subSection>société</subSection>
+        <subject>1968-2018 : les cinquante ans qui ont révolutionné la France</subject>
+        <author>
+            <name>Xavier Molénat</name>
+        </author>
+        <author>
+            <name>Laurent Jeanneau</name>
+        </author>
+        <interviewee>
+            <name>Ludivine Bantigny</name>
+            <description>historienne</description>
+        </interviewee>
+        <interviewee>
+            <name>Camille Peugny</name>
+            <description>sociologue</description>
+        </interviewee>
+        <lead>Les jeunes de 1968 sont-ils très différents de ceux d'aujourd'hui ? L'analyse de l'historienne Ludivine
+            Bantigny et du sociologue Camille Peugny.
+        </lead>
+        <figure>
+            <caption>Lorem ipsum dolor sit amet</caption>
+            <copyright>iStock</copyright>
+            <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
+        </figure>
+    </contentMeta>
+    <contentSet>
+        <HTML5><![CDATA[
         <p><strong>Qu’est-ce que cela signifiait d’être jeune en 1968 ?</strong></p>
         <p><strong>Ludivine Bantigny :</strong> A cette époque-là, les conditions matérielles commencent à être réunies pour que la jeunesse existe comme une catégorie sociale à part entière. On lui accorde davantage de moyens pour exister comme telle, avec des loisirs spécifiques. Dans les espaces domestiques, par exemple, les conditions de logement s’améliorent. Le fait d’avoir une chambre à soi, de pouvoir y écouter sa musique, avec l’apparition du transistor, est quelque chose de très important pour que la jeunesse puisse se vivre comme un âge singulier. Elle commence à faire l’objet de politiques publiques spécifiques, comme le montre la création d’un secrétariat d’Etat (1963), puis d’un ministère (1966) de la Jeunesse et des Sports.</p>
         <p>Ceci dit, elle est traversée par de nombreux clivages. Les goûts culturels restent socialement différenciés. Les étudiants sont alors une toute petite minorité, globalement très privilégiée d’un point de vue social et culturel. Les enfants d’ouvriers représentent 10 % des étudiants de cette époque, les enfants de paysans autour de 4 % à 6 %.</p>
@@ -75,5 +80,5 @@
           <p id="footnote-3"><a href="#ref-3">3</a> <em>Le nouvel esprit du capitalisme</em>, Gallimard, 1999.</p>
         </section>
       ]]></HTML5>
-  </contentSet>
+    </contentSet>
 </NewsItem>

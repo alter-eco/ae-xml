@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd" standard="AE-XML" id="K4-10005" version="1">
-  <rightsInfo>
-    <copyrightHolder>
-      Alternatives Economiques
-    </copyrightHolder>
-    <copyrightNotice>
-      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
-    </copyrightNotice>
-  </rightsInfo>
-  <itemMeta>
-    <parentPublication residref="K4-10001"/>
-    <itemClass type="long"/>
-  </itemMeta>
-  <contentMeta>
-    <created>2018-10-29T09:30:10Z</created>
-    <modified>2018-10-29T09:30:10Z</modified>
-    <title>Crises, mode d'emploi</title>
-    <genre>article</genre>
-    <section>Dossier</section>
-    <author>
-      <name>Christian Chavagneux</name>
-    </author>
-    <lead>Des tulipes hollandaises au XVIIe siècle à 2008, en passant par 1929, les crises se suivent... et se ressemblent. On vous explique tout sur les bulles financières.</lead>
-    <figure>
-      <caption/>
-      <copyright>Soulcié pour Alternatives Economiques</copyright>
-      <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
-    </figure>
-  </contentMeta>
-  <contentSet>
-    <HTML5><![CDATA[
+<NewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.alternatives-economiques.fr"
+          xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd"
+          standard="AE-XML" id="K4-10005" version="1">
+    <rightsInfo>
+        <copyrightHolder>
+            Alternatives Economiques
+        </copyrightHolder>
+        <copyrightNotice>
+            Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et
+            documents parus est soumis à l'autorisation préalable de l'éditeur.
+        </copyrightNotice>
+    </rightsInfo>
+    <itemMeta>
+        <parentPublication residref="K4-10001"/>
+        <itemClass type="long"/>
+    </itemMeta>
+    <contentMeta>
+        <created>2018-10-29T09:30:10Z</created>
+        <modified>2018-10-29T09:30:10Z</modified>
+        <title>Crises, mode d'emploi</title>
+        <genre>article</genre>
+        <section>Dossier</section>
+        <author>
+            <name>Christian Chavagneux</name>
+        </author>
+        <lead>Des tulipes hollandaises au XVIIe siècle à 2008, en passant par 1929, les crises se suivent... et se
+            ressemblent. On vous explique tout sur les bulles financières.
+        </lead>
+        <figure>
+            <caption/>
+            <copyright>Soulcié pour Alternatives Economiques</copyright>
+            <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
+        </figure>
+    </contentMeta>
+    <contentSet>
+        <HTML5><![CDATA[
         <p><strong>Des tulipes hollandaises au XVIIe siècle à 2008, en passant par 1929, les crises se suivent... et se ressemblent. On vous explique tout sur les bulles financières.</strong></p>
         <p>La faillite de la banque américaine Lehman Brothers, le 15 septembre 2008, a été le moment clé de l’éclatement d’une bulle financière aux proportions historiques. Partie des crédits immobiliers américains, la crise s’est répandue partout dans le monde, provoquant une chute de la croissance mondiale (de 5,6 % en 2007 à 0 % en 2009) et la montée du chômage (d’un peu plus de 5 % en 2007 à 8 % jusqu’en 2013 dans les pays avancés). L’étude détaillée des mécanismes de montée de la bulle montre de manière fascinante qu’elle a suivi en tout point le cycle des grandes crises de l’histoire, des tulipes hollandaises au XVIIe siècle à celle de 1929. Si l’on veut éviter un prochain dérapage, mieux vaut en comprendre les ressorts. Voici comment naît et grandit une bulle financière.</p>
         <h2>1. Comment commence une bulle ?</h2>
@@ -69,5 +74,5 @@
           <p id="footnote-4"><a href="#ref-4">4</a> Voir Carnets graphiques. L’économie mondiale dévoile ses courbes, <a href="https://lc.cx/muGb">https://lc.cx/muGb</a></p>
         </section>
       ]]></HTML5>
-  </contentSet>
+    </contentSet>
 </NewsItem>

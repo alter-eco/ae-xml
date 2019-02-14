@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE Document SYSTEM "CdAE.dtd">
 <Document>
-  <Graphique>
-    <Code>A382067B</Code>
-    <CodePere>A382067A</CodePere>
-    <DateRevue>00/09/2018</DateRevue>
-    <MotCle></MotCle>
-    <Rub>Dossier</Rub>
-    <Sujet>Faut-il encore avoir peur de la finance ?</Sujet>
-    <TitreRevue>Part du revenu allant au 1&nbsp;% les plus riches (en&nbsp;%) et indice de déréglementation financière*</TitreRevue>
-    <TitreCdrom>Part du revenu allant au 1&nbsp;% les plus riches (en&nbsp;%) et indice de déréglementation financière</TitreCdrom>
-    <Image Href="A382067B"/>
-    <Legende>
-      <Para>Plus cet indice est faible, plus la finance est régulée.</Para>
-      <Para><Strong>Lecture&nbsp;:</Strong> selon les données de Thomas Piketty et Emmanuel Saez, juste avant les deux crises, les Américains les plus riches contrôlaient un peu plus de 20&nbsp;% du <AppelDef Entree="Revenu national">revenu national</AppelDef>. Au même moment, l'indice de <AppelDef Entree="Déréglementation">déréglementation</AppelDef> financière élaboré par Thomas Philippon et Ariell Reshef était au plus haut.</Para>
-    </Legende>
-  </Graphique>
+    <Graphique>
+        <Code>A382067B</Code>
+        <CodePere>A382067A</CodePere>
+        <DateRevue>00/09/2018</DateRevue>
+        <MotCle></MotCle>
+        <Rub>Dossier</Rub>
+        <Sujet>Faut-il encore avoir peur de la finance ?</Sujet>
+        <TitreRevue>Part du revenu allant au 1&nbsp;% les plus riches (en&nbsp;%) et indice de déréglementation
+            financière*
+        </TitreRevue>
+        <TitreCdrom>Part du revenu allant au 1&nbsp;% les plus riches (en&nbsp;%) et indice de déréglementation
+            financière
+        </TitreCdrom>
+        <Image Href="A382067B"/>
+        <Legende>
+            <Para>Plus cet indice est faible, plus la finance est régulée.</Para>
+            <Para>
+                <Strong>Lecture&nbsp;:</Strong>
+                selon les données de Thomas Piketty et Emmanuel Saez, juste avant les deux crises, les Américains les
+                plus riches contrôlaient un peu plus de 20&nbsp;% du <AppelDef Entree="Revenu national">revenu
+                national</AppelDef>. Au même moment, l'indice de <AppelDef Entree="Déréglementation">déréglementation
+            </AppelDef> financière élaboré par Thomas Philippon et Ariell Reshef était au plus haut.
+            </Para>
+        </Legende>
+    </Graphique>
 </Document>

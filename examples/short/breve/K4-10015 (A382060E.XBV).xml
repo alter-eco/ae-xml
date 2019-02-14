@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/short.xsd" standard="AE-XML" id="K4-10015" version="1">
-  <rightsInfo>
-    <copyrightHolder>
-      Alternatives Economiques
-    </copyrightHolder>
-    <copyrightNotice>
-      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
-    </copyrightNotice>
-  </rightsInfo>
-  <itemMeta>
-    <parentPublication residref="K4-10001"/>
-    <itemClass type="short"/>
-  </itemMeta>
-  <contentMeta>
-    <created>2018-10-29T09:30:10Z</created>
-    <modified>2018-10-29T09:30:10Z</modified>
-    <title>Coopératives : l'emploi progresse</title>
-    <genre>brève</genre>
-    <section>Agir</section>
-    <subSection>En bref</subSection>
-    <relatedInfo>
-      <relatedInfoItem>
-        <HTML5><![CDATA[
+<NewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.alternatives-economiques.fr"
+          xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/short.xsd"
+          standard="AE-XML" id="K4-10015" version="1">
+    <rightsInfo>
+        <copyrightHolder>
+            Alternatives Economiques
+        </copyrightHolder>
+        <copyrightNotice>
+            Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et
+            documents parus est soumis à l'autorisation préalable de l'éditeur.
+        </copyrightNotice>
+    </rightsInfo>
+    <itemMeta>
+        <parentPublication residref="K4-10001"/>
+        <itemClass type="short"/>
+    </itemMeta>
+    <contentMeta>
+        <created>2018-10-29T09:30:10Z</created>
+        <modified>2018-10-29T09:30:10Z</modified>
+        <title>Coopératives : l'emploi progresse</title>
+        <genre>brève</genre>
+        <section>Agir</section>
+        <subSection>En bref</subSection>
+        <relatedInfo>
+            <relatedInfoItem>
+                <HTML5><![CDATA[
             <a Href="http://frama.link/fFYe_kd-">frama.link/fFYe_kd-</a>
           ]]></HTML5>
-      </relatedInfoItem>
-    </relatedInfo>
-  </contentMeta>
-  <contentSet>
-    <HTML5><![CDATA[
+            </relatedInfoItem>
+        </relatedInfo>
+    </contentMeta>
+    <contentSet>
+        <HTML5><![CDATA[
         <p>Entre 2016 et 2017, l'emploi a progressé de 8&nbsp;% dans les quelque 3 000 coopératives (Scop et Scic) de l'Hexagone, soit 4 000 emplois nets supplémentaires. Au total, les coopératives emploient près de 58 000 personnes. Ces chiffres sont publiés par la CG Scop, qui s'est fixé pour objectif 70 000 emplois coopératifs en 2020.</p>
       ]]></HTML5>
-  </contentSet>
+    </contentSet>
 </NewsItem>

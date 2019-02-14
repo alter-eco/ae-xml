@@ -1,24 +1,70 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE Document SYSTEM "CdAE.dtd">
 <Document>
-  <BreveMM>
-    <Code>A382090C</Code>
-    <DateRevue>00/09/2018</DateRevue>
-    <MotCle></MotCle>
-    <Rub>Ecrans</Rub>
-    <TitreRevue>DVD&nbsp;: Etoiles polaires</TitreRevue>
-    <TitreCdrom>DVD&nbsp;: Etoiles polaires</TitreCdrom>
-    <Auteur><Nom>Martinache</Nom><Prenom>Igor</Prenom></Auteur>
-    <Para>DVD Dans leurs films, Lapsuy et Lehmuskallio montrent toute la richesse culturelle des peuples du Grand Nord, mais aussi leur destruction progressive par la "civilisation".</Para>
-    <Para>Depuis 1922 et <Emphasis>Nanouk l'Esquimau</Emphasis> de Robert Flaherty, les cinÃ©astes se sont peu intÃ©ressÃ©s aux peuples du Grand Nord. Et pourtant, ces derniers illuminent l'objectif, comme permettent de s'en rendre compte les films d'Anastasia Lapsuy et Markku Lehmuskallio, dont plusieurs viennent d'Ãªtre rÃ©Ã©ditÃ©s.</Para>
-    <Para><Inter1>Rois et rennes</Inter1></Para>
-    <Para>Ce tandem inclassable a parcouru les confins septentrionaux du globe Ã  la recherche de sociÃ©tÃ©s nomades encore prÃ©servÃ©es des influences de la "modernitÃ©". Une quÃªte qui faillit se rÃ©vÃ©ler vaine jusqu'Ã  ce qu'ils rencontrent les Nenets au coeur de la SibÃ©rie. Trois des quatre films du coffret leur sont consacrÃ©s, chacun dans un style trÃ¨s diffÃ©rent. DÃ©nuÃ© de tout commentaire, l'un donne Ã  voir les Nenets vaquer Ã  leurs occupations usuelles&nbsp;: s'occuper des bÃªtes, construire un tipi, prÃ©parer le thÃ© ou dÃ©pecer un renne. Loin de montrer une lutte constante pour la survie, il rÃ©vÃ¨le combien le moindre de ces actes s'accomplit selon un rituel bien codifiÃ©, en Ã©troite communion avec la nature.</Para>
-    <Para>Un autre film, fictionnel, met en scÃ¨ne les Nenets interprÃ©tant sept contes traditionnels de leur culture. ManiÃ¨re pour eux de raconter leur propre histoire, non sans dÃ©noncer la duretÃ© d'un clanisme patriarcal, mais aussi celle de leurs voisins soviÃ©tiques aprÃ¨s la rÃ©volution d'octobre. AnimÃ©s par un projet civilisateur et un solide appÃ©tit pour les richesses du sous-sol, ceux-ci ont initiÃ© un vÃ©ritable ethnocide Ã  leur Ã©gard, en usant moins de la force des fusils que de la sÃ©duction du tabac ou de l'eau-de-vie.</Para>
-    <Para><Inter1>L'Ã¢ge de glace</Inter1></Para>
-    <Para>L'histoire de Neko, sujet du troisiÃ¨me film, rÃ©sume Ã  elle seule l'ambivalence des SoviÃ©tiques. Alors qu'elle Ã©tait destinÃ©e Ã  devenir chamane, la jeune fille a Ã©tÃ© enlevÃ©e de force Ã  sa famille, rebaptisÃ©e et scolarisÃ©e dans un internat russe. <Emphasis>"</Emphasis><Emphasis>Mes professeurs sont devenus mes modÃ¨les, leur langue ma langue. J'incarnais pour eux l'espoir"</Emphasis>, explique-t-elle, ajoutant poÃ©tiquement&nbsp;: "<Emphasis>Dans ma nouvelle vie, j'oubliais les tambours de mon grand-pÃ¨re. Or, les tambours oubliÃ©s ne chantent plus."</Emphasis></Para>
-    <Para>Une autre femme, tout aussi Ã¢gÃ©e, prÃªte sa voix et surtout sa mÃ©moire au dernier film. Sur fond d'images animÃ©es, elle raconte les mythes et l'histoire de son peuple, les Tchouktches, installÃ©s au bord du dÃ©troit de BÃ©ring, en particulier comment ils ont Ã©tÃ© poussÃ©s Ã  se sÃ©dentariser par Moscou, mais aussi par les baleiniers Ã©tats-uniens, perdant ainsi leur culture. Comme souvent, ce dÃ©tour par les mondes enneigÃ©s nous tend finalement un miroir aussi Ã©clairant que dÃ©rangeant. Gageons en tout cas que ces films et leurs protagonistes ne vous laisseront pas de glace.</Para>
-    <Liste>
-      <Item><Strong>Lapsuy &amp; Lehmuskallio</Strong><BR/><Emphasis>Coffret de quatre films des deux rÃ©alisateurs</Emphasis><BR/> Editions Montparnasse, 20 euros.</Item>
-    </Liste>
-  </BreveMM>
+    <BreveMM>
+        <Code>A382090C</Code>
+        <DateRevue>00/09/2018</DateRevue>
+        <MotCle></MotCle>
+        <Rub>Ecrans</Rub>
+        <TitreRevue>DVD&nbsp;: Etoiles polaires</TitreRevue>
+        <TitreCdrom>DVD&nbsp;: Etoiles polaires</TitreCdrom>
+        <Auteur>
+            <Nom>Martinache</Nom>
+            <Prenom>Igor</Prenom>
+        </Auteur>
+        <Para>DVD Dans leurs films, Lapsuy et Lehmuskallio montrent toute la richesse culturelle des peuples du Grand
+            Nord, mais aussi leur destruction progressive par la "civilisation".
+        </Para>
+        <Para>Depuis 1922 et <Emphasis>Nanouk l'Esquimau</Emphasis> de Robert Flaherty, les cinéastes se sont peu
+            intéressés aux peuples du Grand Nord. Et pourtant, ces derniers illuminent l'objectif, comme permettent de
+            s'en rendre compte les films d'Anastasia Lapsuy et Markku Lehmuskallio, dont plusieurs viennent d'être
+            réédités.
+        </Para>
+        <Para>
+            <Inter1>Rois et rennes</Inter1>
+        </Para>
+        <Para>Ce tandem inclassable a parcouru les confins septentrionaux du globe à la recherche de sociétés nomades
+            encore préservées des influences de la "modernité". Une quête qui faillit se révéler vaine jusqu'à ce qu'ils
+            rencontrent les Nenets au coeur de la Sibérie. Trois des quatre films du coffret leur sont consacrés, chacun
+            dans un style très différent. Dénué de tout commentaire, l'un donne à voir les Nenets vaquer à leurs
+            occupations usuelles&nbsp;: s'occuper des bêtes, construire un tipi, préparer le thé ou dépecer un renne.
+            Loin de montrer une lutte constante pour la survie, il révèle combien le moindre de ces actes s'accomplit
+            selon un rituel bien codifié, en étroite communion avec la nature.
+        </Para>
+        <Para>Un autre film, fictionnel, met en scène les Nenets interprétant sept contes traditionnels de leur culture.
+            Manière pour eux de raconter leur propre histoire, non sans dénoncer la dureté d'un clanisme patriarcal,
+            mais aussi celle de leurs voisins soviétiques après la révolution d'octobre. Animés par un projet
+            civilisateur et un solide appétit pour les richesses du sous-sol, ceux-ci ont initié un véritable ethnocide
+            à leur égard, en usant moins de la force des fusils que de la séduction du tabac ou de l'eau-de-vie.
+        </Para>
+        <Para>
+            <Inter1>L'âge de glace</Inter1>
+        </Para>
+        <Para>L'histoire de Neko, sujet du troisième film, résume à elle seule l'ambivalence des Soviétiques. Alors
+            qu'elle était destinée à devenir chamane, la jeune fille a été enlevée de force à sa famille, rebaptisée et
+            scolarisée dans un internat russe.
+            <Emphasis>"</Emphasis>
+            <Emphasis>Mes professeurs sont devenus mes modèles, leur langue ma langue. J'incarnais pour eux
+                l'espoir"</Emphasis>, explique-t-elle, ajoutant poétiquement&nbsp;: "
+            <Emphasis>Dans ma nouvelle vie, j'oubliais les tambours de mon grand-père. Or, les tambours oubliés ne
+                chantent plus."
+            </Emphasis>
+        </Para>
+        <Para>Une autre femme, tout aussi âgée, prête sa voix et surtout sa mémoire au dernier film. Sur fond d'images
+            animées, elle raconte les mythes et l'histoire de son peuple, les Tchouktches, installés au bord du détroit
+            de Béring, en particulier comment ils ont été poussés à se sédentariser par Moscou, mais aussi par les
+            baleiniers états-uniens, perdant ainsi leur culture. Comme souvent, ce détour par les mondes enneigés nous
+            tend finalement un miroir aussi éclairant que dérangeant. Gageons en tout cas que ces films et leurs
+            protagonistes ne vous laisseront pas de glace.
+        </Para>
+        <Liste>
+            <Item>
+                <Strong>Lapsuy &amp; Lehmuskallio</Strong>
+                <BR/>
+                <Emphasis>Coffret de quatre films des deux réalisateurs</Emphasis>
+                <BR/>
+                Editions Montparnasse, 20 euros.
+            </Item>
+        </Liste>
+    </BreveMM>
 </Document>

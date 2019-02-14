@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewsItem xmlns="https://www.alternatives-economiques.fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd" standard="AE-XML" id="K4-10006" version="1">
-  <rightsInfo>
-    <copyrightHolder>
-      Alternatives Economiques
-    </copyrightHolder>
-    <copyrightNotice>
-      Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et documents parus est soumis à l'autorisation préalable de l'éditeur.
-    </copyrightNotice>
-  </rightsInfo>
-  <itemMeta>
-    <parentPublication residref="K4-10001"/>
-    <itemClass type="long"/>
-  </itemMeta>
-  <contentMeta>
-    <created>2018-10-29T09:30:10Z</created>
-    <modified>2018-10-29T09:30:10Z</modified>
-    <title>Trois dossiers chauds</title>
-    <genre>chronique</genre>
-    <section>Y'a de l'éco</section>
-    <author>
-      <name>Christian Chavagneux</name>
-    </author>
-  </contentMeta>
-  <contentSet>
-    <HTML5><![CDATA[
+<NewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.alternatives-economiques.fr"
+          xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/long.xsd"
+          standard="AE-XML" id="K4-10006" version="1">
+    <rightsInfo>
+        <copyrightHolder>
+            Alternatives Economiques
+        </copyrightHolder>
+        <copyrightNotice>
+            Copyright 2018 Alternatives Economiques - Toute reproduction, même partielle, des textes, infographies et
+            documents parus est soumis à l'autorisation préalable de l'éditeur.
+        </copyrightNotice>
+    </rightsInfo>
+    <itemMeta>
+        <parentPublication residref="K4-10001"/>
+        <itemClass type="long"/>
+    </itemMeta>
+    <contentMeta>
+        <created>2018-10-29T09:30:10Z</created>
+        <modified>2018-10-29T09:30:10Z</modified>
+        <title>Trois dossiers chauds</title>
+        <genre>chronique</genre>
+        <section>Y'a de l'éco</section>
+        <author>
+            <name>Christian Chavagneux</name>
+        </author>
+    </contentMeta>
+    <contentSet>
+        <HTML5><![CDATA[
         <p>La première année de pouvoir d’Emmanuel Macron a été celle du président des riches. La deuxième année va démarrer sur les chapeaux de roues, dès cette rentrée, avec trois dossiers à haut risque pour le modèle français de protection sociale. Les négociations démarrent en septembre sur l’assurance chômage. Le président souhaite revoir toutes les règles d’indemnisation. Trois axes de réforme ont été évoqués à ce stade. D’abord, réduire les dépenses liées au chômage de longue durée en incitant ceux privés d’emploi à retourner plus vite sur le marché du travail. En faisant l’hypothèse que des postes sont disponibles, cela signifie-t-il que les chômeurs devront accepter plus vite ce que les entreprises ont à proposer quels que soient la qualité de l’emploi, la distance à parcourir, le secteur concerné, etc. ?</p>
         <p>Ensuite, revoir la possibilité de cumuler les salaires issus d’un petit boulot et les allocations chômage qui viennent en complément pour assurer un minimum de revenus. On parle même de supprimer l’allocation de solidarité spécifique (ASS), un revenu distribué aux chômeurs ayant épuisé leurs droits, pour le remplacer par un autre dispositif aux critères non précisés.</p>
         <p>Enfin, un système de bonus-malus devrait être instauré pour pénaliser les entreprises multipliant les contrats courts (ou favoriser celles y ayant le moins recours). Mais on voit mal ce gouvernement, qui pense que seuls les chefs d’entreprise créent de la richesse, aller très loin dans ce domaine.</p>
@@ -34,5 +37,5 @@
         <p>Enfin, les retraites. Les multiples déclarations contradictoires sur la suppression ou non des pensions de réversion pour les futures retraitées (89 % des bénéficiaires actuels sont des femmes) ou sur la possibilité de les conserver uniquement pour celles n’ayant pas travaillé pointent l’objectif du gouvernement : trouver le niveau d’acceptabilité sociale d’une réduction des pensions. Le système de retraite par points que vise l’exécutif peut être présenté dans n’importe quel sens, sa caractéristique fondamentale est d’être en permanence équilibré : quand il n’y a pas assez d’actifs, on baisse les pensions. Ou alors, comme pour les chômeurs, comme pour les pauvres, il faudra travailler plus longtemps.</p>
         <p><em>"La priorité de l’année qui vient est simple : nous devons construire l’Etat-providence du XXIe siècle"</em>, a déclaré le président en juillet devant le Congrès. On commence à en percevoir les contours : redistribuer moins et travailler plus. Et le slogan : "Ne te demande pas ce que l’Etat peut faire pour toi. Demande-toi ce que toi tu peux faire pour toi."</p>
       ]]></HTML5>
-  </contentSet>
+    </contentSet>
 </NewsItem>
