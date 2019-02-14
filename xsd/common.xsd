@@ -65,8 +65,8 @@
     <xs:element name="lead" type="xs:string"/>
     <xs:element name="modified" type="xs:dateTime"/>
     <xs:element name="name" type="xs:string"/>
-    <xs:element name="parentItem" type="InternalLinkType"/>
-    <xs:element name="parentPublication" type="InternalLinkType"/>
+    <xs:element name="parentItem" type="ns1:InternalLinkType"/>
+    <xs:element name="parentPublication" type="ns1:InternalLinkType"/>
     <xs:element name="relatedInfoItem">
         <xs:complexType>
             <xs:sequence>
