@@ -18,7 +18,7 @@
         </copyrightNotice>
     </rightsInfo>
     <itemMeta>
-        <parentPublication residref="K4-XXXXXX"/>
+        <parentPublication residref="K4-10001"/>
         <itemClass type="long"/>
     </itemMeta>
     <contentMeta>
@@ -34,9 +34,9 @@
     <contentSet>
         <HTML5>
             <![CDATA[
-        <span data-embed-id="K4-XXXXX"></span>
-        <span data-embed-id="K4-XXXXX"></span>
-        <span data-embed-id="K4-XXXXX"></span>
+        <span data-embed-id="K4-10002"></span>
+        <span data-embed-id="K4-10003"></span>
+        <span data-embed-id="K4-10004"></span>
       ]]>
         </HTML5>
     </contentSet>
