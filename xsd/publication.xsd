@@ -9,7 +9,7 @@
                 <xs:element ref="ns1:rightsInfo"/>
                 <xs:element ref="ns1:itemMeta"/>
                 <xs:element ref="ns1:contentMeta"/>
-                <xs:element ref="ns1:contentSet"/>
+                <xs:element minOccurs="0" ref="ns1:contentSet"/>
                 <xs:element ref="ns1:itemSet"/>
             </xs:sequence>
             <xs:attribute name="id" use="required" type="ns1:aeXmlId"/>

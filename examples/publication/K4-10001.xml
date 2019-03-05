@@ -28,9 +28,6 @@
             <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
         </figure>
     </contentMeta>
-    <contentSet>
-        <HTML5/>
-    </contentSet>
     <itemSet>
         <itemRef residref="K4-XXXXXX"/>
         <itemRef residref="K4-XXXXXX"/>
