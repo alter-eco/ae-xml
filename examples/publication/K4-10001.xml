@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.alternatives-economiques.fr"
-          xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@@0.1.1-alpha/xsd/publication.xsd"
+          xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.1-alpha/xsd/publication.xsd"
           standard="AE-XML" id="K4-10001" version="1">
     <rightsInfo>
         <copyrightHolder>
