@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NewsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.alternatives-economiques.fr"
           xsi:schemaLocation="https://www.alternatives-economiques.fr https://cdn.jsdelivr.net/gh/alter-eco/ae-xml@0.1.0-alpha/xsd/publication.xsd"
-          standard="AE-XML" id="K4-10001" version="1">
+          standard="AE-XML" id="K4-10002" version="1">
     <rightsInfo>
         <copyrightHolder>
             Alternatives Economiques
@@ -18,11 +18,19 @@
         <created>2018-10-29T09:30:10Z</created>
         <modified>2018-10-29T09:30:10Z</modified>
         <publicationId>AE</publicationId>
-        <title>Faut-il encore avoir peur de la finance ?</title>
+        <title>Test publi</title>
         <price>5.90</price>
         <issueNumber>382</issueNumber>
         <issueDate>2018-10-29</issueDate>
+        <figure>
+            <caption>Lorem ipsum dolor sit amet</caption>
+            <copyright>iStock</copyright>
+            <uri>https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg</uri>
+        </figure>
     </contentMeta>
+    <contentSet>
+        <HTML5/>
+    </contentSet>
     <itemSet>
         <itemRef residref="K4-XXXXXX"/>
         <itemRef residref="K4-XXXXXX"/>

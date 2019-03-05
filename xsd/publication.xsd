@@ -40,7 +40,7 @@
                 <xs:element ref="ns1:price"/>
                 <xs:element ref="ns1:issueNumber"/>
                 <xs:element ref="ns1:issueDate"/>
-                <xs:element ref="ns1:figure"/>
+                <xs:element minOccurs="0" ref="ns1:figure"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
