@@ -24,9 +24,9 @@
         <issueDate>2018-10-29</issueDate>
     </contentMeta>
     <itemSet>
-        <itemRef residref="K4-XXXXXX"/>
-        <itemRef residref="K4-XXXXXX"/>
-        <itemRef residref="K4-XXXXXX"/>
-        <itemRef residref="K4-XXXXXX"/>
+        <itemRef residref="K4-10002"/>
+        <itemRef residref="K4-10003"/>
+        <itemRef residref="K4-10004"/>
+        <itemRef residref="K4-10005"/>
     </itemSet>
 </NewsItem>
