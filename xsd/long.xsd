@@ -25,7 +25,7 @@
     <xs:element name="itemMeta">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="ns1:parentPublication"/>
+                <xs:element minOccurs="0" ref="ns1:parentPublication"/>
                 <xs:element minOccurs="0" ref="ns1:parentItem"/>
                 <xs:element ref="ns1:itemClass"/>
             </xs:sequence>
