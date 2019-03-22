@@ -65,8 +65,8 @@ Pour les notes de bas de page, nous avons retenu les propositions du W3C en mati
   <contentMeta>...</contentMeta>
   <contentSet>
     <HTML5><![CDATA[
-        <p>Un peu de texte <a id="ref-1" href="#footnote-1">1</a></p>
-        <p>Et un peu plus de texte <a id="ref-2" href="#footnote-2">2</a></p>
+        <p>Un peu de texte<sup><a id="ref-1" href="#footnote-1">1</a></sup></p>
+        <p>Et un peu plus de texte<sup><a id="ref-2" href="#footnote-2">2</a><sup></p>
         <section id="footnotes">
           <p id="footnote-1"><a href="#ref-1">1</a> Le texte de la première note de bas de page</p>
           <p id="footnote-2"><a href="#ref-2">2</a> Le texte de la deuxième note de bas de page, <a href="#">elle peuvent contenir de liens</a></p>
