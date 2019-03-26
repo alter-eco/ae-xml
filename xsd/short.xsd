@@ -46,6 +46,7 @@
                 <xs:element minOccurs="0" ref="ns1:source"/>
                 <xs:element minOccurs="0" ref="ns1:unit"/>
                 <xs:element minOccurs="0" ref="ns1:figure"/>
+                <xs:element minOccurs="0" ref="ns1:technicalLabel"/>
                 <xs:element minOccurs="0" ref="ns1:relatedInfo"/>
             </xs:sequence>
         </xs:complexType>
@@ -68,4 +69,5 @@
         </xs:complexType>
     </xs:element>
     <xs:element name="unit" type="xs:string"/>
+    <xs:element name="technicalLabel" type="xs:string"/>
 </xs:schema>
