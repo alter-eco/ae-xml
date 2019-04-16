@@ -65,8 +65,8 @@ Pour les notes de bas de page, nous avons retenu les propositions du W3C en mati
   <contentMeta>...</contentMeta>
   <contentSet>
     <HTML5><![CDATA[
-        <p>Un peu de texte<sup><a id="ref-1" href="#footnote-1">1</a></sup></p>
-        <p>Et un peu plus de texte<sup><a id="ref-2" href="#footnote-2">2</a><sup></p>
+        <p>Un peu de texte<sup><a id="ref-footnote-1" href="#footnote-1">1</a></sup></p>
+        <p>Et un peu plus de texte<sup><a id="ref-footnote-2" href="#footnote-2">2</a><sup></p>
         <section id="footnotes">
           <p id="footnote-1"><a href="#ref-1">1</a> Le texte de la première note de bas de page</p>
           <p id="footnote-2"><a href="#ref-2">2</a> Le texte de la deuxième note de bas de page, <a href="#">elle peuvent contenir de liens</a></p>
@@ -77,7 +77,7 @@ Pour les notes de bas de page, nous avons retenu les propositions du W3C en mati
 ```
 ## Marginalia
 
-On reprend globalement le principe des notes de bas de page, mais avec des astériques, pour distinguer, et l'utilisation des balises `<dl>`.
+On reprend globalement le principe des notes de bas de page, mais avec marginalia dans l'id, pour distinguer, et l'utilisation des balises `<dl>`.
 
 
 #### Exemple :
@@ -89,15 +89,15 @@ On reprend globalement le principe des notes de bas de page, mais avec des asté
   <contentMeta>...</contentMeta>
   <contentSet>
     <HTML5><![CDATA[
-        <p>Texte du contenu, avec un marginalia<sup><a id="ref-*" href="#marginalia-*">*</a></sup></p>
-        <p>Ensuite un deuxième marginalia<sup><a id="ref-**" href="#marginalia-**">**</a></sup></p>
+        <p>Texte du contenu, avec un marginalia<sup><a id="ref-marginalia-1" href="#marginalia-1">*</a></sup></p>
+        <p>Ensuite un deuxième marginalia<sup><a id="ref-marginalia-2" href="#marginalia-2">**</a></sup></p>
         <dl>
-          <div id="marginalia-*">
-            <dt><a href="#ref-*">*</a> Titre du premier marginalia</dt>
+          <div id="marginalia-1">
+            <dt><a href="#ref-1">*</a> Titre du premier marginalia</dt>
             <dd><p>Texte du marginalia</p></dd>
           </div>
-          <div id="marginalia-**">
-            <dt><a href="#ref-**">**</a> Titre du deuxième marginalia</dt>
+          <div id="marginalia-2">
+            <dt><a href="#ref-2">**</a> Titre du deuxième marginalia</dt>
             <dd><p>Texte du marginalia</p></dd>
           </div>
         </dl>
