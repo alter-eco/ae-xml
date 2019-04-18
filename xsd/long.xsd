@@ -81,7 +81,6 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref="ns1:title"/>
-                <xs:element ref="ns1:author"/>
                 <xs:element ref="ns1:figure"/>
                 <xs:element ref="ns1:description"/>
                 <xs:element ref="ns1:source"/>
