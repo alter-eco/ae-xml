@@ -24,7 +24,7 @@ NewsItem.contentMeta.genre
 ##### `field_media_type`
 ##### `field_file`
 
-N/A
+NewsItem.contentMeta.figure
 
 ##### `field_image`
 
