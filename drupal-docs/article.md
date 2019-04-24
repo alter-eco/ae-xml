@@ -6,7 +6,7 @@ NewsItem.contentMeta.title
 
 ##### `field_subhead`
 
-NewsItem.contentMeta.section
+NewsItem.contentMeta.subSection
 
 ##### `field_doc_type`
 
