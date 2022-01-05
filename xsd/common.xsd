@@ -64,7 +64,13 @@
     </xs:element>
     <xs:element name="lead" type="xs:string"/>
     <xs:element name="modified" type="xs:dateTime"/>
-    <xs:element name="name" type="xs:string"/>
+    <xs:element name="name">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="60"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
     <xs:element name="parentItem" type="ns1:InternalLinkType"/>
     <xs:element name="parentPublication" type="ns1:InternalLinkType"/>
     <xs:element name="relatedInfoItem">
